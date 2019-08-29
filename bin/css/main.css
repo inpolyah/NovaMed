@@ -58,4 +58,26 @@
   color: white;
   margin: 10px 30px; }
 
+.video {
+  position: relative;
+  border: 3px solid red;
+  width: 100Vw;
+  height: 100Vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .video__rolic {
+    height: 100Vh;
+    width: 100Vw;
+    position: relative;
+    z-index: 0; }
+  .video__content {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid green; }
+
 /*# sourceMappingURL=main.css.map */
