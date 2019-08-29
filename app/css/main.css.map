@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACV,MAAM,EAAE,eAAe",
+"sources": ["../sass/components/desktop/_head.sass"],
+"names": [],
+"file": "main.css"
+}
