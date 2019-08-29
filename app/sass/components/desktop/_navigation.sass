@@ -1,6 +1,23 @@
 .navigation
-.navigation_iteam
-    float: left
-    list-style: none
-.navigation_button
-    float: right
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    margin: 40px 120px
+    &__menu
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+    &__item
+        margin: 0px 45px 0px 0px
+        padding: 10px 0px 0px 0px
+        color: #707070
+    &__item:hover
+        color: black
+        cursor: pointer
+    &__button
+        border-radius: 25px
+        background-color: #ec407a
+.button
+    &__name
+        color: white
+        margin: 10px 30px

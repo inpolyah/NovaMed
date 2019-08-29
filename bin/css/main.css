@@ -1,16 +1,9 @@
-.navigation_iteam {
-  float: left;
-  list-style: none; }
-
-.navigation_button {
-  float: right; }
-
 .head {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #c4c4c4;
   padding: 20px 30px;
   margin: 0px 120px; }
 
@@ -18,8 +11,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  font-size: 14px; }
-  .communication__iteam {
+  font-size: 12px; }
+  .communication__item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,10 +24,38 @@
   height: 31px; }
   .size__icon {
     width: 32px;
-    height: 31px; }
+    height: 31px;
+    position: relative;
+    top: 1px;
+    right: 3px;
+    opacity: 0.5; }
 
 .logo {
   width: 242px;
   height: 70px; }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px 120px; }
+  .navigation__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .navigation__item {
+    margin: 0px 45px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    color: #707070; }
+  .navigation__item:hover {
+    color: black;
+    cursor: pointer; }
+  .navigation__button {
+    border-radius: 25px;
+    background-color: #ec407a; }
+
+.button__name {
+  color: white;
+  margin: 10px 30px; }
 
 /*# sourceMappingURL=main.css.map */
