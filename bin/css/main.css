@@ -182,18 +182,24 @@
   padding-top: 10px; }
   .footer__logo {
     border: 1px solid black; }
-  .footer__phone {
-    border: 1px solid black; }
-  .footer__address {
-    border: 1px solid black; }
+  .footer__number {
+    font-size: 14px; }
+  .footer__headline {
+    font-size: 22px; }
   .footer__social {
-    border: 1px solid black; }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px; }
   .footer__hight {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20px 0px; }
+    margin: 30px 0px; }
   .footer__bottom {
     text-align: center; }
+  .footer__icon {
+    width: 25px;
+    height: 25px; }
 
 /*# sourceMappingURL=main.css.map */
