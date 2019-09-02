@@ -55,20 +55,21 @@
     background-color: #ec407a; }
 
 .button__name {
+  font-family: Montserrat-Bold;
   color: white;
   margin: 10px 30px; }
 
 .video {
   position: relative;
-  width: 100Vw;
-  height: 100Vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
   .video__rolic {
-    height: 100Vh;
-    width: 100Vw;
+    height: 100%;
+    width: 100%;
     position: relative;
     z-index: 0; }
   .video__content {
@@ -102,20 +103,20 @@
   text-align: center; }
 
 .window {
-  border: 1px solid black;
   background-color: white;
   width: 255px;
   height: 255px;
   padding: 20px;
   box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 0.25); }
   .window__icon {
-    width: 100px;
-    height: 100px; }
+    width: 65px;
+    height: 65px;
+    padding: 25px; }
   .window__headline {
     font-size: 24px; }
   .window__text {
-    font-size: 18px;
-    margin: 15px 22px; }
+    font-size: 12px;
+    margin: 15px 59px; }
   .window__button {
     font-size: 14px;
     border-radius: 25px;
@@ -142,6 +143,12 @@
     text-align: center;
     color: #737373; }
 
+.article_aboutus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px; }
+
 .section {
   margin: 70px 0px; }
 
@@ -153,9 +160,12 @@
   flex-direction: row; }
   .line__block {
     width: 50%;
-    background-color: #d9edf7; }
+    background-color: #EDF6FB; }
   .line__image {
     width: 50%; }
+  .line__size {
+    height: 100%;
+    width: 100%; }
   .line__headline {
     font-size: 32px;
     padding-left: 35px;
@@ -181,7 +191,7 @@
   color: white;
   padding-top: 10px; }
   .footer__logo {
-    border: 1px solid black; }
+    height: 55px; }
   .footer__number {
     font-size: 14px; }
   .footer__headline {
@@ -201,5 +211,12 @@
   .footer__icon {
     width: 25px;
     height: 25px; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.ttf") format("ttf"); }
+.image {
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=main.css.map */
