@@ -273,7 +273,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: none;
-    padding: 5% 20% 5% 5%;
+    padding: 5% 15% 5% 5%;
     margin: 4% 8%;
     box-shadow: 1.5px 2.6px 20.2px 3.8px rgba(109, 109, 109, 0.1);
     background-color: #ffffff; }
@@ -291,5 +291,41 @@
   text-align: center;
   font-size: 25px;
   font-weight: 900; }
+
+.consultation {
+  margin: 5%; }
+  .consultation__location {
+    border-top: 10px solid white;
+    padding: 5% 10% 5% 5%;
+    margin: 4% 8%;
+    box-shadow: 1.5px 2.6px 20.2px 3.8px rgba(109, 109, 109, 0.1);
+    background-color: #ffffff; }
+  .consultation__paragraph {
+    padding: 0% 0% 2% 0%;
+    font-weight: 600; }
+  .consultation__subparagraph {
+    color: #f59fbc;
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none; }
+  .consultation__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none;
+    padding: 2% 0% 2% 0%;
+    color: #707070; }
+
+.menu_cost {
+  display: none;
+  border-top: 0px solid white; }
+
+.menu_cost:hover {
+  display: inline-block; }
+
+.consultation__location:hover {
+  border-top: 10px solid #ec407a; }
 
 /*# sourceMappingURL=main.css.map */
