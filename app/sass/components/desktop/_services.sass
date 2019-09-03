@@ -1,9 +1,23 @@
 .services
     margin: 5%
+    &__line
+        @include flex (flex, row, space-between, none) 
+        margin: 2% 5%
+    &__item
+        @include flex (flex, column, center, center)
+        color: white
+        font-size: 20px
+        font-weight: 900
+        height: 200px
+        width: 325px
+        background-size: cover
+        background-image: url("../../app/img/0003.JPG")
+.services__item:hover
+    transform: scale(1.02)
+.pregnancy
+    margin: 5%
     &__location
-        display: flex
-        flex-direction: row
-        justify-content: space-between
+        @include flex (flex, row, space-between, none) 
         padding: 5% 20% 5% 5%
         margin: 4% 8%
         box-shadow: 1.5px 2.6px 20.2px 3.8px rgba(109, 109, 109, 0.1)

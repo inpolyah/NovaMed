@@ -1,12 +1,8 @@
 .navigation
-    display: flex
-    flex-direction: row
-    justify-content: space-around
+    @include flex (flex, row, space-around, none)  
     margin: 40px 120px
     &__menu
-        display: flex
-        flex-direction: row
-        justify-content: space-around
+        @include flex (flex, row, space-around, none) 
     &__item
         margin: 0px 45px 0px 0px
         padding: 10px 0px 0px 0px
@@ -22,3 +18,7 @@
         font-family: Montserrat-Bold
         color: white
         margin: 10px 30px
+.navigation__button:hover
+    transform: scale(1.1)
+    color: black
+    cursor: pointer
