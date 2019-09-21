@@ -260,9 +260,25 @@
     font-size: 20px;
     font-weight: 900;
     height: 200px;
-    width: 325px;
+    width: 325px; }
+  .services__consyltat {
     background-size: cover;
-    background-image: url("../../app/img/0003.JPG"); }
+    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+  .services__vedennya {
+    background-size: cover;
+    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+  .services__pology {
+    background-size: cover;
+    background-image: url("../../app/img/gallery/pology.jpg"); }
+  .services__estety {
+    background-size: cover;
+    background-image: url("../../app/img/gallery/estety.jpg"); }
+  .services__operatuv {
+    background-size: cover;
+    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+  .services__inshe {
+    background-size: cover;
+    background-image: url("../../app/img/gallery/inshe.jpg"); }
 
 .services__item:hover {
   transform: scale(1.02); }
@@ -612,5 +628,25 @@
     display: flex;
     align-items: center;
     flex-direction: column; }
+
+.photoBox {
+  margin: 10%; }
+  .photoBox__image {
+    height: 30Vh;
+    width: 20Vw;
+    margin: 1%;
+    background-color: #f59fbc; }
+  .photoBox__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.headlineSection {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: #f59fbc;
+  margin-top: 8%; }
 
 /*# sourceMappingURL=main.css.map */
