@@ -435,30 +435,182 @@
   font-size: 32px;
   font-weight: 800;
   text-align: center;
-  color: #333333; }
+  color: #333333;
+  margin: 60px 100px; }
 
-.gallery__zIndex-1 {
-  z-index: 1;
-  border: 2px solid red;
-  width: 24Vw;
-  height: 28Vh; }
-.gallery__zIndex-2 {
-  z-index: 2;
-  border: 3px solid green;
-  width: 26Vw;
-  height: 30Vh; }
-.gallery__zIndex-3 {
-  z-index: 3;
-  border: 5px solid pink;
-  width: 28Vw;
-  height: 32Vh; }
-.gallery__row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-.gallery__column {
-  display: flex;
-  align-items: center;
-  flex-direction: column; }
+.gallery {
+  margin: 0Vh 6Vw; }
+  .gallery__title {
+    text-align: center;
+    position: relative;
+    top: 85%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff; }
+  .gallery__zIndex1-vedennya {
+    opacity: 0.3;
+    z-index: 1;
+    width: 21Vw;
+    height: 28Vh;
+    position: relative;
+    bottom: 56Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+  .gallery__zIndex2-vedennya {
+    opacity: 0.5;
+    z-index: 2;
+    width: 24Vw;
+    height: 30Vh;
+    position: relative;
+    bottom: 29Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+  .gallery__zIndex3-vedennya {
+    position: relative;
+    z-index: 3;
+    width: 27Vw;
+    height: 32Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+  .gallery__zIndex1-operatuv {
+    opacity: 0.3;
+    z-index: 1;
+    width: 21Vw;
+    height: 28Vh;
+    position: relative;
+    bottom: 56Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+  .gallery__zIndex2-operatuv {
+    opacity: 0.5;
+    z-index: 2;
+    width: 24Vw;
+    height: 30Vh;
+    position: relative;
+    bottom: 29Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+  .gallery__zIndex3-operatuv {
+    position: relative;
+    z-index: 3;
+    width: 27Vw;
+    height: 32Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+  .gallery__zIndex1-estety {
+    opacity: 0.3;
+    z-index: 1;
+    width: 21Vw;
+    height: 28Vh;
+    position: relative;
+    bottom: 56Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/estety.jpg"); }
+  .gallery__zIndex2-estety {
+    opacity: 0.5;
+    z-index: 2;
+    width: 24Vw;
+    height: 30Vh;
+    position: relative;
+    bottom: 29Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/estety.jpg"); }
+  .gallery__zIndex3-estety {
+    position: relative;
+    z-index: 3;
+    width: 27Vw;
+    height: 32Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/estety.jpg"); }
+  .gallery__zIndex1-consyltat {
+    opacity: 0.3;
+    z-index: 1;
+    width: 21Vw;
+    height: 28Vh;
+    position: relative;
+    bottom: 56Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+  .gallery__zIndex2-consyltat {
+    opacity: 0.5;
+    z-index: 2;
+    width: 24Vw;
+    height: 30Vh;
+    position: relative;
+    bottom: 29Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+  .gallery__zIndex3-consyltat {
+    position: relative;
+    z-index: 3;
+    width: 27Vw;
+    height: 32Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+  .gallery__zIndex1-pology {
+    opacity: 0.3;
+    z-index: 1;
+    width: 21Vw;
+    height: 28Vh;
+    position: relative;
+    bottom: 56Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/pology.jpg"); }
+  .gallery__zIndex2-pology {
+    opacity: 0.5;
+    z-index: 2;
+    width: 24Vw;
+    height: 30Vh;
+    position: relative;
+    bottom: 29Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/pology.jpg"); }
+  .gallery__zIndex3-pology {
+    position: relative;
+    z-index: 3;
+    width: 27Vw;
+    height: 32Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/pology.jpg"); }
+  .gallery__zIndex1-inshe {
+    opacity: 0.3;
+    z-index: 1;
+    width: 21Vw;
+    height: 28Vh;
+    position: relative;
+    bottom: 56Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/inshe.jpg"); }
+  .gallery__zIndex2-inshe {
+    opacity: 0.5;
+    z-index: 2;
+    width: 24Vw;
+    height: 30Vh;
+    position: relative;
+    bottom: 29Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/inshe.jpg"); }
+  .gallery__zIndex3-inshe {
+    position: relative;
+    z-index: 3;
+    width: 27Vw;
+    height: 32Vh;
+    background-size: cover;
+    background-image: url("../../app/img/gallery/inshe.jpg"); }
+  .gallery__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: -325px; }
+  .gallery__row-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: -25Vh; }
+  .gallery__column {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
 
 /*# sourceMappingURL=main.css.map */
