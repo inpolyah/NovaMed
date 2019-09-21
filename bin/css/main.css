@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .head {
   display: flex;
   flex-direction: row;
@@ -328,54 +329,39 @@
 .consultation__location:hover {
   border-top: 10px solid #ec407a; }
 
-.slideshow-conteiner {
-  max-width: 1000px;
-  position: relative;
+.doctorsText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .doctorsText__headline {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #333333; }
+  .doctorsText__content {
+    font-family: OpenSans;
+    font-size: 16px;
+    text-align: center;
+    color: #707070; }
+
+.doctorsList {
   margin: auto; }
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0; }
-
-.next {
-  border-radius: 3px 0 0 3px;
-  right: 0; }
-
-.prev:hover {
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.dots {
-  cursor: pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition-background-color: 0.6s ease; }
-
-.active {
-  background-color: #717171; }
-
-.dots:hover {
-  background-color: #717171; }
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s; }
+  .doctorsList__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+  .doctorsList__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .doctorsList__image {
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-image: url("../../app/img/doctors/Бубирь.jpg"); }
 
 /*# sourceMappingURL=main.css.map */
