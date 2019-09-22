@@ -775,7 +775,7 @@
     right: -15px; }
   .appointment__headline {
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 800;
     color: #333333; }
   .appointment__choose {
@@ -785,7 +785,7 @@
     height: 40%; }
   .appointment__title {
     font-family: OpenSans;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     color: #333333; }
   .appointment__text {
@@ -798,7 +798,12 @@
     justify-content: space-between; }
   .appointment__button {
     border-radius: 25px;
-    background-color: #ec407a; }
+    background-color: #ec407a;
+    width: 170px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .appointment__button-name {
     font-family: Montserrat-Bold;
     color: white;
