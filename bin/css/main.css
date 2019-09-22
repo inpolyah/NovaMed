@@ -767,6 +767,13 @@
     flex-direction: column;
     justify-content: space-around;
     margin: 3% 7%; }
+  .appointment__block-successful {
+    width: 60Vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 16%; }
   .appointment__icon {
     height: 30px;
     width: 30px;
@@ -776,6 +783,11 @@
   .appointment__headline {
     font-family: Montserrat;
     font-size: 26px;
+    font-weight: 800;
+    color: #333333; }
+  .appointment__footerline {
+    font-family: Montserrat;
+    font-size: 20px;
     font-weight: 800;
     color: #333333; }
   .appointment__choose {
@@ -792,6 +804,11 @@
     font-family: OpenSans;
     font-size: 12px;
     color: #333333; }
+  .appointment__text-successful {
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #333333;
+    text-align: center; }
   .appointment__location {
     display: flex;
     flex-direction: row;
@@ -808,5 +825,8 @@
     font-family: Montserrat-Bold;
     color: white;
     margin: 10px 30px; }
+  .appointment__image {
+    width: 17Vw;
+    height: 30Vh; }
 
 /*# sourceMappingURL=main.css.map */
