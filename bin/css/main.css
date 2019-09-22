@@ -761,11 +761,29 @@
   position: absolute;
   left: 20Vw;
   bottom: 10Vh; }
+  .appointment__block {
+    width: 60Vw;
+    display: inline-block; }
   .appointment__icon {
     height: 30px;
     width: 30px;
     position: absolute;
     top: -15px;
     right: -15px; }
+  .appointment__headline {
+    border: 1px solid red;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    color: #333333; }
+  .appointment__choose {
+    border: 1px solid red; }
+  .appointment__list {
+    border: 1px solid red; }
+  .appointment__title {
+    border: 1px solid red; }
+  .appointment__services {
+    display: flex;
+    flex-direction: row; }
 
 /*# sourceMappingURL=main.css.map */
