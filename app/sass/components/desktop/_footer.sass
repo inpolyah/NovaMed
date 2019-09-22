@@ -6,23 +6,34 @@
         height: 55px
     &__phone
     &__address
+        @include font (OpenSans, 10px, none, #ffffff)
     &__number
-        font-size: 14px
+        @include font (OpenSans, 10px, none, #ffffff)
+        line-height: 1.43
     &__headline
-        font-size: 22px
+        @include font (Montserrat, 16px, 600, #ffffff)
+        line-height: 0.91
+        margin: 8px 0
     &__social
-        display: flex
-        flex-direction: row
-        justify-content: space-between
+        @include flex (flex, row, space-between, center) 
         margin-top: 10px
     &__hight
-        display: flex
-        flex-direction: row
-        justify-content: space-around
+        @include flex (flex, row, space-around, none) 
         margin: 30px 0px
     &__bottom
+        @include font (OpenSans, 10px, none, #ffffff)
+        line-height: 1.43
         text-align: center
-    &__icon
-        width: 25px 
-        height: 25px
+    &__icon-f
+        width: 30px 
+        height: 24px
+    &__icon-i
+        width: 30px 
+        height: 24px
+    &__icon-y
+        width: 30px 
+        height: 30px
+    &__icon-c
+        width: 30px 
+        height: 30px
         

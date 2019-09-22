@@ -1,11 +1,10 @@
 .section
     margin: 70px 0px
 .line
+    @include flex (flex, row, none, none) 
     box-sizing: border-box
     width: 100Vw
     height: 50Vh
-    display: flex
-    flex-direction: row
     &__block
         width: 50%
         background-color: #EDF6FB
@@ -25,22 +24,19 @@
         height: 100%
         width: 100%
     &__headline
-        font-size: 32px
+        @include font (Montserrat, 22px, none, #333333)
         padding-left: 35px
         padding-top: 20px
     &__content
-        font-size: 22px
-        color: #707070
+        @include font (Montserrat, 16px, none, #707070)
         padding: 35px 35px
     &__icon
         width: 10px
         height: 10px
         padding-left: 35px
     &__check
-        display: flex
-        flex-direction: row
+        @include flex (flex, row, none, none) 
     &__row
-        font-size: 22px
-        color: #707070
+        @include font (Montserrat, 16px, none, #707070)
         padding-left: 5px
     

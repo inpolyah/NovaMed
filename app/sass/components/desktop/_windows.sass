@@ -14,17 +14,19 @@
         height: 65px
         padding: 25px
     &__headline
-        font-size: 24px
+        @include font (Montserrat, 20px, 800, #333333) 
+        line-height: 0.83
     &__text
-        font-size: 12px
-        margin: 15px 59px
+        @include font (OpenSans, 10px, none, #707070)
+        line-height: 1.5
+        margin: 22px 59px
     &__button
-        font-size: 14px
+        @include font (Montserrat, 12px, 600, white)
+        line-height: 1.43
         border-radius: 25px
         background-color: #ec407a
         display: inline
-        color: white
-        padding: 5px 35px
+        padding: 10px 35px
 .window:hover
     transform: scale(1.2)
     box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 25)
