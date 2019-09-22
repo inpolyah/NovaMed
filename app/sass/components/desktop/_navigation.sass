@@ -6,7 +6,7 @@
     &__item
         margin: 0px 45px 0px 0px
         padding: 10px 0px 0px 0px
-        color: #707070
+        @include font (Montserrat, 14px, 800, #707070)
     &__item:hover
         color: black
         cursor: pointer
@@ -15,8 +15,8 @@
         background-color: #ec407a
 .button
     &__name
-        font-family: Montserrat-Bold
-        color: white
+        @include font (Montserrat-Bold, 14px, none, white)
+        line-height: 1.43
         margin: 10px 30px
 .navigation__button:hover
     transform: scale(1.1)

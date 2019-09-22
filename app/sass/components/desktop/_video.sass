@@ -11,21 +11,24 @@
     &__content
         text-align: center
         position: absolute
-        top: 90px
+        top: 65px
         z-index: 1
         @include flex (flex, column, none, center) 
         color: white
 .content
     &__headline
-        font-size: 54px
+        @include font (Montserrat, 45px, 900, white) 
+        line-height: 1.33
         margin: 0px 0px 45px 0px
     &__text
-        font-size: 22px
+        @include font (OpenSans, 18px, none, white)
+        line-height: 1.5
     &__button
-        font-size: 18px
+        line-height: 1.11
+        @include font (Montserrat, 12px, none, white)
         border-radius: 25px
         background-color: #ec407a
-        padding: 10px 30px
+        padding: 15px 30px
         margin: 45px 0px
 .content__button:hover
     transform: scale(1.1)

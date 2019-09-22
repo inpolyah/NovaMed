@@ -8,8 +8,7 @@
     background-color: #000
     opacity: 0.55
 .appointment
-    display: flex
-    flex-direction: row
+    @include flex (flex, row, none, none) 
     width: 60Vw
     height: 80Vh
     background-color: white
@@ -18,17 +17,12 @@
     left: 20Vw
     bottom: 10Vh
     &__block
+        @include flex (flex, column, space-around, none) 
         width: 60Vw
-        display: flex
-        flex-direction: column
-        justify-content: space-around
         margin: 3% 7%
     &__block-successful
+        @include flex (flex, column, space-around, center) 
         width: 60Vw
-        display: flex
-        flex-direction: column
-        justify-content: space-around
-        align-items: center
         margin: 5% 16%   
     &__icon
         height: 30px
@@ -37,49 +31,32 @@
         top: -15px
         right: -15px
     &__headline
-        font-family: Montserrat
-        font-size: 26px
-        font-weight: 800
-        color: #333333
+        @include font (Montserrat, 26px, 800, #333333) 
+        line-height: 0.56
     &__footerline
-        font-family: Montserrat
-        font-size: 20px
-        font-weight: 800
-        color: #333333
+        @include font (Montserrat, 20px, 800, #333333) 
     &__choose
         width: 50%
     &__list
         width: 95%
         height: 40%
     &__title
-        font-family: OpenSans
-        font-size: 12px
-        font-weight: bold
-        color: #333333
+        @include font (OpenSans, 12px, bold, #333333) 
     &__text
-        font-family: OpenSans
-        font-size: 12px 
-        color: #333333
+        @include font (OpenSans, 12px, none, #333333) 
     &__text-successful
-        font-family: OpenSans
-        font-size: 12px 
-        color: #333333
+        @include font (OpenSans, 12px, none, #333333) 
         text-align: center
     &__location
-        display: flex
-        flex-direction: row
-        justify-content: space-between
+        @include flex (flex, row, space-between, none) 
     &__button
         border-radius: 25px
         background-color: #ec407a
         width: 170px
         height: 30px
-        display: flex
-        justify-content: center
-        align-items: center
+        @include flex (flex, row, center, center) 
     &__button-name
-        font-family: Montserrat-Bold
-        color: white
+        @include font (Montserrat-Bold, 12px, none, white) 
         margin: 10px 30px
     &__image
         width: 17Vw

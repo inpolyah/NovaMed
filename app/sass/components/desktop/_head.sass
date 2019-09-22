@@ -1,25 +1,20 @@
 .head
-    display: flex
-    flex-direction: row
-    align-items: center
-    justify-content: space-between
+    @include flex (flex, row, space-between, center) 
     border-bottom: 1px solid #c4c4c4
     padding: 20px 30px
     margin: 0px 120px
 .communication
-    display: flex
-    flex-direction: row
-    justify-content: flex-end
+    @include flex (flex, row, flex-end, none) 
     font-size: 12px
     &__item
-        display: flex
-        flex-direction: row
-        align-items: center
+        @include flex (flex, row, none, center) 
         width: 154px
         height: 31px
 .size
+    @include font (OpenSans, 10px, 600, #333333) 
     width: 154px
     height: 31px
+    line-height: 1.43
     &__icon
         width: 32px
         height: 31px

@@ -2,8 +2,8 @@
 .head {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #c4c4c4;
   padding: 20px 30px;
   margin: 0px 120px; }
@@ -12,17 +12,24 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: none;
   font-size: 12px; }
   .communication__item {
     display: flex;
     flex-direction: row;
+    justify-content: none;
     align-items: center;
     width: 154px;
     height: 31px; }
 
 .size {
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: 600;
+  color: #333333;
   width: 154px;
-  height: 31px; }
+  height: 31px;
+  line-height: 1.43; }
   .size__icon {
     width: 32px;
     height: 31px;
@@ -49,6 +56,9 @@
   .navigation__item {
     margin: 0px 45px 0px 0px;
     padding: 10px 0px 0px 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 800;
     color: #707070; }
   .navigation__item:hover {
     color: black;
@@ -59,7 +69,10 @@
 
 .button__name {
   font-family: Montserrat-Bold;
+  font-size: 14px;
+  font-weight: none;
   color: white;
+  line-height: 1.43;
   margin: 10px 30px; }
 
 .navigation__button:hover {
@@ -83,7 +96,7 @@
   .video__content {
     text-align: center;
     position: absolute;
-    top: 90px;
+    top: 65px;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -92,15 +105,27 @@
     color: white; }
 
 .content__headline {
-  font-size: 54px;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 900;
+  color: white;
+  line-height: 1.33;
   margin: 0px 0px 45px 0px; }
 .content__text {
-  font-size: 22px; }
-.content__button {
+  font-family: OpenSans;
   font-size: 18px;
+  font-weight: none;
+  color: white;
+  line-height: 1.5; }
+.content__button {
+  line-height: 1.11;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: none;
+  color: white;
   border-radius: 25px;
   background-color: #ec407a;
-  padding: 10px 30px;
+  padding: 15px 30px;
   margin: 45px 0px; }
 
 .content__button:hover {
@@ -236,9 +261,6 @@
     width: 25px;
     height: 25px; }
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Bold.ttf") format("ttf"); }
 .image {
   width: 100%;
   height: 100%; }
@@ -754,6 +776,8 @@
 .appointment {
   display: flex;
   flex-direction: row;
+  justify-content: none;
+  align-items: none;
   width: 60Vw;
   height: 80Vh;
   background-color: white;
@@ -762,17 +786,18 @@
   left: 20Vw;
   bottom: 10Vh; }
   .appointment__block {
-    width: 60Vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: none;
+    width: 60Vw;
     margin: 3% 7%; }
   .appointment__block-successful {
-    width: 60Vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 60Vw;
     margin: 5% 16%; }
   .appointment__icon {
     height: 30px;
@@ -784,7 +809,8 @@
     font-family: Montserrat;
     font-size: 26px;
     font-weight: 800;
-    color: #333333; }
+    color: #333333;
+    line-height: 0.56; }
   .appointment__footerline {
     font-family: Montserrat;
     font-size: 20px;
@@ -803,26 +829,32 @@
   .appointment__text {
     font-family: OpenSans;
     font-size: 12px;
+    font-weight: none;
     color: #333333; }
   .appointment__text-successful {
     font-family: OpenSans;
     font-size: 12px;
+    font-weight: none;
     color: #333333;
     text-align: center; }
   .appointment__location {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: none; }
   .appointment__button {
     border-radius: 25px;
     background-color: #ec407a;
     width: 170px;
     height: 30px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center; }
   .appointment__button-name {
     font-family: Montserrat-Bold;
+    font-size: 12px;
+    font-weight: none;
     color: white;
     margin: 10px 30px; }
   .appointment__image {
