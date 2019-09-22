@@ -19,7 +19,10 @@
     bottom: 10Vh
     &__block
         width: 60Vw
-        display: inline-block
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        margin: 3% 7%
     &__icon
         height: 30px
         width: 30px
@@ -27,17 +30,37 @@
         top: -15px
         right: -15px
     &__headline
-        border: 1px solid red
         font-family: Montserrat
         font-size: 36px
         font-weight: 800
         color: #333333
     &__choose
-        border: 1px solid red
+        width: 50%
     &__list
-        border: 1px solid red
+        width: 95%
+        height: 40%
     &__title
-        border: 1px solid red
+        font-family: OpenSans
+        font-size: 14px
+        font-weight: bold
+        color: #333333
+    &__text
+        font-family: OpenSans
+        font-size: 12px 
+        color: #333333
     &__location
         display: flex
         flex-direction: row
+        justify-content: space-between
+    &__button
+        border-radius: 25px
+        background-color: #ec407a
+        width: 170px
+        height: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__button-name
+        font-family: Montserrat-Bold
+        color: white
+        margin: 10px 30px

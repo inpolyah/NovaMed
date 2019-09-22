@@ -61,29 +61,47 @@
             <div class="appointment__headline">Записатися на прийом</div>
             <div class="appointment__location">
                 <div class="appointment__choose">
-                    <div class="appointment__title">Оберіть послугу</div>
-                    <div class="appointment__list">Прийом гінеколога</div>
+                    <p class="appointment__title">Оберіть послугу</p>
+                    <input class="appointment__list" type="text" size="18px" placeholder="Прийом гінеколога">
                 </div>
                 <div class="appointment__choose">
-                    <div class="appointment__title">Оберіть лікаря</div>
-                    <div class="appointment__list">Бубирь Марина Володимирівна</div>
+                    <p class="appointment__title">Оберіть лікаря</p>
+                    <input class="appointment__list" type="text" size="18px" placeholder="Бубирь Марина Володимирівна">
                 </div>
             </div>
             <div class="appointment__location">
                 <div class="appointment__choose">
-                    <p>Оберіть зручну для Вас дату прийому</p>
-                    <input type="date" name="calendar" value="2012-06-01"
-                        max="2012-06-04" min="2012-05-29">
+                    <p class="appointment__title">Оберіть дату прийому</p>
+                    <input class="appointment__list"  type="date" name="calendar" value="2019-09-01"
+                        max="2050-09-01" min="2019-09-01">
                 </div>
                 <div class="appointment__choose">
-                    <p>Введіть ПІБ</p>
-                    <input type="text" size="18px">
+                    <p class="appointment__title">Введіть ПІБ</p>
+                    <input class="appointment__list"  type="text" size="18px" placeholder="Кравченко Марина Ігорівна">
                 </div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div> 
+            <div class="appointment__location">
+                <div class="appointment__choose">
+                    <p class="appointment__title">Електронна почта</p>
+                    <input class="appointment__list"  type="email" placeholder="Kravchenko@gmail.com">
+                </div>
+                <div class="appointment__choose">
+                    <p class="appointment__title">Контактний телефон</p>
+                    <input class="appointment__list"  type="tel" name="tel" placeholder="+380">
+                </div>
+            </div>
+            <div class="appointment__location appointment__text">
+                Наш адміністратор зателефонує Вам або надішле лист на електронну почту 
+                для підтвердження запису та уточнення всіх деталей.  
+            </div>
+            <div>
+                <div class="appointment__choose appointment__title">Спосіб підтвердження</div>
+                <div>Телефоний дзвінок</div>
+                <div>Електронна почта</div> 
+            </div>
+            <div class="appointment__button">
+                <div class="appointment__button-name">записатися</div>
+            </div>
         </form>
         <div><img class="appointment__icon" src="./app/img/cancel_pink.svg"></div>
     </div>

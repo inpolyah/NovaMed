@@ -763,7 +763,10 @@
   bottom: 10Vh; }
   .appointment__block {
     width: 60Vw;
-    display: inline-block; }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3% 7%; }
   .appointment__icon {
     height: 30px;
     width: 30px;
@@ -771,19 +774,34 @@
     top: -15px;
     right: -15px; }
   .appointment__headline {
-    border: 1px solid red;
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 800;
     color: #333333; }
   .appointment__choose {
-    border: 1px solid red; }
+    width: 50%; }
   .appointment__list {
-    border: 1px solid red; }
+    width: 95%;
+    height: 40%; }
   .appointment__title {
-    border: 1px solid red; }
-  .appointment__services {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333; }
+  .appointment__text {
+    font-family: OpenSans;
+    font-size: 12px;
+    color: #333333; }
+  .appointment__location {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-between; }
+  .appointment__button {
+    border-radius: 25px;
+    background-color: #ec407a; }
+  .appointment__button-name {
+    font-family: Montserrat-Bold;
+    color: white;
+    margin: 10px 30px; }
 
 /*# sourceMappingURL=main.css.map */
