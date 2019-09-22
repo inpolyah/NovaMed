@@ -741,4 +741,31 @@
     top: -15px;
     right: -15px; }
 
+.overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.55; }
+
+.appointment {
+  display: flex;
+  flex-direction: row;
+  width: 60Vw;
+  height: 80Vh;
+  background-color: white;
+  z-index: 105;
+  position: absolute;
+  left: 20Vw;
+  bottom: 10Vh; }
+  .appointment__icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -15px;
+    right: -15px; }
+
 /*# sourceMappingURL=main.css.map */
