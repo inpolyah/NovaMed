@@ -4,6 +4,19 @@
     &__headline
         @include font (Montserrat, 36px, 800, #333333) 
         line-height: 0.48
+    &__footline
+        @include font (Montserrat, 36px, 800, #333333) 
+        line-height: 0.48
+        margin-top: 13Vh
+        position: relative
+    &__footline::after
+        position: absolute
+        right: 68px
+        top: 40px
+        content: ""
+        width: 180px
+        height: 1px
+        background: #ec407a
     &__text
         @include font (OpenSans, 16px, none, #737373) 
         line-height: 1.5
