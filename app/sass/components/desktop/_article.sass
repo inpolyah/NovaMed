@@ -25,4 +25,21 @@
 .article_aboutus
     @include flex (flex, column, none, center) 
     margin: 50px 0px
+    &__headline
+        @include font (Montserrat, 36px, 800, #333333) 
+        line-height: 0.48
+        position: relative
+    &__text
+        @include font (OpenSans, 16px, none, #737373) 
+        line-height: 1.5
+        margin: 70px 160px
+        text-align: center
+.article_aboutus__headline::after
+    position: absolute
+    right: 32px
+    top: 40px
+    content: ""
+    width: 180px
+    height: 1px
+    background: #ec407a
         

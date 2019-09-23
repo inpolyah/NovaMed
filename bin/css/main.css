@@ -222,6 +222,30 @@
   justify-content: none;
   align-items: center;
   margin: 50px 0px; }
+  .article_aboutus__headline {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    color: #333333;
+    line-height: 0.48;
+    position: relative; }
+  .article_aboutus__text {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: none;
+    color: #737373;
+    line-height: 1.5;
+    margin: 70px 160px;
+    text-align: center; }
+
+.article_aboutus__headline::after {
+  position: absolute;
+  right: 32px;
+  top: 40px;
+  content: "";
+  width: 180px;
+  height: 1px;
+  background: #ec407a; }
 
 .section {
   margin: 70px 0px; }
@@ -403,9 +427,11 @@
     font-weight: 900; }
 
 .table_of_contents {
-  text-align: center;
+  font-family: OpenSans;
   font-size: 25px;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #737373;
+  text-align: center; }
 
 .consultation {
   margin: 5%; }
@@ -449,33 +475,36 @@
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 800;
-    text-align: center;
-    color: #333333; }
+    color: #333333;
+    text-align: center; }
   .doctorsText__content {
-    margin: 60px 100px;
     font-family: OpenSans;
     font-size: 16px;
-    text-align: center;
-    color: #707070; }
+    font-weight: none;
+    color: #707070;
+    margin: 60px 100px;
+    text-align: center; }
 
 .doctorsList {
   margin: auto; }
   .doctorsList__row {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     margin-top: 80px; }
   .doctorsList__row-down {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     margin-top: 80px;
     margin-bottom: 80px; }
   .doctorsList__column {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: none;
+    align-items: none; }
   .doctorsList__image-Bybur {
     border-radius: 50%;
     height: 200px;
@@ -533,23 +562,24 @@
   .doctorsList__image-Akin:hover {
     background-image: url("../../app/img/doctors/Акин.jpg"); }
   .doctorsList__name {
-    padding-bottom: 10px;
-    padding-top: 30px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
-    color: #333333; }
+    color: #333333;
+    padding-bottom: 10px;
+    padding-top: 30px; }
   .doctorsList__position {
     font-family: OpenSans;
     font-size: 12px;
+    font-weight: none;
     color: #333333; }
 
 .galleryHeadline {
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 800;
-  text-align: center;
   color: #333333;
+  text-align: center;
   margin: 60px 100px; }
 
 .gallery {
@@ -716,16 +746,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: none;
     margin-bottom: -325px; }
   .gallery__row-down {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: none;
     margin-bottom: -25Vh; }
   .gallery__column {
     display: flex;
-    align-items: center;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: none;
+    align-items: center; }
 
 .photoBox {
   margin: 10%; }
@@ -737,14 +770,15 @@
   .photoBox__row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: none; }
 
 .headlineSection {
   font-family: Montserrat;
   font-size: 30px;
   font-weight: 800;
-  text-align: center;
   color: #f59fbc;
+  text-align: center;
   margin-top: 8%; }
 
 .overlay {
@@ -760,6 +794,8 @@
 .windowDoctor {
   display: flex;
   flex-direction: row;
+  justify-content: none;
+  align-items: none;
   width: 60Vw;
   height: 70Vh;
   background-color: white;
@@ -807,29 +843,33 @@
     height: 100%;
     margin: 5% 5% -5% 5%; }
   .windowDoctor__name {
-    font-weight: 600;
     font-family: Montserrat;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 600;
+    color: #737373; }
   .windowDoctor__position {
     font-family: OpenSans;
     font-size: 13px;
+    font-weight: none;
     color: #333333;
     border-bottom: 1px solid #ec407a;
     margin: 7% 65% 3% 0; }
   .windowDoctor__time {
     font-family: OpenSans;
     font-size: 13px;
+    font-weight: none;
     color: #333333;
     margin: 10% 0 10% 0; }
   .windowDoctor__headline {
     font-family: OpenSans;
     font-size: 13px;
-    color: #333333;
     font-weight: 800;
+    color: #333333;
     margin: 0% 0 3% 0; }
   .windowDoctor__aticle {
     font-family: OpenSans;
     font-size: 13px;
+    font-weight: none;
     color: #333333;
     margin-right: 10%; }
   .windowDoctor__icon {
