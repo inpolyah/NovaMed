@@ -41,6 +41,15 @@
     &__title
         padding-bottom: 7px
         @include font (Montserrat, 14px, 600, #707070 )
+    &__title-child-h
+        width: 34%
+        padding-bottom: 7px
+        @include font (Montserrat, 14px, 600, #707070 )
+    &__title-child
+        text-align: center
+        width: 34%
+        padding-bottom: 7px
+        @include font (Montserrat, 14px, 600, #707070 )
     &__term
         @include font (Montserrat, 14px, bold, #ec407a )
     &__cost
@@ -82,16 +91,37 @@
         @include font (Montserrat-Regular, 12px, bold, #f59fbc)
         @include flex (flex, row, space-between, none)
         line-height: 1.65
+    &__line-child
+        opacity: 0.8
+        padding: 2% 5% 2% 5%
+        @include font (Montserrat-Regular, 12px, none, #707070)
+        @include flex (flex, row, space-between, none)
     &__line
         opacity: 0.8
         padding: 2% 10% 2% 5%
         @include font (Montserrat-Regular, 12px, none, #707070)
         @include flex (flex, row, space-between, none)
+    &__name
+        @include font (Montserrat-Regular, 12px, none, #707070)
+        width: 30%
+    &__sign
+        @include flex (flex, row, center, center)
+        width: 30%
+        @include font (Montserrat, 40px, none, #707070)
+        line-height: 0.46
 .price__line:nth-child(2n-1) 
+    background: #fad6e1
+.price__line-child:nth-child(2n-1) 
     background: #fad6e1
 .menu
     @include flex (flex, row, space-between, center)   
     margin: 5% 10% 5% 5%
+.menu-child
+    @include flex (flex, row, space-between, center)   
+    margin: 5% 5% 5% 5%
+.menu-higt
+    @include flex (flex, row, none, none)
+    width: 100%
 .all
     margin: 4% 8%
     border-top: 10px solid white
