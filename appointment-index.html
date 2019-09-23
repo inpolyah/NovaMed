@@ -46,27 +46,64 @@
     </div>
     <nav class="navigation">
         <div class="navigation__menu">
-            <div class="navigation__item"> головна </div>
-            <div class="navigation__item"> про клініку </div>
-            <div class="navigation__item"> послуги </div>
-            <div class="navigation__item"> спеціалісти </div>
-            <div class="navigation__item"> галерея </div>
+            <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="index.html">ГОЛОВНА </div>
+            <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="about_us.html">ПРО КЛІНІКУ</a></div>
+            <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="services.html">ПОСЛУГИ</a></div>
+            <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="doctors.html">СПЕЦІАЛІСТИ </a></div>
+            <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="gallery.html">ГАЛЕРЕЯ</a></div>
         </div>
         <div class="navigation__button">
-            <div class="button__name"> онлайн запис </div>
+            <div class="button__name"><a style="color: white; text-decoration: none" href="appointment-index.html">онлайн запис</a></div>
         </div>
     </nav>
 
     <div class="appointment">
-        <div class="appointment__block-successful">
-            <div class="appointment__headline">Ваша заявка відпрвлена на обробку</div>
-            <div class="appointment__text-successful">
-                Очікуйте, після обробки наш адміністратор зв’яжеться з Вами
-                в робочий для клініки час.
+        <form class="appointment__block">
+            <div class="appointment__headline">Записатися на прийом</div>
+            <div class="appointment__location">
+                <div class="appointment__choose">
+                    <p class="appointment__title">Оберіть послугу</p>
+                    <input class="appointment__list" type="text" size="18px" placeholder="Прийом гінеколога">
+                </div>
+                <div class="appointment__choose">
+                    <p class="appointment__title">Оберіть лікаря</p>
+                    <input class="appointment__list" type="text" size="18px" placeholder="Бубирь Марина Володимирівна">
+                </div>
             </div>
-            <div><img class="appointment__image" src="./app/img/pending.svg"></div>
-            <div class="appointment__footerline">Бажаємо міцного здоров’я!</div>
-        </div>
+            <div class="appointment__location">
+                <div class="appointment__choose">
+                    <p class="appointment__title">Оберіть дату прийому</p>
+                    <input class="appointment__list"  type="date" name="calendar" placeholder="01.09.2019"
+                        max="2050-09-01" min="2019-09-01">
+                </div>
+                <div class="appointment__choose">
+                    <p class="appointment__title">Введіть ПІБ</p>
+                    <input class="appointment__list"  type="text" size="18px" >
+                </div>
+            </div>
+            <div class="appointment__location">
+                <div class="appointment__choose">
+                    <p class="appointment__title">Електронна почта</p>
+                    <input class="appointment__list"  type="email" >
+                </div>
+                <div class="appointment__choose">
+                    <p class="appointment__title">Контактний телефон</p>
+                    <input class="appointment__list"  type="tel" name="tel" placeholder="+380">
+                </div>
+            </div>
+            <div class="appointment__location appointment__text" style="padding-top: 10px">
+                Наш адміністратор зателефонує Вам або надішле лист на електронну почту 
+                для підтвердження запису та уточнення всіх деталей.  
+            </div>
+            <div>
+                <p class="appointment__choose appointment__title" style="padding-bottom: 10px">Спосіб підтвердження</p>
+                <p class="appointment__text"><input class="appointment__text" type="checkbox" name="a" value="Телефоний дзвінок">Телефоний дзвінок</p>
+                <p class="appointment__text"><input class="appointment__text" type="checkbox" name="a" value="Електронна почта">Електронна почта</p>
+            </div>
+            <div class="appointment__button">
+                <div class="appointment__button-name"><a style="color: white; text-decoration: none" href="appointment_successful-index.html">записатися</a></div>
+            </div>
+        </form>
         <div><img class="appointment__icon" src="./app/img/cancel_pink.svg"></div>
     </div>
 
@@ -227,10 +264,10 @@
             <div >
                 <div class="footer__headline">Соціальні мережі </div>
                 <div class="footer__social">
-                    <div><img class="footer__icon" src="./app/img/facebook.svg"></div>
-                    <div><img class="footer__icon" src="./app/img/instagram.svg"></div>
-                    <div><img class="footer__icon" src="./app/img/youtube.svg"></div>
-                    <div><img class="footer__icon" src="./app/img/close-envelope.svg"></div>
+                    <div><img class="footer__icon-f" src="./app/img/facebook.svg"></div>
+                    <div><img class="footer__icon-i" src="./app/img/instagram.svg"></div>
+                    <div><img class="footer__icon-y" src="./app/img/youtube.svg"></div>
+                    <div><img class="footer__icon-c" src="./app/img/close-envelope.svg"></div>
                 </div>
             </div>
         </div>
