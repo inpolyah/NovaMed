@@ -40,13 +40,12 @@
         background-color: #ffffff
     &__title
         padding-bottom: 7px
-        color: #707070
+        @include font (Montserrat, 14px, 600, #707070 )
     &__term
-        color: #ec407a
+        @include font (Montserrat, 14px, bold, #ec407a )
     &__cost
+        @include font (Montserrat, 14px, 900, #ec407a )
         padding-top: 15px
-        color: #ec407a
-        font-weight: 900
 .table_of_contents
     @include font (OpenSans, 25px, 900, #737373)
     text-align: center
@@ -66,9 +65,9 @@
         padding: 2% 0% 2% 0%
         @include flex (flex, row, space-between, none) 
     &__title 
+        @include font (Montserrat, 14px, 600, #707070 )
         @include flex (flex, row, space-between, none)   
         padding: 2% 0% 2% 0% 
-        color: #707070 
 .menu_cost
     display: none
     border-top: 0px solid white
@@ -76,3 +75,30 @@
     display: inline-block
 .consultation__location:hover
     border-top: 10px solid #ec407a
+.price
+    margin: 5% 0% 5% 0%
+    &__headline
+        padding: 2% 10% 2% 5%
+        @include font (Montserrat-Regular, 12px, bold, #f59fbc)
+        @include flex (flex, row, space-between, none)
+        line-height: 1.65
+    &__line
+        opacity: 0.8
+        padding: 2% 10% 2% 5%
+        @include font (Montserrat-Regular, 12px, none, #707070)
+        @include flex (flex, row, space-between, none)
+.price__line:nth-child(2n-1) 
+    background: #fad6e1
+.menu
+    @include flex (flex, row, space-between, center)   
+    margin: 5% 10% 5% 5%
+.all
+    margin: 4% 8%
+    border-top: 10px solid white
+    box-shadow: 1.5px 2.6px 20.2px 3.8px rgba(109, 109, 109, 0.1)
+    background-color: #ffffff
+.all:hover
+    border-top: 10px solid #ec407a
+.line-border
+    border-top: 1px solid #707070
+    opacity: 0.8
