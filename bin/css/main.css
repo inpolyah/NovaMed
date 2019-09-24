@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .head {
   display: flex;
   flex-direction: row;
@@ -58,7 +57,7 @@
     padding: 10px 0px 0px 0px;
     font-family: Montserrat;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: none;
     color: #707070; }
   .navigation__item:hover {
     color: black;
@@ -68,7 +67,7 @@
     background-color: #ec407a; }
 
 .button__name {
-  font-family: Montserrat-Bold;
+  font-family: Montserrat-SemiBold;
   font-size: 14px;
   font-weight: none;
   color: white;
@@ -107,7 +106,7 @@
 .content__headline {
   font-family: Montserrat;
   font-size: 45px;
-  font-weight: 900;
+  font-weight: none;
   color: white;
   line-height: 1.33;
   margin: 0px 0px 45px 0px; }
@@ -241,7 +240,7 @@
 
 .article_aboutus__headline::after {
   position: absolute;
-  right: 32px;
+  right: 60px;
   top: 40px;
   content: "";
   width: 180px;
@@ -634,57 +633,57 @@
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Бубирь ч.б..jpg"); }
+    background-image: url("../../app/img/doctors/bubir-bw.jpg"); }
   .doctorsList__image-Bybur:hover {
-    background-image: url("../../app/img/doctors/Бубирь.jpg"); }
+    background-image: url("../../app/img/doctors/bubir.jpg"); }
   .doctorsList__image-Otroshko {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Отрошко ч.б.jpg"); }
+    background-image: url("../../app/img/doctors/Otroshko-bw.jpg"); }
   .doctorsList__image-Otroshko:hover {
-    background-image: url("../../app/img/doctors/Отрошко.jpg"); }
+    background-image: url("../../app/img/doctors/Otroshko.jpg"); }
   .doctorsList__image-Boiko {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Бойко ч б.jpg"); }
+    background-image: url("../../app/img/doctors/boiko-bw.jpg"); }
   .doctorsList__image-Boiko:hover {
-    background-image: url("../../app/img/doctors/Бойко.jpg"); }
+    background-image: url("../../app/img/doctors/boiko.jpg"); }
   .doctorsList__image-Skripka {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Скрипка ч.б.jpg"); }
+    background-image: url("../../app/img/doctors/skripka-bw.jpg"); }
   .doctorsList__image-Skripka:hover {
-    background-image: url("../../app/img/doctors/Скрипка.jpg"); }
+    background-image: url("../../app/img/doctors/skripka.jpg"); }
   .doctorsList__image-Pantuh {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Пантюх чб.jpg"); }
+    background-image: url("../../app/img/doctors/pantuh-bw.jpg"); }
   .doctorsList__image-Pantuh:hover {
-    background-image: url("../../app/img/doctors/Пантюх.jpg"); }
+    background-image: url("../../app/img/doctors/Pantuh.jpg"); }
   .doctorsList__image-Gerkaluk {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Геркалюк ч.б.jpg"); }
+    background-image: url("../../app/img/doctors/Herkaluk-bw.jpg"); }
   .doctorsList__image-Gerkaluk:hover {
-    background-image: url("../../app/img/doctors/Геркалюк.jpg"); }
+    background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
   .doctorsList__image-Akin {
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Акін ч.б..jpg"); }
+    background-image: url("../../app/img/doctors/Akin-bw.jpg"); }
   .doctorsList__image-Akin:hover {
-    background-image: url("../../app/img/doctors/Акин.jpg"); }
+    background-image: url("../../app/img/doctors/Akin.jpg"); }
   .doctorsList__name {
     font-family: Montserrat;
     font-size: 16px;
@@ -931,37 +930,37 @@
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Бубирь ч.б..jpg"); }
+    background-image: url("../../app/img/doctors/bubir.jpg"); }
   .windowDoctor__photo-Akin {
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Акін ч.б..jpg"); }
+    background-image: url("../../app/img/doctors/Akin.jpg"); }
   .windowDoctor__photo-Pantuh {
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Пантюх чб.jpg"); }
+    background-image: url("../../app/img/doctors/Pantuh.jpg"); }
   .windowDoctor__photo-Skripka {
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Скрипка ч.б.jpg"); }
+    background-image: url("../../app/img/doctors/skripka.jpg"); }
   .windowDoctor__photo-Gerkaluk {
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Геркалюк ч.б.jpg"); }
+    background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
   .windowDoctor__photo-Boiko {
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Бойко ч б.jpg"); }
+    background-image: url("../../app/img/doctors/boiko.jpg"); }
   .windowDoctor__photo-Otroshko {
     width: 50%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../app/img/doctors/Отрошко ч.б.jpg"); }
+    background-image: url("../../app/img/doctors/Otroshko.jpg"); }
   .windowDoctor__info {
     width: 50%;
     height: 100%;
