@@ -23,7 +23,7 @@
     height: 31px; }
 
 .size {
-  font-family: OpenSans;
+  font-family: Open Sans;
   font-size: 10px;
   font-weight: 600;
   color: #333333;
@@ -112,7 +112,7 @@
   line-height: 1.33;
   margin: 0px 0px 45px 0px; }
 .content__text {
-  font-family: OpenSans;
+  font-family: Open Sans;
   font-size: 18px;
   font-weight: none;
   color: white;
@@ -158,7 +158,7 @@
     color: #333333;
     line-height: 0.83; }
   .window__text {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 10px;
     font-weight: none;
     color: #707070;
@@ -208,7 +208,7 @@
     height: 1px;
     background: #ec407a; }
   .article__text {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 16px;
     font-weight: none;
     color: #737373;
@@ -230,7 +230,7 @@
     line-height: 0.48;
     position: relative; }
   .article_aboutus__text {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 16px;
     font-weight: none;
     color: #737373;
@@ -313,12 +313,12 @@
     width: 170px;
     height: 50px; }
   .footer__address {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 10px;
     font-weight: none;
     color: #ffffff; }
   .footer__number {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 10px;
     font-weight: none;
     color: #ffffff;
@@ -342,7 +342,7 @@
     align-items: center;
     margin: 30px 0px; }
   .footer__bottom {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 10px;
     font-weight: none;
     color: #ffffff;
@@ -450,7 +450,7 @@
     padding-top: 15px; }
 
 .table_of_contents {
-  font-family: OpenSans;
+  font-family: Open Sans;
   font-size: 25px;
   font-weight: 900;
   color: #737373;
@@ -597,7 +597,7 @@
     color: #333333;
     text-align: center; }
   .doctorsText__content {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 16px;
     font-weight: none;
     color: #707070;
@@ -688,7 +688,7 @@
     padding-bottom: 10px;
     padding-top: 30px; }
   .doctorsList__position {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     font-weight: none;
     color: #333333; }
@@ -967,26 +967,26 @@
     font-weight: 600;
     color: #737373; }
   .windowDoctor__position {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 13px;
     font-weight: none;
     color: #333333;
     border-bottom: 1px solid #ec407a;
     margin: 7% 65% 3% 0; }
   .windowDoctor__time {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 13px;
     font-weight: none;
     color: #333333;
     margin: 10% 0 10% 0; }
   .windowDoctor__headline {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 13px;
     font-weight: 800;
     color: #333333;
     margin: 0% 0 3% 0; }
   .windowDoctor__aticle {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 13px;
     font-weight: none;
     color: #333333;
@@ -1057,17 +1057,17 @@
     width: 95%;
     height: 40%; }
   .appointment__title {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     font-weight: bold;
     color: #333333; }
   .appointment__text {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     font-weight: none;
     color: #333333; }
   .appointment__text-successful {
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     font-weight: none;
     color: #333333;
