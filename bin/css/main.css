@@ -12,29 +12,30 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: none;
-  font-size: 12px; }
+  font-size: 12px;
+  top: -5px; }
   .communication__item {
     display: flex;
     flex-direction: row;
     justify-content: none;
     align-items: center;
-    width: 154px;
+    width: 190px;
     height: 31px; }
 
 .size {
   font-family: Open Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   color: #333333;
-  width: 154px;
+  width: 160px;
   height: 31px;
   line-height: 1.43; }
   .size__icon {
     width: 32px;
     height: 31px;
     position: relative;
-    top: 1px;
-    right: 3px;
+    top: 7px;
+    right: -3px;
     opacity: 0.5; }
 
 .logo {
