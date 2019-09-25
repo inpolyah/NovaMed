@@ -1,52 +1,16 @@
-.slideshow-conteiner
-    max-width: 1000px
-    position: relative
-    margin: auto
-.prev, .next
-    cursor: pointer
+.carousel
+    width: 80%
+    height: 78%
+    margin: 5Vh auto
+    z-index: 105
     position: absolute
-    top: 50%
-    width: auto
-    margin-top: -22px
-    padding: 16px
-    color: white
-    font-weight: bold
-    font-size: 18px
-    transition: 0.6s ease
-    border-radius: 0 3px 3px 0
-.next
-    border-radius: 3px 0 0 3px 
-    right: 0
-.prev:hover
-    background-color: rgba(0, 0, 0, 0.8)
-.next:hover
-    background-color: rgba(0, 0, 0, 0.8)
-.dots
-    cursor: pointer
-    height: 13px
-    width: 13px
-    margin: 0 2px
-    background-color: #bbb
-    border-radius: 50%
-    display: inline-block
-    transition: 
-        background-color: 0.6s ease
-.active
-    background-color: #717171
-.dots:hover
-    background-color: #717171
-.fade
-    -webkit-animation-name: fade
-    -webkit-animation-duration: 1.5s
-    animation-name: fade
-    animation-duration: 1.5s
-// @-webkit-keyframes fade
-//     from
-//         opacity: .4
-//     to
-//         opacity: 1
-// @keyframes fade
-//     from
-//         opacity: .4
-//     to
-//         opacity: 1
+    left: 10%
+.overlay-photo
+    position: fixed
+    z-index: 100
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    background-color: #000
+    opacity: 1
