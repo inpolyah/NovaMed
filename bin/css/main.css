@@ -385,9 +385,9 @@
   .services__line {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: none;
     align-items: none;
-    margin: 2% 5%; }
+    margin: 3% 5%; }
   .services__item {
     display: flex;
     flex-direction: column;
@@ -396,8 +396,9 @@
     color: white;
     font-size: 20px;
     font-weight: 900;
-    height: 200px;
-    width: 325px; }
+    height: 250px;
+    width: 30%;
+    margin: 0 auto; }
   .services__consyltat {
     background-size: cover;
     background-image: url("../../app/img/gallery/consyltat.jpg"); }
@@ -727,6 +728,7 @@
     font-weight: 800;
     color: #ffffff; }
   .gallery__zIndex1-vedennya {
+    margin-bottom: 10%;
     opacity: 0.3;
     z-index: 1;
     width: 21Vw;
@@ -752,6 +754,7 @@
     background-size: cover;
     background-image: url("../../app/img/gallery/vedennya.jpg"); }
   .gallery__zIndex1-operatuv {
+    margin-bottom: 10%;
     opacity: 0.3;
     z-index: 1;
     width: 21Vw;
@@ -777,6 +780,7 @@
     background-size: cover;
     background-image: url("../../app/img/gallery/operatuv.jpg"); }
   .gallery__zIndex1-estety {
+    margin-bottom: 10%;
     opacity: 0.3;
     z-index: 1;
     width: 21Vw;
