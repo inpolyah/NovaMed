@@ -173,8 +173,13 @@
     line-height: 1.43;
     border-radius: 25px;
     background-color: #ec407a;
-    display: inline;
-    padding: 10px 35px; }
+    width: 45%;
+    margin: 0 auto;
+    padding: 10px 35px;
+    display: none; }
+
+.window:hover .window__button {
+  display: inline-block; }
 
 .window:hover {
   z-index: 10;
