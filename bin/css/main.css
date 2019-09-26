@@ -70,10 +70,11 @@
 .button__name {
   font-family: Montserrat-SemiBold;
   font-size: 14px;
-  font-weight: none;
+  font-weight: 800;
   color: white;
   line-height: 1.43;
-  margin: 10px 30px; }
+  margin: 10px 30px;
+  transition: 0.15s; }
 
 .navigation__button:hover {
   transform: scale(1.1);
