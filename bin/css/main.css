@@ -191,7 +191,7 @@
   flex-direction: column;
   justify-content: none;
   align-items: center;
-  margin-top: -50px; }
+  margin-top: -5Vh; }
   .article__headline {
     font-family: Montserrat;
     font-size: 36px;
@@ -204,7 +204,7 @@
     font-weight: 800;
     color: #333333;
     line-height: 0.48;
-    margin-top: 13Vh;
+    margin-top: 20Vh;
     position: relative; }
   .article__footline::after {
     position: absolute;
