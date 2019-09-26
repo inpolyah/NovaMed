@@ -191,7 +191,7 @@
   flex-direction: column;
   justify-content: none;
   align-items: center;
-  margin-top: -5Vh; }
+  margin-top: 3Vh; }
   .article__headline {
     font-family: Montserrat;
     font-size: 36px;
@@ -204,7 +204,7 @@
     font-weight: 800;
     color: #333333;
     line-height: 0.48;
-    margin-top: 20Vh;
+    margin-top: 25Vh;
     position: relative; }
   .article__footline::after {
     position: absolute;
@@ -301,8 +301,8 @@
     color: #707070;
     padding: 35px 35px; }
   .line__icon {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     padding-left: 35px; }
   .line__check {
     font-family: Open Sans;
