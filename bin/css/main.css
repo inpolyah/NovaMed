@@ -514,7 +514,8 @@
   border-top: 10px solid #ec407a; }
 
 .price {
-  margin: 5% 0% 5% 0%; }
+  width: 74Vw;
+  margin: 0 auto; }
   .price__headline {
     padding: 2% 10% 2% 5%;
     font-family: Montserrat;
@@ -594,7 +595,7 @@
   width: 100%; }
 
 .all {
-  margin: 4% 8%;
+  margin: 4% 12%;
   border-top: 10px solid white;
   box-shadow: 1.5px 2.6px 20.2px 3.8px rgba(109, 109, 109, 0.1);
   background-color: #ffffff; }
@@ -605,6 +606,14 @@
 .line-border {
   border-top: 1px solid #707070;
   opacity: 0.8; }
+
+.location-cost {
+  text-decoration: none;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
 
 .doctorsText {
   margin-top: 75px; }
