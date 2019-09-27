@@ -515,7 +515,7 @@
 
 .price {
   width: 74Vw;
-  margin: 0 auto; }
+  margin: 3% auto; }
   .price__headline {
     padding: 2% 10% 2% 5%;
     font-family: Montserrat;
@@ -614,6 +614,12 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%; }
+
+.plus-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%; }
 
 .doctorsText {
   margin-top: 75px; }

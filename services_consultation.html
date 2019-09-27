@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./bin/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic" rel="stylesheet">
@@ -49,108 +50,133 @@
         <div class="navigation__menu">
             <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="index.html">ГОЛОВНА </div>
             <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="about_us.html">ПРО КЛІНІКУ</a></div>
-            <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="services.html">ПОСЛУГИ</a></div>
+            <div class="navigation__item"><a style="color: #707070; text-decoration: none; font-weight: 800" href="services.html">ПОСЛУГИ</a></div>
             <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="doctors.html">СПЕЦІАЛІСТИ </a></div>
             <div class="navigation__item"><a style="color: #707070; text-decoration: none" href="gallery.html">ГАЛЕРЕЯ</a></div>
         </div>
         <div class="navigation__button">
-            <div class="button__name"><a style="color: white; text-decoration: none" href="appointment-index.html">онлайн запис</a></div>
+            <div class="button__name"><a style="color: white; text-decoration: none" href="appointment-index.html"> ОНЛАЙН ЗАПИС</a></div>
         </div>
     </nav>
 
     <div class="table_of_contents">
-        <span> ВЕДЕННЯ ВАГІТНОСТІ </span>
+        <span> ПРИЙОМ ЛІКАРІВ </span>
     </div>
     
-    <section class="consultation">
-    <div class="consultation__location">
-        <div class="consultation__paragraph">Прийом лікарів</div>
-        <div class="menu_cost">    
-            <div class="consultation__subparagraph">
-                <div>назва послуги</div>
-                <div>Вартість</div>
+    <div class="accordion" id="accordionExample">
+        <div>
+            <div class="all" id="headingOne">
+                <h5 style="padding: 3%" class="mb-0">
+                    <button style="text-decoration:none; text-align: left" class="location-cost btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div>
+                            <div class="pregnancy__title">Прийом лікарів</div>
+                        </div>
+                    </button>
+                </h5>
             </div>
-        
-            <div class="consultation__title">
-                <div>Прийом лікаря-гінеколога (консультація, огляд, функціональна проба Шиллера)</div>
-                <div>300</div>
+        <div class="price">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div>
+                    <div class="price">
+                        <div class="price__headline">
+                            <div>НАЗВА ПОСЛУГИ</div>
+                            <div>ВАРТІСТЬ</div>
+                        </div>
+                        <div class="price__line line-border">
+                            <div>Прийом лікаря-гінеколога (консультація, огляд, функціональна проба Шиллера)</div>
+                            <div>300</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Повторний прийом лікаря-гінеколога (протягом 2-х місяців)</div>
+                            <div>150</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Консультація лікаря-гінеколога</div>
+                            <div>200</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Розширена кольпоскопія </div>
+                            <div>220</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Трансвагінальне УЗД</div>
+                            <div>200</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Аналіз мазка на мікрофлору </div>
+                            <div>90</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Цитоморфологічне дослідження мазка</div>
+                            <div>90</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Розширена кольпоскопія </div>
+                            <div>220</div>
+                        </div>
+                </div>
+
+                    </div>   
+                </div>
             </div>
-            <div class="consultation__title">
-                <div>Повторний прийом лікаря-гінеколога (протягом 2-х місяців)</div>
-                <div>150</div>
+        </div>
+
+        <div>
+            <div class="all" id="headingTwo">
+                <h5 style="padding: 3%" class="mb-0">
+                    <button style="text-decoration:none; text-align: left" class="btn btn-link location-cost" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <div>
+                            <div class="pregnancy__title"> Амбулаторні послуги </div>
+                        </div>
+                    </button>
+                </h5>
             </div>
-            <div class="consultation__title">
-                <div>Консультація лікаря-гінеколога</div>
-                <div>200</div>
-            </div>
-            <div class="consultation__title">
-                <div>Розширена кольпоскопія </div>
-                <div>220</div>
-            </div>
-            <div class="consultation__title">
-                <div>Трансвагінальне УЗД</div>
-                <div>200</div>
-            </div>
-            <div class="consultation__title">
-                <div>Аналіз мазка на мікрофлору </div>
-                <div>90</div>
-            </div>
-            <div class="consultation__title">
-                <div>Цитоморфологічне дослідження мазка</div>
-                <div>90</div>
-            </div>
-            <div class="consultation__title">
-                <div>Розширена кольпоскопія </div>
-                <div>220</div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div>
+                    <div class="price">
+                        <div class="price__headline">
+                            <div>НАЗВА ПОСЛУГИ</div>
+                            <div>ВАРТІСТЬ</div>
+                        </div>
+                        <div class="price__line line-border">
+                            <div>Пайпель-біопсія ендометрію, з гістологічним дослідженням матеріалу.</div>
+                            <div>300</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Встановлення та видалення внутрішньоматкових контрацептивів.	</div>
+                            <div>150</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Радіохвильова біопсія шийки матки, вульви та ін.	</div>
+                            <div>200</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Радіохвильова коагуляція.</div>
+                            <div>220</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Метросальпінгографія</div>
+                            <div>200</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Розширення цервікального каналу при гематометрі</div>
+                            <div>90</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Медикаментозне переривання вагітності</div>
+                            <div>90</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Розширена кольпоскопія</div>
+                            <div>220</div>
+                        </div>
+                    </div>   
+                </div>
             </div>
         </div>
     </div>
-    </section>
-
-    <section class="consultation">
-    <div class="consultation__location">
-        <div class="consultation__paragraph">Амбулаторні послуги </div>
-        <div class="menu_cost">    
-            <div class="consultation__subparagraph">
-                <div>назва послуги</div>
-                <div>Вартість</div>
-            </div>
-                
-            <div class="consultation__title">
-                <div>Пайпель-біопсія ендометрію, з гістологічним дослідженням матеріалу.</div>
-                <div>300</div>
-            </div>
-            <div class="consultation__title">
-                <div>Встановлення та видалення внутрішньоматкових контрацептивів.	</div>
-                <div>150</div>
-            </div>
-            <div class="consultation__title">
-                <div>Радіохвильова біопсія шийки матки, вульви та ін.	</div>
-                <div>200</div>
-            </div>
-            <div class="consultation__title">
-                <div>Радіохвильова коагуляція.</div>
-                <div>220</div>
-            </div>
-            <div class="consultation__title">
-                <div>Метросальпінгографія</div>
-                <div>200</div>
-            </div>
-            <div class="consultation__title">
-                <div>Розширення цервікального каналу при гематометрі</div>
-                <div>90</div>
-            </div>
-            <div class="consultation__title">
-                <div>Медикаментозне переривання вагітності</div>
-                <div>90</div>
-            </div>
-            <div class="consultation__title">
-                <div>Розширена кольпоскопія</div>
-                <div>220</div>
-            </div>
-                </div>
-            </div>
-            </section>
+    
     
 
     <footer class="footer">
@@ -184,5 +210,10 @@
 
         <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
