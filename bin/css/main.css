@@ -72,21 +72,27 @@
     cursor: pointer; }
   .navigation__button {
     border-radius: 25px;
-    background-color: #ec407a; }
+    background-color: #ec407a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
 
 .button__name {
-  font-family: Montserrat-SemiBold;
-  font-size: 14px;
-  font-weight: 800;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
   color: white;
   line-height: 1.43;
   margin: 10px 30px;
-  transition: 0.15s; }
+  width: 12Vw;
+  text-align: center; }
 
 .navigation__button:hover {
   transform: scale(1.1);
   color: black;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.5s; }
 
 .video {
   position: relative;
@@ -374,16 +380,24 @@
     text-align: center; }
   .footer__icon-f {
     width: 30px;
-    height: 24px; }
+    height: 30px;
+    background-size: cover;
+    background-image: url("../../app/img/facebook.svg"); }
   .footer__icon-i {
     width: 30px;
-    height: 24px; }
+    height: 30px;
+    background-size: cover;
+    background-image: url("../../app/img/instagram.svg"); }
   .footer__icon-y {
     width: 30px;
-    height: 30px; }
+    height: 30px;
+    background-size: cover;
+    background-image: url("../../app/img/youtube.svg"); }
   .footer__icon-c {
     width: 30px;
-    height: 30px; }
+    height: 30px;
+    background-size: cover;
+    background-image: url("../../app/img/close-envelope.svg"); }
 
 .image {
   width: 100%;
