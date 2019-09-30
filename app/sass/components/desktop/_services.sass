@@ -5,12 +5,14 @@
         margin: 3% 5%
     &__item
         @include flex (flex, column, center, center)
-        color: white
-        font-size: 20px
-        font-weight: 900
+        @include font (Montserrat, 20px, 900, white)
         height: 250px
         width: 30%
         margin: 0 auto
+        text-align: center
+    &__item-link
+        color: white
+        text-decoration: none
     &__consyltat
         background-size: cover
         background-image: url("../../app/img/gallery/consyltat.jpg")
@@ -30,7 +32,8 @@
         background-size: cover
         background-image: url("../../app/img/gallery/inshe.jpg")
 .services__item:hover
-    transform: scale(1.02)
+    transform: scale(1.03)
+    transition: 0.5s
 .pregnancy
     margin: 5%
     &__location

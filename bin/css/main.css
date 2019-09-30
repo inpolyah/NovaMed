@@ -144,7 +144,8 @@
 
 .content__button:hover {
   transform: scale(1.1);
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.5s; }
 
 .window_all {
   display: flex;
@@ -191,6 +192,9 @@
     margin: 0 auto;
     padding: 10px 35px;
     display: none; }
+  .window__button:hover {
+    transition: 0.5s;
+    padding: 15px 40px; }
 
 .window:hover .window__button {
   display: inline-block; }
@@ -199,7 +203,7 @@
   z-index: 10;
   transform: scale(1.2);
   box-shadow: 3px 3px 35px 0px #4f4b58;
-  transition: 0.4s; }
+  transition: 0.5s; }
 
 .article {
   display: flex;
@@ -379,25 +383,37 @@
     line-height: 1.43;
     text-align: center; }
   .footer__icon-f {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-size: cover;
     background-image: url("../../app/img/facebook.svg"); }
+  .footer__icon-f:hover {
+    opacity: 0.5;
+    cursor: pointer; }
   .footer__icon-i {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-size: cover;
     background-image: url("../../app/img/instagram.svg"); }
+  .footer__icon-i:hover {
+    opacity: 0.5;
+    cursor: pointer; }
   .footer__icon-y {
     width: 30px;
     height: 30px;
     background-size: cover;
     background-image: url("../../app/img/youtube.svg"); }
+  .footer__icon-y:hover {
+    opacity: 0.5;
+    cursor: pointer; }
   .footer__icon-c {
     width: 30px;
     height: 30px;
     background-size: cover;
     background-image: url("../../app/img/close-envelope.svg"); }
+  .footer__icon-c:hover {
+    opacity: 0.5;
+    cursor: pointer; }
 
 .image {
   width: 100%;
@@ -416,12 +432,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    font-family: Montserrat;
     font-size: 20px;
     font-weight: 900;
+    color: white;
     height: 250px;
     width: 30%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    text-align: center; }
+  .services__item-link {
+    color: white;
+    text-decoration: none; }
   .services__consyltat {
     background-size: cover;
     background-image: url("../../app/img/gallery/consyltat.jpg"); }
@@ -442,7 +463,8 @@
     background-image: url("../../app/img/gallery/inshe.jpg"); }
 
 .services__item:hover {
-  transform: scale(1.02); }
+  transform: scale(1.03);
+  transition: 0.5s; }
 
 .pregnancy {
   margin: 5%; }
