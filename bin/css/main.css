@@ -69,8 +69,10 @@
     font-weight: none;
     color: #707070;
     line-height: 24px; }
-  .navigation__item:hover {
-    color: black;
+  .navigation__item-a {
+    color: #707070;
+    text-decoration: none; }
+  .navigation__item-a:hover {
     cursor: pointer;
     font-weight: 700; }
   .navigation__button {
@@ -96,7 +98,7 @@
   transform: scale(1.1);
   color: black;
   cursor: pointer;
-  transition: 0.5s; }
+  transition: 0.3s; }
 
 .video {
   position: relative;
@@ -191,7 +193,7 @@
     margin: 15px 31px; }
   .window__button {
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     color: white;
     line-height: 18px;
@@ -200,11 +202,11 @@
     background-color: #ec407a;
     width: 45%;
     margin: 0 auto;
-    padding: 10px 35px;
+    padding: 7px 35px;
     display: none; }
   .window__button:hover {
     transition: 0.5s;
-    padding: 15px 40px; }
+    transform: scale(1.1); }
 
 .window:hover .window__button {
   display: inline-block; }
@@ -488,7 +490,7 @@
 
 .services__item:hover {
   transform: scale(1.03);
-  transition: 0.5s; }
+  transition: 0.3s; }
 
 .pregnancy {
   margin: 5%; }
