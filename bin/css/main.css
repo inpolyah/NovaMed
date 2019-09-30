@@ -27,6 +27,7 @@
   font-size: 13px;
   font-weight: 600;
   color: #333333;
+  line-height: 19.5px;
   width: 160px;
   height: 31px;
   line-height: 1.43; }
@@ -66,10 +67,12 @@
     font-family: Montserrat;
     font-size: 16px;
     font-weight: none;
-    color: #707070; }
+    color: #707070;
+    line-height: 24px; }
   .navigation__item:hover {
     color: black;
-    cursor: pointer; }
+    cursor: pointer;
+    font-weight: 700; }
   .navigation__button {
     border-radius: 25px;
     background-color: #ec407a;
@@ -83,6 +86,7 @@
   font-size: 12px;
   font-weight: 600;
   color: white;
+  line-height: 18px;
   line-height: 1.43;
   margin: 10px 30px;
   width: 12Vw;
@@ -123,6 +127,7 @@
   font-size: 45px;
   font-weight: none;
   color: white;
+  line-height: 67.5px;
   line-height: 1.33;
   margin: 0px 0px 45px 0px; }
 .content__text {
@@ -130,6 +135,7 @@
   font-size: 18px;
   font-weight: none;
   color: white;
+  line-height: 27px;
   line-height: 1.5; }
 .content__button {
   line-height: 1.11;
@@ -137,6 +143,7 @@
   font-size: 12px;
   font-weight: 600;
   color: white;
+  line-height: 18px;
   border-radius: 25px;
   background-color: #ec407a;
   padding: 15px 30px;
@@ -172,12 +179,14 @@
     font-size: 20px;
     font-weight: 800;
     color: #333333;
+    line-height: 30px;
     line-height: 0.83; }
   .window__text {
     font-family: Open Sans;
     font-size: 14px;
     font-weight: none;
     color: #707070;
+    line-height: 21px;
     line-height: 1.5;
     margin: 15px 31px; }
   .window__button {
@@ -185,6 +194,7 @@
     font-size: 12px;
     font-weight: 600;
     color: white;
+    line-height: 18px;
     line-height: 1.43;
     border-radius: 25px;
     background-color: #ec407a;
@@ -216,12 +226,14 @@
     font-size: 36px;
     font-weight: 800;
     color: #333333;
+    line-height: 54px;
     line-height: 0.48; }
   .article__footline {
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 800;
     color: #333333;
+    line-height: 54px;
     line-height: 0.48;
     margin-top: 25Vh;
     position: relative; }
@@ -238,6 +250,7 @@
     font-size: 16px;
     font-weight: none;
     color: #737373;
+    line-height: 24px;
     line-height: 1.5;
     margin: 30px 160px;
     text-align: center; }
@@ -253,6 +266,7 @@
     font-size: 36px;
     font-weight: 800;
     color: #333333;
+    line-height: 54px;
     line-height: 0.48;
     position: relative; }
   .article_aboutus__text {
@@ -260,6 +274,7 @@
     font-size: 16px;
     font-weight: none;
     color: #737373;
+    line-height: 24px;
     line-height: 1.5;
     margin: 70px 160px;
     text-align: center; }
@@ -311,6 +326,7 @@
     font-size: 22px;
     font-weight: none;
     color: #333333;
+    line-height: 33px;
     padding-left: 35px;
     padding-top: 20px; }
   .line__content {
@@ -318,6 +334,7 @@
     font-size: 16px;
     font-weight: none;
     color: #707070;
+    line-height: 24px;
     padding: 35px 35px; }
   .line__icon {
     width: 20px;
@@ -328,6 +345,7 @@
     font-size: 16px;
     font-weight: none;
     color: #707070;
+    line-height: 24px;
     display: flex;
     flex-direction: row;
     justify-content: none;
@@ -337,6 +355,7 @@
     font-size: 16px;
     font-weight: none;
     color: #707070;
+    line-height: 24px;
     padding-left: 5px; }
 
 .footer {
@@ -348,20 +367,23 @@
     height: 50px; }
   .footer__address {
     font-family: Open Sans;
-    font-size: 10px;
-    font-weight: none;
-    color: #ffffff; }
-  .footer__number {
-    font-family: Open Sans;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: none;
     color: #ffffff;
+    line-height: 16.5px; }
+  .footer__number {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: none;
+    color: #ffffff;
+    line-height: 16.5px;
     line-height: 1.43; }
   .footer__headline {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+    line-height: 24px;
     line-height: 0.91;
     margin: 0 0 8px 0; }
   .footer__social {
@@ -380,6 +402,7 @@
     font-size: 10px;
     font-weight: none;
     color: #ffffff;
+    line-height: 15px;
     line-height: 1.43;
     text-align: center; }
   .footer__icon-f {
@@ -436,6 +459,7 @@
     font-size: 20px;
     font-weight: 900;
     color: white;
+    line-height: 30px;
     height: 250px;
     width: 30%;
     margin: 0 auto;
@@ -482,14 +506,16 @@
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
-    color: #707070; }
+    color: #707070;
+    line-height: 21px; }
   .pregnancy__title-child-h {
     width: 34%;
     padding-bottom: 7px;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
-    color: #707070; }
+    color: #707070;
+    line-height: 21px; }
   .pregnancy__title-child {
     text-align: center;
     width: 34%;
@@ -497,17 +523,20 @@
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
-    color: #707070; }
+    color: #707070;
+    line-height: 21px; }
   .pregnancy__term {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: bold;
-    color: #ec407a; }
+    color: #ec407a;
+    line-height: 21px; }
   .pregnancy__cost {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 900;
     color: #ec407a;
+    line-height: 21px;
     padding-top: 15px; }
 
 .table_of_contents {
@@ -515,6 +544,7 @@
   font-size: 25px;
   font-weight: 900;
   color: #737373;
+  line-height: 37.5px;
   text-align: center; }
 
 .consultation {
@@ -540,6 +570,7 @@
     font-size: 14px;
     font-weight: 600;
     color: #707070;
+    line-height: 21px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -565,6 +596,7 @@
     font-size: 12px;
     font-weight: bold;
     color: #f59fbc;
+    line-height: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -577,6 +609,7 @@
     font-size: 12px;
     font-weight: none;
     color: #707070;
+    line-height: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -588,6 +621,7 @@
     font-size: 12px;
     font-weight: none;
     color: #707070;
+    line-height: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -597,6 +631,7 @@
     font-size: 12px;
     font-weight: none;
     color: #707070;
+    line-height: 18px;
     width: 30%; }
   .price__sign {
     display: flex;
@@ -608,6 +643,7 @@
     font-size: 40px;
     font-weight: none;
     color: #707070;
+    line-height: 60px;
     line-height: 0.46; }
 
 .price__line:nth-child(2n-1) {
@@ -671,12 +707,14 @@
     font-size: 32px;
     font-weight: 800;
     color: #333333;
+    line-height: 48px;
     text-align: center; }
   .doctorsText__content {
     font-family: Open Sans;
     font-size: 16px;
     font-weight: none;
     color: #707070;
+    line-height: 24px;
     margin: 60px 100px;
     text-align: center; }
 
@@ -761,19 +799,22 @@
     font-size: 16px;
     font-weight: 600;
     color: #333333;
+    line-height: 24px;
     padding-bottom: 10px;
     padding-top: 30px; }
   .doctorsList__position {
     font-family: Open Sans;
     font-size: 12px;
     font-weight: none;
-    color: #333333; }
+    color: #333333;
+    line-height: 18px; }
 
 .galleryHeadline {
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 800;
   color: #333333;
+  line-height: 48px;
   text-align: center;
   margin: 60px 100px; }
 
@@ -786,7 +827,8 @@
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 800;
-    color: #ffffff; }
+    color: #ffffff;
+    line-height: 27px; }
   .gallery__zIndex1-vedennya {
     margin-bottom: 10%;
     opacity: 0.3;
@@ -796,7 +838,7 @@
     position: relative;
     bottom: 56Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+    background-image: url("../../app/img/gallery/vedennya1.jpg"); }
   .gallery__zIndex2-vedennya {
     opacity: 0.5;
     z-index: 2;
@@ -805,14 +847,14 @@
     position: relative;
     bottom: 29Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+    background-image: url("../../app/img/gallery/vedennya1.jpg"); }
   .gallery__zIndex3-vedennya {
     position: relative;
     z-index: 3;
     width: 27Vw;
     height: 32Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/vedennya.jpg"); }
+    background-image: url("../../app/img/gallery/vedennya1.jpg"); }
   .gallery__zIndex1-operatuv {
     margin-bottom: 10%;
     opacity: 0.3;
@@ -822,7 +864,7 @@
     position: relative;
     bottom: 56Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+    background-image: url("../../app/img/gallery/operatuv1.jpg"); }
   .gallery__zIndex2-operatuv {
     opacity: 0.5;
     z-index: 2;
@@ -831,14 +873,14 @@
     position: relative;
     bottom: 29Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+    background-image: url("../../app/img/gallery/operatuv1.jpg"); }
   .gallery__zIndex3-operatuv {
     position: relative;
     z-index: 3;
     width: 27Vw;
     height: 32Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/operatuv.jpg"); }
+    background-image: url("../../app/img/gallery/operatuv1.jpg"); }
   .gallery__zIndex1-estety {
     margin-bottom: 10%;
     opacity: 0.3;
@@ -848,7 +890,7 @@
     position: relative;
     bottom: 56Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/estety.jpg"); }
+    background-image: url("../../app/img/gallery/estety1.jpg"); }
   .gallery__zIndex2-estety {
     opacity: 0.5;
     z-index: 2;
@@ -857,14 +899,14 @@
     position: relative;
     bottom: 29Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/estety.jpg"); }
+    background-image: url("../../app/img/gallery/estety1.jpg"); }
   .gallery__zIndex3-estety {
     position: relative;
     z-index: 3;
     width: 27Vw;
     height: 32Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/estety.jpg"); }
+    background-image: url("../../app/img/gallery/estety1.jpg"); }
   .gallery__zIndex1-consyltat {
     opacity: 0.3;
     z-index: 1;
@@ -873,7 +915,7 @@
     position: relative;
     bottom: 56Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+    background-image: url("../../app/img/gallery/consyltat1.jpg"); }
   .gallery__zIndex2-consyltat {
     opacity: 0.5;
     z-index: 2;
@@ -882,14 +924,14 @@
     position: relative;
     bottom: 29Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+    background-image: url("../../app/img/gallery/consyltat1.jpg"); }
   .gallery__zIndex3-consyltat {
     position: relative;
     z-index: 3;
     width: 27Vw;
     height: 32Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/consyltat.jpg"); }
+    background-image: url("../../app/img/gallery/consyltat1.jpg"); }
   .gallery__zIndex1-pology {
     opacity: 0.3;
     z-index: 1;
@@ -898,7 +940,7 @@
     position: relative;
     bottom: 56Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/pology.jpg"); }
+    background-image: url("../../app/img/gallery/pology1.jpg"); }
   .gallery__zIndex2-pology {
     opacity: 0.5;
     z-index: 2;
@@ -907,14 +949,14 @@
     position: relative;
     bottom: 29Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/pology.jpg"); }
+    background-image: url("../../app/img/gallery/pology1.jpg"); }
   .gallery__zIndex3-pology {
     position: relative;
     z-index: 3;
     width: 27Vw;
     height: 32Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/pology.jpg"); }
+    background-image: url("../../app/img/gallery/pology1.jpg"); }
   .gallery__zIndex1-inshe {
     opacity: 0.3;
     z-index: 1;
@@ -923,7 +965,7 @@
     position: relative;
     bottom: 56Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/inshe.jpg"); }
+    background-image: url("../../app/img/gallery/inshe1.jpg"); }
   .gallery__zIndex2-inshe {
     opacity: 0.5;
     z-index: 2;
@@ -932,14 +974,14 @@
     position: relative;
     bottom: 29Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/inshe.jpg"); }
+    background-image: url("../../app/img/gallery/inshe1.jpg"); }
   .gallery__zIndex3-inshe {
     position: relative;
     z-index: 3;
     width: 27Vw;
     height: 32Vh;
     background-size: cover;
-    background-image: url("../../app/img/gallery/inshe.jpg"); }
+    background-image: url("../../app/img/gallery/inshe1.jpg"); }
   .gallery__row {
     display: flex;
     flex-direction: row;
@@ -976,6 +1018,7 @@
   font-size: 30px;
   font-weight: 800;
   color: #f59fbc;
+  line-height: 45px;
   text-align: center;
   margin-top: 8%; }
 
@@ -1044,12 +1087,14 @@
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 600;
-    color: #737373; }
+    color: #737373;
+    line-height: 27px; }
   .windowDoctor__position {
     font-family: Open Sans;
     font-size: 13px;
     font-weight: none;
     color: #333333;
+    line-height: 19.5px;
     border-bottom: 1px solid #ec407a;
     margin: 7% 65% 3% 0; }
   .windowDoctor__time {
@@ -1057,18 +1102,21 @@
     font-size: 13px;
     font-weight: none;
     color: #333333;
+    line-height: 19.5px;
     margin: 10% 0 10% 0; }
   .windowDoctor__headline {
     font-family: Open Sans;
     font-size: 13px;
     font-weight: 800;
     color: #333333;
+    line-height: 19.5px;
     margin: 0% 0 3% 0; }
   .windowDoctor__aticle {
     font-family: Open Sans;
     font-size: 13px;
     font-weight: none;
     color: #333333;
+    line-height: 19.5px;
     margin-right: 10%; }
   .windowDoctor__icon {
     height: 30px;
@@ -1124,12 +1172,14 @@
     font-size: 20px;
     font-weight: 800;
     color: #333333;
+    line-height: 30px;
     line-height: 0.56; }
   .appointment__footerline {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 800;
-    color: #333333; }
+    color: #333333;
+    line-height: 30px; }
   .appointment__choose {
     width: 50%; }
   .appointment__list {
@@ -1139,17 +1189,20 @@
     font-family: Open Sans;
     font-size: 12px;
     font-weight: bold;
-    color: #333333; }
+    color: #333333;
+    line-height: 18px; }
   .appointment__text {
     font-family: Open Sans;
     font-size: 12px;
     font-weight: none;
-    color: #333333; }
+    color: #333333;
+    line-height: 18px; }
   .appointment__text-successful {
     font-family: Open Sans;
     font-size: 12px;
     font-weight: none;
     color: #333333;
+    line-height: 18px;
     text-align: center; }
   .appointment__location {
     display: flex;
@@ -1170,6 +1223,7 @@
     font-size: 12px;
     font-weight: none;
     color: white;
+    line-height: 18px;
     margin: 10px 30px; }
   .appointment__image {
     width: 17Vw;

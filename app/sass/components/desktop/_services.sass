@@ -5,7 +5,7 @@
         margin: 3% 5%
     &__item
         @include flex (flex, column, center, center)
-        @include font (Montserrat, 20px, 900, white)
+        @include font (Montserrat, 20px, 900, white, 30px)
         height: 250px
         width: 30%
         margin: 0 auto
@@ -44,23 +44,23 @@
         background-color: #ffffff
     &__title
         padding-bottom: 7px
-        @include font (Montserrat, 14px, 600, #707070 )
+        @include font (Montserrat, 14px, 600, #707070, 21px)
     &__title-child-h
         width: 34%
         padding-bottom: 7px
-        @include font (Montserrat, 14px, 600, #707070 )
+        @include font (Montserrat, 14px, 600, #707070, 21px)
     &__title-child
         text-align: center
         width: 34%
         padding-bottom: 7px
-        @include font (Montserrat, 14px, 600, #707070 )
+        @include font (Montserrat, 14px, 600, #707070, 21px)
     &__term
-        @include font (Montserrat, 14px, bold, #ec407a )
+        @include font (Montserrat, 14px, bold, #ec407a, 21px)
     &__cost
-        @include font (Montserrat, 14px, 900, #ec407a )
+        @include font (Montserrat, 14px, 900, #ec407a, 21px)
         padding-top: 15px
 .table_of_contents
-    @include font (Open Sans, 25px, 900, #737373)
+    @include font (Open Sans, 25px, 900, #737373, 37.5px)
     text-align: center
 .consultation
     margin: 5%
@@ -78,7 +78,7 @@
         padding: 2% 0% 2% 0%
         @include flex (flex, row, space-between, none) 
     &__title 
-        @include font (Montserrat, 14px, 600, #707070 )
+        @include font (Montserrat, 14px, 600, #707070, 21px)
         @include flex (flex, row, space-between, none)   
         padding: 2% 0% 2% 0% 
 .menu_cost
@@ -93,26 +93,26 @@
     margin: 3% auto
     &__headline
         padding: 2% 10% 2% 5%
-        @include font (Montserrat, 12px, bold, #f59fbc)
+        @include font (Montserrat, 12px, bold, #f59fbc, 18px)
         @include flex (flex, row, space-between, none)
         line-height: 1.65
     &__line-child
         opacity: 0.8
         padding: 2% 5% 2% 5%
-        @include font (Montserrat, 12px, none, #707070)
+        @include font (Montserrat, 12px, none, #707070, 18px)
         @include flex (flex, row, space-between, none)
     &__line
         opacity: 0.8
         padding: 2% 10% 2% 5%
-        @include font (Montserrat, 12px, none, #707070)
+        @include font (Montserrat, 12px, none, #707070, 18px)
         @include flex (flex, row, space-between, none)
     &__name
-        @include font (Montserrat, 12px, none, #707070)
+        @include font (Montserrat, 12px, none, #707070, 18px)
         width: 30%
     &__sign
         @include flex (flex, row, center, center)
         width: 30%
-        @include font (Montserrat, 40px, none, #707070)
+        @include font (Montserrat, 40px, none, #707070, 60px)
         line-height: 0.46
 .price__line:nth-child(2n-1) 
     background: #fad6e1
