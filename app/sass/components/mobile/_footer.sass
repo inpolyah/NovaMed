@@ -1,0 +1,62 @@
+@media screen and (max-width:414px)
+    .footer
+        &__logo
+            display: none
+            width: 170px
+            height: 50px
+        &__phone
+            margin: 10px 0
+            text-align: center
+        &__address
+            margin: 10px 0 20px 0
+            text-align: center
+            @include font (Open Sans, 15px, none, #ffffff, 16.5px)
+        &__number
+            @include font (Open Sans, 15px, none, #ffffff, 16.5px)
+            line-height: 1.43
+        &__headline
+            @include font (Montserrat, 20px, 600, #ffffff, 24px)
+            line-height: 0.91
+            margin: 10px 0
+        &__social
+            @include flex (flex, row, space-between, center) 
+        &__hight
+            @include flex (flex, column, space-around, center) 
+            margin: 0 0 10px 0px
+        &__bottom
+            @include font (Open Sans, 15px, none, #ffffff, 15px)
+            line-height: 1.43
+            text-align: center
+            padding: 0 0 10px 0
+        &__icon-f       
+            width: 24px 
+            height: 24px
+            background-size: cover
+            background-image: url("../../app/img/facebook.svg")
+        &__icon-f:hover
+            opacity: 0.5
+            cursor: pointer
+        &__icon-i
+            width: 24px 
+            height: 24px
+            background-size: cover
+            background-image: url("../../app/img/instagram.svg")
+        &__icon-i:hover
+            opacity: 0.5
+            cursor: pointer
+        &__icon-y
+            width: 30px 
+            height: 30px
+            background-size: cover
+            background-image: url("../../app/img/youtube.svg")
+        &__icon-y:hover
+            opacity: 0.5
+            cursor: pointer
+        &__icon-c
+            width: 30px 
+            height: 30px
+            background-size: cover
+            background-image: url("../../app/img/close-envelope.svg")
+        &__icon-c:hover
+            opacity: 0.5
+            cursor: pointer

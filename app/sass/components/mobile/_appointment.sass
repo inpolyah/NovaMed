@@ -1,0 +1,63 @@
+.overlay    
+    position: fixed
+    z-index: 100
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    background-color: #000
+    opacity: 0.55
+.appointment
+    @include flex (flex, row, none, none) 
+    width: 60Vw
+    height: 80Vh
+    background-color: white
+    z-index: 105
+    position: absolute
+    left: 20Vw
+    bottom: 10Vh
+    &__block
+        @include flex (flex, column, space-around, none) 
+        width: 60Vw
+        margin: 3% 7%
+    &__block-successful
+        @include flex (flex, column, space-around, center) 
+        width: 60Vw
+        margin: 5% 16%   
+    &__icon
+        height: 30px
+        width: 30px
+        position: absolute
+        top: -15px
+        right: -15px
+    &__headline
+        @include font (Montserrat, 20px, 800, #333333, 30px) 
+        line-height: 0.56
+    &__footerline
+        @include font (Montserrat, 20px, 800, #333333, 30px) 
+    &__choose
+        width: 50%
+    &__list
+        width: 95%
+        height: 40%
+    &__title
+        @include font (Open Sans, 12px, bold, #333333, 18px) 
+    &__text
+        @include font (Open Sans, 12px, none, #333333, 18px) 
+    &__text-successful
+        @include font (Open Sans, 12px, none, #333333, 18px) 
+        text-align: center
+    &__location
+        @include flex (flex, row, space-between, none) 
+    &__button
+        border-radius: 25px
+        background-color: #ec407a
+        width: 170px
+        height: 30px
+        @include flex (flex, row, center, center) 
+    &__button-name
+        @include font (Montserrat-Bold, 12px, none, white, 18px) 
+        margin: 10px 30px
+    &__image
+        width: 17Vw
+        height: 30Vh

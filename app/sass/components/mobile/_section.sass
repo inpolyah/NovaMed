@@ -1,0 +1,59 @@
+.section
+    margin: 40px 0px
+.line
+    @include flex (flex, column, none, none) 
+    box-sizing: border-box
+    width: 100Vw
+    height: 70Vh
+    &__block
+        height: 35Vh
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 100%
+        background-color: #EDF6FB
+    &__block-mob
+        position: relative
+        top: 35Vh
+    &__image_1
+        height: 35Vh
+        width: 100%
+        background-size: cover
+        background-image: url("../../app/img/0001.JPG")
+    &__image_2
+        position: relative
+        bottom: 35Vh
+        height: 35Vh
+        width: 100%
+        background-size: cover
+        background-image: url("../../app/img/0002.JPG")
+    &__image_3
+        height: 35Vh
+        width: 100%
+        background-size: cover
+        background-image: url("../../app/img/0003.JPG")
+    &__size
+        height: 100%
+        width: 100%
+    &__headline
+        @include font (Montserrat, 22px, none, #333333, 33px)
+        text-align: center
+        padding-left: 0
+        padding-top: 0
+    &__content
+        @include font (Open Sans, 14px, none, #707070, 24px)
+        padding: 10px 0 10px 0
+        text-align: center
+    text-align: center
+    &__icon
+        width: 20px
+        height: 20px
+        padding-left: 0
+    &__check
+        @include font (Open Sans, 16px, none, #707070, 24px)
+        @include flex (flex, row, none, none) 
+    &__row
+        @include font (Montserrat, 12px, none, #707070, 24px)
+        padding-left: 5px
+    
