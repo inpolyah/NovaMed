@@ -1344,9 +1344,7 @@
     font-weight: none;
     color: #737373;
     line-height: 24px;
-    line-height: 1.5;
-    margin: 70px 160px;
-    text-align: center; }
+    margin: 70px 20px; }
 
 .article_aboutus__headline::after {
   position: absolute;
@@ -1784,115 +1782,118 @@
   justify-content: space-between;
   width: 50%; }
 
-.doctorsText {
-  margin-top: 75px; }
-  .doctorsText__headline {
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: 800;
-    color: #333333;
-    line-height: 48px;
-    text-align: center; }
-  .doctorsText__content {
-    font-family: Open Sans;
-    font-size: 16px;
-    font-weight: none;
-    color: #707070;
-    line-height: 24px;
-    margin: 60px 100px;
-    text-align: center; }
+@media screen and (max-width: 414px) {
+  .doctorsText {
+    margin: 75px 0; }
+    .doctorsText__headline {
+      font-family: Montserrat;
+      font-size: 32px;
+      font-weight: 800;
+      color: #333333;
+      line-height: 48px;
+      text-align: center; }
+    .doctorsText__content {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: none;
+      color: #707070;
+      line-height: 24px;
+      margin: 40px 40px;
+      text-align: center; }
 
-.doctorsList {
-  margin: auto; }
-  .doctorsList__row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 80px; }
-  .doctorsList__row-down {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px; }
-  .doctorsList__column {
-    display: flex;
-    flex-direction: column;
-    justify-content: none;
-    align-items: none; }
-  .doctorsList__image-Bybur {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/bubir-bw.jpg"); }
-  .doctorsList__image-Bybur:hover {
-    background-image: url("../../app/img/doctors/bubir.jpg"); }
-  .doctorsList__image-Otroshko {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Otroshko-bw.jpg"); }
-  .doctorsList__image-Otroshko:hover {
-    background-image: url("../../app/img/doctors/Otroshko.jpg"); }
-  .doctorsList__image-Boiko {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/boiko-bw.jpg"); }
-  .doctorsList__image-Boiko:hover {
-    background-image: url("../../app/img/doctors/boiko.jpg"); }
-  .doctorsList__image-Skripka {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/skripka-bw.jpg"); }
-  .doctorsList__image-Skripka:hover {
-    background-image: url("../../app/img/doctors/skripka.jpg"); }
-  .doctorsList__image-Pantuh {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/pantuh-bw.jpg"); }
-  .doctorsList__image-Pantuh:hover {
-    background-image: url("../../app/img/doctors/Pantuh.jpg"); }
-  .doctorsList__image-Gerkaluk {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Herkaluk-bw.jpg"); }
-  .doctorsList__image-Gerkaluk:hover {
-    background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
-  .doctorsList__image-Akin {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Akin-bw.jpg"); }
-  .doctorsList__image-Akin:hover {
-    background-image: url("../../app/img/doctors/Akin.jpg"); }
-  .doctorsList__name {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
-    color: #333333;
-    line-height: 24px;
-    padding-bottom: 10px;
-    padding-top: 30px; }
-  .doctorsList__position {
-    font-family: Open Sans;
-    font-size: 12px;
-    font-weight: none;
-    color: #333333;
-    line-height: 18px; }
-
+  .doctorsList {
+    margin: auto;
+    text-align: center; }
+    .doctorsList__row {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 0; }
+    .doctorsList__row-down {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 0;
+      margin-bottom: 80px; }
+    .doctorsList__column {
+      width: 50Vw;
+      height: 50Vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: none;
+      align-items: none; }
+    .doctorsList__image-Bybur {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/bubir-bw.jpg"); }
+    .doctorsList__image-Bybur:hover {
+      background-image: url("../../app/img/doctors/bubir.jpg"); }
+    .doctorsList__image-Otroshko {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Otroshko-bw.jpg"); }
+    .doctorsList__image-Otroshko:hover {
+      background-image: url("../../app/img/doctors/Otroshko.jpg"); }
+    .doctorsList__image-Boiko {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/boiko-bw.jpg"); }
+    .doctorsList__image-Boiko:hover {
+      background-image: url("../../app/img/doctors/boiko.jpg"); }
+    .doctorsList__image-Skripka {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/skripka-bw.jpg"); }
+    .doctorsList__image-Skripka:hover {
+      background-image: url("../../app/img/doctors/skripka.jpg"); }
+    .doctorsList__image-Pantuh {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/pantuh-bw.jpg"); }
+    .doctorsList__image-Pantuh:hover {
+      background-image: url("../../app/img/doctors/Pantuh.jpg"); }
+    .doctorsList__image-Gerkaluk {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Herkaluk-bw.jpg"); }
+    .doctorsList__image-Gerkaluk:hover {
+      background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
+    .doctorsList__image-Akin {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Akin-bw.jpg"); }
+    .doctorsList__image-Akin:hover {
+      background-image: url("../../app/img/doctors/Akin.jpg"); }
+    .doctorsList__name {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 600;
+      color: #333333;
+      line-height: 26px;
+      padding-bottom: 10px;
+      padding-top: 30px; }
+    .doctorsList__position {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: none;
+      color: #333333;
+      line-height: 18px; } }
 .galleryHeadline {
   font-family: Montserrat;
   font-size: 32px;
