@@ -1,13 +1,14 @@
-.photoBox
-    margin: 10%
-    &__image
-        height: 30Vh
-        width: 20Vw
-        margin: 1%
-        background-color: #f59fbc
-    &__row
-        @include flex (flex, row, space-around, none) 
-.headlineSection
-    @include font (Montserrat, 30px, 800, #f59fbc, 45px)
-    text-align: center
-    margin-top: 8%
+@media screen and (max-width:414px)   
+    .photoBox
+        margin: 10%
+        &__image
+            height: 30Vh
+            width: 76Vw
+            margin: 1%
+            background-color: #f59fbc
+        &__row
+            @include flex (flex, column, space-around, none) 
+    .headlineSection
+        @include font (Montserrat, 30px, 800, #f59fbc, 45px)
+        text-align: center
+        margin-top: 8%
