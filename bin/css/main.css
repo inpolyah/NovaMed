@@ -1298,7 +1298,18 @@
   .window {
     margin-bottom: 5Vh; }
     .window__button {
-      display: inline-block; } }
+      display: inline-block; }
+    .window__button:hover {
+      transition: none;
+      transform: none; }
+
+  .window:hover .window__button {
+    display: inline-block; }
+
+  .window:hover {
+    z-index: 10;
+    transform: none;
+    transition: none; } }
 .article {
   margin-top: 10Vh; }
   .article__headline {
@@ -1519,7 +1530,10 @@
     background-image: url("../../app/img/close-envelope.svg"); }
   .footer__icon-c:hover {
     opacity: 0.5;
-    cursor: pointer; } }
+    cursor: pointer; }
+
+  .footer-doctor {
+    display: none; } }
 .image {
   width: 100%;
   height: 100%; }
@@ -2107,109 +2121,113 @@
   text-align: center;
   margin-top: 8%; }
 
-.overlay {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-  opacity: 0.55; }
-
-.windowDoctor {
-  display: flex;
-  flex-direction: row;
-  justify-content: none;
-  align-items: none;
-  width: 60Vw;
-  height: 70Vh;
-  background-color: white;
-  z-index: 105;
-  position: absolute;
-  left: 20Vw;
-  bottom: 15Vh; }
-  .windowDoctor__photo-Bybur {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/bubir.jpg"); }
-  .windowDoctor__photo-Akin {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Akin.jpg"); }
-  .windowDoctor__photo-Pantuh {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Pantuh.jpg"); }
-  .windowDoctor__photo-Skripka {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/skripka.jpg"); }
-  .windowDoctor__photo-Gerkaluk {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
-  .windowDoctor__photo-Boiko {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/boiko.jpg"); }
-  .windowDoctor__photo-Otroshko {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Otroshko.jpg"); }
-  .windowDoctor__info {
-    width: 50%;
-    height: 100%;
-    margin: 5% 5% -5% 5%; }
-  .windowDoctor__name {
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 600;
-    color: #737373;
-    line-height: 27px; }
-  .windowDoctor__position {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: none;
-    color: #333333;
-    line-height: 19.5px;
-    border-bottom: 1px solid #ec407a;
-    margin: 7% 65% 3% 0; }
-  .windowDoctor__time {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: none;
-    color: #333333;
-    line-height: 19.5px;
-    margin: 10% 0 10% 0; }
-  .windowDoctor__headline {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: 800;
-    color: #333333;
-    line-height: 19.5px;
-    margin: 0% 0 3% 0; }
-  .windowDoctor__aticle {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: none;
-    color: #333333;
-    line-height: 19.5px;
-    margin-right: 10%; }
-  .windowDoctor__icon {
-    height: 30px;
-    width: 30px;
+@media screen and (max-width: 414px) {
+  .overlay-doc {
     position: absolute;
-    top: -15px;
-    right: -15px; }
+    z-index: 100;
+    top: 85Vh;
+    left: 0;
+    height: 15Vh;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.4;
+    z-index: 110; }
 
+  .windowDoctor-back {
+    display: none; }
+
+  .windowDoctor {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    width: 100Vw;
+    height: 85Vh;
+    background-color: white;
+    z-index: 105;
+    position: absolute;
+    left: 0;
+    bottom: 0; }
+    .windowDoctor__photo-Bybur {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/bubir.jpg"); }
+    .windowDoctor__photo-Akin {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Akin.jpg"); }
+    .windowDoctor__photo-Pantuh {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Pantuh.jpg"); }
+    .windowDoctor__photo-Skripka {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/skripka.jpg"); }
+    .windowDoctor__photo-Gerkaluk {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
+    .windowDoctor__photo-Boiko {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/boiko.jpg"); }
+    .windowDoctor__photo-Otroshko {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-image: url("../../app/img/doctors/Otroshko.jpg"); }
+    .windowDoctor__info {
+      text-align: center;
+      margin: 0;
+      width: 100%;
+      height: 0%; }
+    .windowDoctor__name {
+      position: absolute;
+      left: 2%;
+      bottom: 6%;
+      font-family: Montserrat;
+      font-size: 25px;
+      font-weight: 600;
+      color: black;
+      line-height: 27px; }
+    .windowDoctor__position {
+      font-family: Open Sans;
+      font-size: 22px;
+      font-weight: none;
+      color: #333333;
+      line-height: 19.5px;
+      border-bottom: none;
+      margin: 3% 0; }
+    .windowDoctor__time {
+      font-family: Open Sans;
+      font-size: 15px;
+      font-weight: none;
+      color: #333333;
+      line-height: 19.5px;
+      margin: 10% 0 10% 0; }
+    .windowDoctor__headline {
+      font-family: Open Sans;
+      font-size: 15px;
+      font-weight: 800;
+      color: #333333;
+      line-height: 19.5px;
+      margin: 0% 0 3% 0; }
+    .windowDoctor__aticle {
+      font-family: Open Sans;
+      font-size: 15px;
+      font-weight: none;
+      color: #333333;
+      line-height: 19.5px;
+      margin-right: 0; }
+    .windowDoctor__icon {
+      display: none; } }
 .overlay {
   position: fixed;
   z-index: 100;
