@@ -51,15 +51,12 @@
         background-color: white
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
         transition-duration: .25s
-        z-index: 10
+        z-index: 300
         opacity: 0.9
     .menu__item 
+        @include font (Montserrat, 16px, none, #707070, 24px)
         display: block
         padding: 8px 24px
-        color: #333
-        font-family: 'Roboto', sans-serif
-        font-size: 20px
-        font-weight: 600
         text-decoration: none
         transition-duration: .25s
     .menu__item:hover 
