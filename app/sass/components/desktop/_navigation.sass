@@ -14,12 +14,14 @@
         cursor: pointer
         font-weight: 700
     &__button
+        height: 20%
         border-radius: 25px
         background-color: #ec407a
         display: flex
         flex-direction: row
         justify-content: center
         align-items: center
+        margin-inline-end: 40px
 .button
     &__name
         @include font (Montserrat, 12px, 600, white, 18px)
@@ -31,5 +33,13 @@
     transform: scale(1.1)
     color: black
     cursor: pointer
-    transition: 0.3s 
-    
+    transition: 0.3s  
+.menu__box 
+    list-style: none
+    padding-inline-start: 0px
+.hamburger-menu
+    margin: 3% 0
+    @include flex (flex, row, space-around, center) 
+#menu__toggle 
+    display: none
+        
