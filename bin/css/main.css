@@ -1951,6 +1951,10 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: none; }
+    .price__line-left {
+      padding-right: 75px; }
+    .price__line-right {
+      text-align: right; }
     .price__name {
       font-family: Montserrat;
       font-size: 12px;
