@@ -16,7 +16,7 @@
         display: flex
         align-items: center
         position: fixed
-        top: 32px
+        top: 9Vh
         left: 30px
         width: 26px
         height: 26px
@@ -41,15 +41,14 @@
         display: block
         position: fixed
         visibility: hidden
-        top: 15Vh
+        top: 18Vh
         left: -100%
         width: 100Vh
-        height: 35Vh
+        height: 50Vh
         margin: 0
         padding: 0
         list-style: none
         background-color: white
-        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2)
         transition-duration: .25s
         z-index: 300
         opacity: 0.9
@@ -64,7 +63,45 @@
     .navigation
         &__button-mob
             display: none
-
+    .button
+        &__name
+            @include font (Montserrat, 12px, 600, white, 18px)
+            line-height: 1.43
+            margin: 0
+            width: 30Vw
+            text-align: center
+    .navigation
+        &__button
+            border-radius: 25px
+            background-color: #ec407a
+            display: flex
+            flex-direction: row
+            justify-content: center
+            align-items: center
+        &__button-mob
+            position: relative
+            top: 2Vh
+            z-index: 300
+            left: 5Vw
+            width: 40Vw
+            height: 5Vh
+    .footer-mobile
+        display: inline-block
+        background-color: #ec407a
+        height: 6Vh
+        position: relative
+        top: 6Vh
+    .footer-hamburger
+        width: 100Vw
+        display: flex
+        flex-direction: row
+        justify-content: space-evenly
+        align-items: baseline
+        position: relative
+        top: 7px
+        &__ic
+            position: relative
+            top: -3px
     // .navigation
     // .navigation
     //     @include flex (flex, row, space-around, none)  
@@ -86,22 +123,8 @@
     //     &__item-a:hover
     //         cursor: pointer
     //         font-weight: 700
-    //     &__button
-    //         border-radius: 25px
-    //         background-color: #ec407a
-    //         display: flex
-    //         flex-direction: row
-    //         justify-content: center
-    //         align-items: center
-    //     &__button-mob
-    //         display: none
-    // .button
-    //     &__name
-    //         @include font (Montserrat, 12px, 600, white, 18px)
-    //         line-height: 1.43
-    //         margin: 10px 30px
-    //         width: 12Vw
-    //         text-align: center
+    //     
+    
     // .navigation__button:hover
     //     transform: scale(1.1)
     //     color: black

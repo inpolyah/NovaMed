@@ -21,7 +21,6 @@
         flex-direction: row
         justify-content: center
         align-items: center
-        margin-inline-end: 40px
 .button
     &__name
         @include font (Montserrat, 12px, 600, white, 18px)
@@ -39,7 +38,8 @@
     padding-inline-start: 0px
 .hamburger-menu
     margin: 3% 0
-    @include flex (flex, row, space-around, center) 
+    @include flex (flex, row, center, center) 
 #menu__toggle 
     display: none
-        
+.footer-mobile
+    display: none
