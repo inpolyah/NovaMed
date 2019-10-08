@@ -206,8 +206,7 @@
   box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 0.25); }
   .window__icon {
     width: 65px;
-    height: 65px;
-    padding: 25px; }
+    height: 65px; }
   .window__headline {
     font-family: Montserrat;
     font-size: 20px;
