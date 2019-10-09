@@ -200,20 +200,21 @@
 .window {
   position: relative;
   background-color: white;
-  width: 255px;
-  height: 255px;
-  padding: 30px;
+  width: 25Vw;
+  height: 50Vh;
+  padding: 7Vh 1Vw;
   box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 0.25); }
   .window__icon {
-    width: 65px;
-    height: 65px; }
+    width: 90px;
+    height: 90px; }
   .window__headline {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 800;
     color: #333333;
     line-height: 30px;
-    line-height: 0.83; }
+    line-height: 0.83;
+    margin-top: 3Vh; }
   .window__text {
     font-family: Open Sans;
     font-size: 14px;
@@ -231,7 +232,7 @@
     line-height: 1.43;
     border-radius: 25px;
     background-color: #ec407a;
-    width: 45%;
+    width: 17Vw;
     margin: 0 auto;
     padding: 7px 35px;
     display: none; }
@@ -395,6 +396,10 @@
   background-color: #ec407a;
   color: white;
   padding-top: 10px; }
+  .footer__other {
+    position: relative;
+    bottom: -22Vh;
+    width: 100Vw; }
   .footer__logo {
     width: 170px;
     height: 50px; }
@@ -733,6 +738,14 @@
   justify-content: space-between;
   width: 50%; }
 
+.text-star {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ec407a;
+  line-height: 21px;
+  margin: 4% 20%; }
+
 .doctorsText {
   margin-top: 75px; }
   .doctorsText__headline {
@@ -772,7 +785,7 @@
     justify-content: none;
     align-items: none; }
   .doctorsList__image-Bybur {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -780,7 +793,7 @@
   .doctorsList__image-Bybur:hover {
     background-image: url("../../app/img/doctors/bubir.jpg"); }
   .doctorsList__image-Otroshko {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -788,7 +801,7 @@
   .doctorsList__image-Otroshko:hover {
     background-image: url("../../app/img/doctors/Otroshko.jpg"); }
   .doctorsList__image-Boiko {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -796,7 +809,7 @@
   .doctorsList__image-Boiko:hover {
     background-image: url("../../app/img/doctors/boiko.jpg"); }
   .doctorsList__image-Skripka {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -804,7 +817,7 @@
   .doctorsList__image-Skripka:hover {
     background-image: url("../../app/img/doctors/skripka.jpg"); }
   .doctorsList__image-Pantuh {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -812,7 +825,7 @@
   .doctorsList__image-Pantuh:hover {
     background-image: url("../../app/img/doctors/Pantuh.jpg"); }
   .doctorsList__image-Gerkaluk {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -820,7 +833,7 @@
   .doctorsList__image-Gerkaluk:hover {
     background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
   .doctorsList__image-Akin {
-    border-radius: 50%;
+    border-radius: 50Vh;
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -1039,7 +1052,7 @@
     height: 30Vh;
     width: 20Vw;
     margin: 1%;
-    background-color: #f59fbc; }
+    background-color: white; }
   .photoBox__row {
     display: flex;
     flex-direction: row;
@@ -1516,20 +1529,57 @@
     text-align: center; }
 
   .window {
-    margin-bottom: 5Vh; }
+    position: relative;
+    background-color: white;
+    width: 85Vw;
+    height: 45Vh;
+    padding: 30px;
+    box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 0.25);
+    margin: 2Vh 0Vw; }
+    .window__icon {
+      width: 90px;
+      height: 90px; }
+    .window__headline {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 800;
+      color: #333333;
+      line-height: 30px;
+      line-height: 0.83;
+      margin-top: 3Vh; }
+    .window__text {
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: none;
+      color: #707070;
+      line-height: 21px;
+      line-height: 1.5;
+      margin: 15px 31px; }
     .window__button {
+      font-family: Montserrat;
+      font-size: 11px;
+      font-weight: 600;
+      color: white;
+      line-height: 18px;
+      line-height: 1.43;
+      border-radius: 25px;
+      background-color: #ec407a;
+      width: 40Vw;
+      margin: 1Vh auto;
+      padding: 7px 35px;
       display: inline-block; }
     .window__button:hover {
-      transition: none;
-      transform: none; }
+      transition: 0.5s;
+      transform: scale(1.1); }
 
   .window:hover .window__button {
     display: inline-block; }
 
   .window:hover {
     z-index: 10;
-    transform: none;
-    transition: none; } }
+    transform: scale(1.2);
+    box-shadow: 3px 3px 35px 0px #4f4b58;
+    transition: 0.5s; } }
 @media screen and (max-width: 414px) {
   .article {
     margin-top: 20Vh; }
@@ -2073,7 +2123,7 @@
       justify-content: none;
       align-items: none; }
     .doctorsList__image-Bybur {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2081,7 +2131,7 @@
     .doctorsList__image-Bybur:hover {
       background-image: url("../../app/img/doctors/bubir.jpg"); }
     .doctorsList__image-Otroshko {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2089,7 +2139,7 @@
     .doctorsList__image-Otroshko:hover {
       background-image: url("../../app/img/doctors/Otroshko.jpg"); }
     .doctorsList__image-Boiko {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2097,7 +2147,7 @@
     .doctorsList__image-Boiko:hover {
       background-image: url("../../app/img/doctors/boiko.jpg"); }
     .doctorsList__image-Skripka {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2105,7 +2155,7 @@
     .doctorsList__image-Skripka:hover {
       background-image: url("../../app/img/doctors/skripka.jpg"); }
     .doctorsList__image-Pantuh {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2113,7 +2163,7 @@
     .doctorsList__image-Pantuh:hover {
       background-image: url("../../app/img/doctors/Pantuh.jpg"); }
     .doctorsList__image-Gerkaluk {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2121,7 +2171,7 @@
     .doctorsList__image-Gerkaluk:hover {
       background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
     .doctorsList__image-Akin {
-      border-radius: 50%;
+      border-radius: 50Vh;
       height: 200px;
       width: 200px;
       background-size: cover;
@@ -2346,7 +2396,7 @@
       height: 30Vh;
       width: 76Vw;
       margin: 1%;
-      background-color: #f59fbc; }
+      background-color: white; }
     .photoBox__row {
       display: flex;
       flex-direction: column;
@@ -2365,9 +2415,9 @@
   .overlay-doc {
     position: absolute;
     z-index: 100;
-    top: 85Vh;
+    top: 75Vh;
     left: 0;
-    height: 15Vh;
+    height: 25Vh;
     width: 100%;
     background-color: #fff;
     opacity: 0.4;

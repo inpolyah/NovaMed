@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./bin/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic" rel="stylesheet">
@@ -71,18 +72,131 @@
         </ul>  
     </div>
 
-    <section class="services">
-        <div class="services__line">
-            <a class="services__item services__consyltat services__item-link" href="services_consultation.html">ЖІНОЧА<br> КОНСУЛЬТАЦІЯ</a>
-            <a class="services__item services__vedennya services__item-link" href="services_pregnancy.html">ВЕДЕННЯ<br> ВАГІТНОСТІ</a>
-            <a class="services__item services__pology services__item-link" href="services_childbirth.html">ВЕДЕННЯ<br> ПОЛОГІВ</a>
+    
+    <div class="accordion accordion-margin" id="accordionExample">
+        <div>
+            <div class="all" id="headingOne">
+                <h5 style="padding: 3%" class="mb-0">
+                    <button style="text-decoration:none; text-align: left" class="location-cost btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div>
+                            <div class="pregnancy__title">Естетична гінекологія</div>
+                        </div>
+                    </button>
+                </h5>
+            </div>
+        <div class="price">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div>
+                    <div class="price">
+                        <div class="price__headline">
+                            <div>НАЗВА ПОСЛУГИ</div>
+                            <div>ВАРТІСТЬ</div>
+                        </div>
+                        <div class="price__line line-border">
+                            <div>Видалення папілом, кандилом зовнішніх статевих органів радіохвильовим методом</div>
+                            <div>від 800</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Пластика статевих губ</div>
+                            <div>від 6 200</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Хірургічне звуження піхви</div>
+                            <div>від 7 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Звуження піхви за допомогою ниткової пластики</div>
+                            <div>9 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Звуження піхви за допомогою філера гіалуронової кислоти</div>
+                            <div>від 6 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Корекція стресового нетримання сечі</div>
+                            <div>від 5 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Відновлення форми великих статевих губ</div>
+                            <div>від 7 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Аугментація точки G</div>
+                            <div>від 5 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Зволоження та омолодження піхви</div>
+                            <div>від 3 600</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Видалення кісти бартолінової залози</div>
+                            <div>від 4 600</div>
+
+                        </div>
+                </div>
+
+                    </div>   
+                </div>
+            </div>
         </div>
-        <div class="services__line">
-            <a class="services__item services__estety services__item-link" href="services_aesthetic.html">ЕСТЕТИЧНА<br> МЕДЕЦИНА</a>
-            <a class="services__item services__operatuv services__item-link" href="services_surgery.html">ОПЕРАТИВНА<br> ГЕНЕКОЛОГІЯ</a>
-            <a class="services__item services__inshe services__item-link" href="services_others.html">ІНШІ<br> ПОСЛУГИ</a>
+
+        <div>
+            <div class="all" id="headingTwo">
+                <h5 style="padding: 3%" class="mb-0">
+                    <button style="text-decoration:none; text-align: left" class="btn btn-link location-cost" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <div>
+                            <div class="pregnancy__title"> Пластична хірургія </div>
+                        </div>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div>
+                    <div class="price">
+                        <div class="price__headline">
+                            <div>НАЗВА ПОСЛУГИ</div>
+                            <div>ВАРТІСТЬ</div>
+                        </div>
+                        <div class="price__line line-border">
+                            <div>Збільшення грудей</div>
+                            <div>3 500$</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Підтяжка грудей</div>
+                            <div>2 500$</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Зменшення грудей</div>
+                            <div>2 500$</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Міні абдоминопластика (з ліпосакцією)</div>
+                            <div>1 700$</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Абдомінопластика через пупок з ушиванням апоневрозу</div>
+                            <div>3 000$</div>
+                        </div>
+                         <div class="price__line">
+                            <div>Повна абномінопластика з переміщенням пупка</div>
+                            <div>3 500$</div>
+                        </div>
+                         <div class="price__line">
+                            <div>Верхня абдомінопластика</div>
+                            <div>2 000$</div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="text-star">
+                    <div>*text</div>
+                    <div>*text</div>
+                    <div>*text</div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+    
     
 
     <footer class="footer">
@@ -92,8 +206,8 @@
             <div class="footer__phone">
                 <div class="footer__headline">Телефон</div>
                 <div class="footer__number">
-                    <div>+(380)63 12 34 890</div>
-                    <div>+(380)63 12 34 890</div>
+                    <div>+(380) 63 12 34 890</div>
+                    <div>+(380) 63 12 34 890</div>
                 </div>
             </div>
             <div class="footer__address">
@@ -116,5 +230,10 @@
 
         <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

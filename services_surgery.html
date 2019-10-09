@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./bin/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic" rel="stylesheet">
@@ -71,18 +72,121 @@
         </ul>  
     </div>
 
-    <section class="services">
-        <div class="services__line">
-            <a class="services__item services__consyltat services__item-link" href="services_consultation.html">ЖІНОЧА<br> КОНСУЛЬТАЦІЯ</a>
-            <a class="services__item services__vedennya services__item-link" href="services_pregnancy.html">ВЕДЕННЯ<br> ВАГІТНОСТІ</a>
-            <a class="services__item services__pology services__item-link" href="services_childbirth.html">ВЕДЕННЯ<br> ПОЛОГІВ</a>
+    
+    <div class="accordion accordion-margin" id="accordionExample">
+        <div>
+            <div class="all" id="headingOne">
+                <h5 style="padding: 3%" class="mb-0">
+                    <button style="text-decoration:none; text-align: left" class="location-cost btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div>
+                            <div class="pregnancy__title">Гістеро-резектоскопія</div>
+                        </div>
+                    </button>
+                </h5>
+            </div>
+        <div class="price">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div>
+                    <div class="price">
+                        <div class="price__headline">
+                            <div>НАЗВА ПОСЛУГИ</div>
+                            <div>ВАРТІСТЬ, ГРН</div>
+                        </div>
+                        <div class="price__line line-border">
+                            <div>Діагностична гістероскопія</div>
+                            <div>6 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Видалення поліпу ендометрію</div>
+                            <div>від 6 500</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Видалення сторонніх тіл з порожнини матки (ВМК, кістні фрагменти плоду, залишки плідного яйця, тканини плаценти)</div>
+                            <div>6 500</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Видалення субмукозних фіброматозних вузлів від 3-х та більше см в діаметрі</div>
+                            <div>8 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Видалення субмукозних фіброматозних вузлів до 3-х та см в діаметрі</div>
+                            <div>7 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Висічення внутрішньоматкової перегородки (метропластика)</div>
+                            <div>8 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Абляція ендометрію</div>
+                            <div>6 500</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Біопсія ендометрію</div>
+                            <div>6 500</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Роз'єднання або висічення маткових сінехій</div>
+                            <div>7 000</div>
+                        </div>
+                </div>
+
+                    </div>   
+                </div>
+            </div>
         </div>
-        <div class="services__line">
-            <a class="services__item services__estety services__item-link" href="services_aesthetic.html">ЕСТЕТИЧНА<br> МЕДЕЦИНА</a>
-            <a class="services__item services__operatuv services__item-link" href="services_surgery.html">ОПЕРАТИВНА<br> ГЕНЕКОЛОГІЯ</a>
-            <a class="services__item services__inshe services__item-link" href="services_others.html">ІНШІ<br> ПОСЛУГИ</a>
+
+        <div>
+            <div class="all" id="headingTwo">
+                <h5 style="padding: 3%" class="mb-0">
+                    <button style="text-decoration:none; text-align: left" class="btn btn-link location-cost" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <div>
+                            <div class="pregnancy__title"> Оперативна гінекологія </div>
+                        </div>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div>
+                    <div class="price">
+                        <div class="price__headline">
+                            <div>НАЗВА ПОСЛУГИ</div>
+                            <div>ВАРТІСТЬ, ГРН</div>
+                        </div>
+                        <div class="price__line line-border">
+                            <div>Лапароскопічна операція</div>
+                            <div>8 500</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Лапароскопічна операція після оперативних втручань в черевній порожнині</div>
+                            <div>11 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Операція з абдомінальним доступом</div>
+                            <div>12 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Вагінальна екстирпація матки з додатками і/або без додатків</div>
+                            <div>12 000</div>
+                        </div>
+                        <div class="price__line">
+                            <div>Вагінальна екстирпація матки з додатками і/або без додатків та леваторопластикою</div>
+                            <div>15 000</div>
+                        </div>
+                         <div class="price__line">
+                            <div>Кольпоперинеорафія з леваторопластикою</div>
+                            <div>від 7 000</div>
+                        </div>
+                         <div class="price__line">
+                            <div>Операція Еммета</div>
+                            <div>3 000</div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+    
     
 
     <footer class="footer">
@@ -92,12 +196,12 @@
             <div class="footer__phone">
                 <div class="footer__headline">Телефон</div>
                 <div class="footer__number">
-                    <div>+(380)63 12 34 890</div>
-                    <div>+(380)63 12 34 890</div>
+                    <div>+(380) 63 12 34 890</div>
+                    <div>+(380) 63 12 34 890</div>
                 </div>
             </div>
             <div class="footer__address">
-                <div class="footer__headline">Юридична адреса</div>
+                <div class="footer__headline">Адреса</div>
                 <div>
                     <div>м. Чернігів, 14034</div>
                     <div>вул. 1-го Травня, 172</div>
@@ -116,5 +220,10 @@
 
         <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -1,20 +1,64 @@
 @media screen and (max-width:414px)
     .window_all
-        @include flex (flex, column, center, center) 
+        @include flex (flex, column, center, center)
         position: relative
         top: 15Vh
         text-align: center
     .window
-        margin-bottom: 5Vh
+        position: relative
+        background-color: white
+        width: 85Vw
+        height: 45Vh
+        padding: 30px
+        box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 0.25)
+        margin: 2Vh 0Vw
+        &__icon
+            width: 90px    
+            height: 90px
+            //padding: 25px
+        &__headline
+            @include font (Montserrat, 20px, 800, #333333, 30px) 
+            line-height: 0.83
+            margin-top: 3Vh
+        &__text
+            @include font (Open Sans, 14px, none, #707070, 21px)
+            line-height: 1.5
+            margin: 15px 31px
         &__button
+            @include font (Montserrat, 11px, 600, white, 18px)
+            line-height: 1.43
+            border-radius: 25px
+            background-color: #ec407a
+            width: 40Vw
+            margin: 1Vh auto
+            padding: 7px 35px
             display: inline-block
         &__button:hover
-            transition: none
-            transform: none
+            transition: 0.50s
+            transform: scale(1.1)
     .window:hover .window__button
         display: inline-block
     .window:hover
         z-index: 10
-        transform: none
-        // box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 25)
-        transition: none
+        transform: scale(1.2)
+        box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 25)
+        transition: 0.50s
+    // .window_all
+    //     @include flex (flex, column, center, center) 
+    //     position: relative
+    //     top: 15Vh
+    //     text-align: center
+    // .window
+    //     margin-bottom: 5Vh
+    //     &__button
+    //         display: inline-block
+    //     &__button:hover
+    //         transition: none
+    //         transform: none
+    // .window:hover .window__button
+    //     display: inline-block
+    // .window:hover
+    //     z-index: 10
+    //     transform: none
+    //     // box-shadow: 3px 3px 35px 0px rgba(79, 75, 88, 25)
+    //     transition: none
