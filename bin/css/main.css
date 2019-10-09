@@ -546,6 +546,13 @@
     font-weight: 600;
     color: #707070;
     line-height: 21px; }
+  .pregnancy__title-cost {
+    padding-bottom: 7px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ec407a;
+    line-height: 21px; }
   .pregnancy__title-child-h {
     width: 34%;
     padding-bottom: 7px;
