@@ -105,9 +105,11 @@
   color: white;
   line-height: 18px;
   line-height: 1.43;
-  margin: 10px 30px;
-  width: 12Vw;
-  text-align: center; }
+  margin: 2px 30px;
+  width: 18Vw;
+  text-align: center;
+  padding: 1% 1%;
+  outline: none; }
 
 .navigation__button:hover {
   transform: scale(1.1);
@@ -1199,8 +1201,8 @@
     height: 30px;
     width: 30px;
     position: absolute;
-    top: -15px;
-    right: -15px; }
+    top: -20px;
+    right: -20px; }
   .appointment__headline {
     font-family: Montserrat;
     font-size: 20px;
@@ -1280,6 +1282,49 @@
   width: 100%;
   background-color: #000;
   opacity: 1; }
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  z-index: 1005; }
+
+button:focus + .modal {
+  opacity: 1;
+  visibility: visible; }
+
+button {
+  height: 20%;
+  border-radius: 25px;
+  background-color: #ec407a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+span {
+  position: absolute;
+  top: 0.2em;
+  right: 0.5em;
+  font-size: 1.5em;
+  cursor: pointer; }
+
+span:hover {
+  color: #f00; }
+
+.modal {
+  flex: 1;
+  background: #ffffee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 80Vh;
+  width: 70Vw; }
+
+.modal p {
+  font-size: 1.5em; }
 
 @media screen and (max-width: 414px) {
   .head {
