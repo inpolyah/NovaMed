@@ -2648,6 +2648,8 @@
   opacity: 1; }
 
 .page {
-  margin: 0; }
+  margin: 0;
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=main.css.map */
