@@ -1,9 +1,7 @@
 .modal 
+    top: 10Vh
     opacity: 0
     visibility: hidden
-    // display: flex
-    // align-items: center
-    // justify-content: center
     position: absolute
     width: 100%
     height: 100%
@@ -12,14 +10,6 @@
 button:focus + .modal 
     opacity: 1
     visibility: visible
-// body
-//     display: -webkit-box
-//     display: -webkit-flex
-//     display: -ms-flexbox
-//     display: flex
-//     align-items: center
-//     justify-content: center
-//     min-height: 100vh
 button 
     height: 20%
     border-radius: 25px
@@ -34,14 +24,58 @@ span
     right: .5em
     font-size: 1.5em
     cursor: pointer
-span:hover 
-    color: #f00
 .modal 
     flex: 1
-    background: #ffffee
+    background: white 
     border: 1px solid #ddd
     border-radius: 3px
     height: 80Vh
     width: 70Vw
 .modal p 
     font-size: 1.5em
+.model-box
+    @include flex (flex, column, space-around, center) 
+    &__head
+        @include font (Montserrat, 20px, 800, #ec407a, 30px) 
+        margin: 5Vh 0 5Vh 0
+        text-align: center
+        list-style: none
+    &__input
+        list-style: none
+        padding-left: 20px
+        border: 1px solid #707070
+        border-radius: 3Vh
+        height: 6Vh
+        width: 32Vw
+        color: #707070
+    &__input-name
+        color: #707070
+    &__input-doc
+        list-style: none
+        margin-left: 12px
+        height: 6Vh
+        width: 30Vw
+        border-radius: 3Vh
+        border: 1px solid white
+        background: white
+    &__input-doc-border
+        list-style: none
+        height: 6Vh
+        width: 34Vw
+        border-radius: 3Vh
+        border: 1px solid #707070
+        background: white
+    &__text
+        @include font (Montserrat, 11px, none, #707070, 21px) 
+        text-align: center
+    &__submit
+        background-color: #ec407a
+        list-style: none
+        margin-left: 20px
+        height: 5Vh
+        width: 15Vw
+        border-radius: 3Vh
+        border: 1px solid #ec407a
+        margin: 3Vh 15Vh
+        color: white
+        text-align: center
