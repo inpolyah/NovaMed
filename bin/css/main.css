@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .head {
   display: flex;
   flex-direction: row;
@@ -1043,7 +1044,91 @@
     height: 30Vh;
     width: 20Vw;
     margin: 1%;
-    background-color: #f59fbc; }
+    background-color: white; }
+  .photoBox__image-ved-1 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/0001-(24-of-48).jpg"); }
+  .photoBox__image-ved-2 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/2.jpg"); }
+  .photoBox__image-ved-3 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/4P8A3609.jpg"); }
+  .photoBox__image-ved-4 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/4P8A3612.jpg"); }
+  .photoBox__image-ved-5 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/4P8A3665.jpg"); }
+  .photoBox__image-ved-6 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/IMG_9173.jpg"); }
+  .photoBox__image-ved-7 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД.jpg"); }
+  .photoBox__image-ved-8 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Moment2.jpg"); }
+  .photoBox__image-ved-9 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Momentвв.jpg"); }
+  .photoBox__image-ved-10 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/1/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Momentѓѓ.jpg"); }
+  .photoBox__image-oper-1 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/0001-(42-of-48).jpg"); }
+  .photoBox__image-oper-2 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/0001-(44-of-48).jpg"); }
+  .photoBox__image-oper-3 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/0001-(45-of-48).jpg"); }
+  .photoBox__image-oper-4 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/0001.jpg"); }
+  .photoBox__image-oper-5 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/1.jpg"); }
+  .photoBox__image-oper-6 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/2.jpg"); }
+  .photoBox__image-oper-7 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/4P8A3584.jpg"); }
+  .photoBox__image-oper-8 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/6.jpg"); }
+  .photoBox__image-oper-9 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Moment54.jpg"); }
+  .photoBox__image-oper-10 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/2/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Moment°.jpg"); }
+  .photoBox__image-estety-1 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/0001-(41-of-48).jpg"); }
+  .photoBox__image-estety-2 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/2.jpg"); }
+  .photoBox__image-estety-3 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/3.jpg"); }
+  .photoBox__image-estety-4 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/4.jpg"); }
+  .photoBox__image-estety-5 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/5.jpg"); }
+  .photoBox__image-estety-6 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Moment3.jpg"); }
+  .photoBox__image-estety-7 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Moment5.jpg"); }
+  .photoBox__image-estety-8 {
+    background-size: cover;
+    background-image: url("../../app/img/gallery_photo/3/ђ•§®з≠®©-ж•≠ва-НОВА-МЕД_Momentђђ.jpg"); }
   .photoBox__row {
     display: flex;
     flex-direction: row;
