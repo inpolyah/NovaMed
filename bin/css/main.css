@@ -2696,7 +2696,7 @@ span {
 
 @media screen and (max-width: 414px) {
   .modal {
-    top: 10Vh;
+    top: 0Vh;
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -2731,7 +2731,7 @@ span {
     border: 1px solid #ddd;
     border-radius: 3px;
     height: 80Vh;
-    width: 60Vw; }
+    width: 100Vw; }
 
   .modal p {
     font-size: 1.5em; }
@@ -2756,7 +2756,7 @@ span {
       border: 1px solid #707070;
       border-radius: 3Vh;
       height: 6Vh;
-      width: 32Vw;
+      width: 66Vw;
       color: #707070; }
     .model-box__input-name {
       color: #707070; }
@@ -2764,14 +2764,14 @@ span {
       list-style: none;
       margin-left: 12px;
       height: 6Vh;
-      width: 30Vw;
+      width: 67Vw;
       border-radius: 3Vh;
       border: 1px solid white;
       background: white; }
     .model-box__input-doc-border {
       list-style: none;
       height: 6Vh;
-      width: 34Vw;
+      width: 70Vw;
       border-radius: 3Vh;
       border: 1px solid #707070;
       background: white; }
@@ -2787,10 +2787,10 @@ span {
       list-style: none;
       margin-left: 20px;
       height: 5Vh;
-      width: 15Vw;
+      width: 30Vw;
       border-radius: 3Vh;
       border: 1px solid #ec407a;
-      margin: 3Vh 15Vh;
+      margin: 3Vh 12Vh;
       color: white;
       text-align: center; } }
 .page {
