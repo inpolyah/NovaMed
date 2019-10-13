@@ -182,8 +182,9 @@
   line-height: 18px;
   border-radius: 25px;
   background-color: #ec407a;
-  padding: 15px 30px;
-  margin: 35px 0px; }
+  padding: 2Vh 8Vw;
+  margin: 35px 0px;
+  border: 1px solid #ec407a; }
 
 .content__button:hover {
   transform: scale(1.1);
@@ -1319,7 +1320,7 @@ span {
   border: 1px solid #ddd;
   border-radius: 3px;
   height: 80Vh;
-  width: 70Vw; }
+  width: 60Vw; }
 
 .modal p {
   font-size: 1.5em; }
@@ -1605,8 +1606,9 @@ span {
     font-weight: 600;
     color: white;
     line-height: 15px;
-    padding: 8px 17px;
-    margin: 10px 0px; } }
+    padding: 2Vh 8Vw;
+    margin: 10px 0px;
+    border: 1px solid #ec407a; } }
 @media screen and (max-width: 414px) {
   .window_all {
     display: flex;
@@ -2729,7 +2731,7 @@ span {
     border: 1px solid #ddd;
     border-radius: 3px;
     height: 80Vh;
-    width: 70Vw; }
+    width: 60Vw; }
 
   .modal p {
     font-size: 1.5em; }
