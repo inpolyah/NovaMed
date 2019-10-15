@@ -58,9 +58,10 @@
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="services.html" href="#">ПОСЛУГИ</a></li>
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="doctors.html" href="#">СПЕЦІАЛІСТИ</a></li>
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html" href="#">ГАЛЕРЕЯ</a></li>
-            <button class="navigation__button navigation__button-mob button__name" style="color: white; text-decoration: none">ОНЛАЙН ЗАПИС</button>
-                <div class="modal model-box">
-                    <span><img class="appointment__icon" src="./app/img/cancel_pink.svg"></span>
+            <button id="showPopup" class="navigation__button navigation__button-mob button__name" style="color: white; text-decoration: none">ОНЛАЙН ЗАПИС</button>
+            <div hidden id="popup1" class="b-popup">
+                <div  class="modal model-box ">
+                    <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
                     <div>
                         <div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
                         <form action="send.php" method="post">
@@ -95,6 +96,7 @@
                         </form>
                     </div>   
                 </div>
+            </div>    
             <div class="footer-mobile">
                 <div class="footer-hamburger">
                     <div class="footer__icon-f footer-hamburger__ic"></div>
@@ -105,6 +107,7 @@
             </div>
         </ul>  
     </div>
+
 
     <div class="video">
         <video class="video__rolic" autoplay muted loop id="myVideo" video autoplay loop muted playsinline webkit-playinginline>
@@ -120,9 +123,10 @@
                 <div>пластичної хірургії. </div>
             </div>
             
-            <button class="content__button" style="color: white; text-decoration: none">ЗАПИСАТИСЯ НА ПРИЙОМ</button>
-                <div class="modal model-box">
-                    <span><img class="appointment__icon" src="./app/img/cancel_pink.svg"></span>
+            <button id="showPopup2" class="content__button" style="color: white; text-decoration: none">ЗАПИСАТИСЯ НА ПРИЙОМ</button>
+            <div hidden id="popup2" class="b-popup">
+                <div  class="modal model-box ">
+                    <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
                     <div>
                         <div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
                         <form action="send.php" method="post">
@@ -156,8 +160,8 @@
                             </div>
                         </form>
                     </div>   
-                </div>  
-
+                </div>
+            </div> 
         </div>
     </div>
     <div class="window_all">
@@ -315,5 +319,6 @@
 
         <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
