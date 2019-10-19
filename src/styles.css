@@ -84,7 +84,7 @@ body {
   display: flex;
   width: 100%;
   min-height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden;
   position: fixed;
   top: 0px;
@@ -93,8 +93,9 @@ body {
 .popup {
   display: flex;
   margin: auto;
+  /* margin: 5% auto 0px auto; */
   width: 80vh;
-  max-height: 60vh;
+  height: 60vh;
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 5px 5px 30px 5px rgba(56, 56, 56, 0.3);
@@ -147,7 +148,6 @@ body {
   padding-left: 3%;
 }
 .desc__fullname {
-  align-content: center;
   font-size: 24px;
   text-transform: capitalize;
   margin-top:29%;

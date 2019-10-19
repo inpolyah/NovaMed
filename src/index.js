@@ -1,6 +1,6 @@
 const linkToJson = "./persons.json"
 
-export default class Popup {
+class Popup {
   constructor(popupWrapID, popupActive, popupCloseElClNm) {
     this.show = popupActive;
     this.popup = document.getElementById(popupWrapID);
