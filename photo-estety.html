@@ -57,9 +57,10 @@
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="services.html" href="#">ПОСЛУГИ</a></li>
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="doctors.html" href="#">СПЕЦІАЛІСТИ</a></li>
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html" style="font-weight: 700;" href="#">ГАЛЕРЕЯ</a></li>
-            <button class="navigation__button navigation__button-mob button__name" style="color: white; text-decoration: none">ОНЛАЙН ЗАПИС</button>
-                <div class="modal model-box">
-                    <span><img class="appointment__icon" src="./app/img/cancel_pink.svg"></span>
+            <button id="showPopup" class="navigation__button navigation__button-mob button__name" style="color: white; text-decoration: none">ОНЛАЙН ЗАПИС</button>
+            <div hidden id="popup1" class="b-popup">
+                <div  class="modal model-box ">
+                    <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
                     <div>
                         <div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
                         <form action="send.php" method="post">
@@ -89,11 +90,12 @@
                                 підтвердження запису та уточнення всіх деталей.  
                             </div>
                             <div>
-                                <input class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
+                                <input id="showPopup3" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
                             </div>
                         </form>
                     </div>   
                 </div>
+            </div> 
             <div class="footer-mobile">
                 <div class="footer-hamburger">
                     <div class="footer__icon-f footer-hamburger__ic"></div>
@@ -164,5 +166,6 @@
 
         <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

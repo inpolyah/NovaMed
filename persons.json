@@ -1,0 +1,82 @@
+{
+  "urlImages": "./img/doctors/",
+  "persons": [
+    {
+      "id": "doc1",
+      "display": true,
+      "imgFileName": "Otroshko.jpg",
+      "name": "Василь",
+      "surename": "Отрошко",
+      "patronymic": "Васильович",
+      "position": "Директор клініки",
+      "experience": "8 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    },
+    {
+      "id": "doc2",
+      "display": true,
+      "imgFileName": "bubir.jpg",
+      "name": "Марина",
+      "surename": "Бубирь",
+      "patronymic": "володимирівна",
+      "position": "Акушер-гінеколог",
+      "experience": "6 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    },
+    {
+      "id": "doc3",
+      "display": true,
+      "imgFileName": "boiko.jpg",
+      "name": "микола",
+      "surename": "Бойко",
+      "patronymic": "олексійович",
+      "position": "Хірург-гінеколог",
+      "experience": "8 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    },
+    {
+      "id": "doc4",
+      "display": true,
+      "imgFileName": "skripka.jpg",
+      "name": "Олександр",
+      "surename": "Скрипка",
+      "patronymic": "Антатолійович",
+      "position": "Хірург - гінеколог ",
+      "experience": "9 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    },
+    {
+      "id": "doc5",
+      "display": true,
+      "imgFileName": "Pantuh.jpg",
+      "name": "Оксана",
+      "surename": "Пантюх",
+      "patronymic": "вікторівна",
+      "position": "Акушер-гінеколог ",
+      "experience": "10 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    },
+    {
+      "id": "doc6",
+      "display": true,
+      "imgFileName": "Herkaluk.jpg",
+      "name": "Святослав",
+      "surename": "Геркалюк",
+      "patronymic": "Романович",
+      "position": "Лікар анестезіолог",
+      "experience": "4 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    },
+    {
+      "id": "doc7",
+      "display": true,
+      "imgFileName": "Akin.jpg",
+      "name": "юлія",
+      "surename": "Акін",
+      "patronymic": "Миколаївна",
+      "position": "Акушер- гінеколог ",
+      "experience": "7 років практики",
+      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
+    }
+  ]
+}
