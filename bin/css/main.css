@@ -1129,6 +1129,14 @@ body {
     justify-content: none;
     align-items: center; }
 
+.headlineSection-gall {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 800;
+  color: #f59fbc;
+  line-height: 45px;
+  text-align: center; }
+
 .photoBox {
   margin: 10%; }
   .photoBox__image {
@@ -2414,7 +2422,7 @@ body {
     margin-bottom: 5px; }
   .desc__spec {
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: none;
     color: #707070;
     line-height: 24px;
