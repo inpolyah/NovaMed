@@ -35,17 +35,6 @@
       "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
     },
     {
-      "id": "doc4",
-      "display": true,
-      "imgFileName": "skripka.jpg",
-      "name": "Олександр",
-      "surename": "Скрипка",
-      "patronymic": "Антатолійович",
-      "position": "Хірург - гінеколог ",
-      "experience": "9 років практики",
-      "specialization": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem ex facilis maxime ipsa perferendis numquam quisquam animi provident pariatur!"
-    },
-    {
       "id": "doc5",
       "display": true,
       "imgFileName": "Pantuh.jpg",

@@ -1245,109 +1245,6 @@ body {
   background-color: #000;
   opacity: 0.55; }
 
-.windowDoctor {
-  display: flex;
-  flex-direction: row;
-  justify-content: none;
-  align-items: none;
-  width: 60Vw;
-  height: 70Vh;
-  background-color: white;
-  z-index: 105;
-  position: absolute;
-  left: 20Vw;
-  bottom: 15Vh; }
-  .windowDoctor__photo-Bybur {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/bubir.jpg"); }
-  .windowDoctor__photo-Akin {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Akin.jpg"); }
-  .windowDoctor__photo-Pantuh {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Pantuh.jpg"); }
-  .windowDoctor__photo-Skripka {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/skripka.jpg"); }
-  .windowDoctor__photo-Gerkaluk {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
-  .windowDoctor__photo-Boiko {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/boiko.jpg"); }
-  .windowDoctor__photo-Otroshko {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("../../app/img/doctors/Otroshko.jpg"); }
-  .windowDoctor__info {
-    width: 50%;
-    height: 100%;
-    margin: 5% 5% -5% 5%; }
-  .windowDoctor__name {
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 600;
-    color: #737373;
-    line-height: 27px; }
-  .windowDoctor__position {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: none;
-    color: #333333;
-    line-height: 19.5px;
-    border-bottom: 1px solid #ec407a;
-    margin: 7% 65% 3% 0; }
-  .windowDoctor__time {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: none;
-    color: #333333;
-    line-height: 19.5px;
-    margin: 10% 0 10% 0; }
-  .windowDoctor__headline {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: 800;
-    color: #333333;
-    line-height: 19.5px;
-    margin: 0% 0 3% 0; }
-  .windowDoctor__aticle {
-    font-family: Open Sans;
-    font-size: 13px;
-    font-weight: none;
-    color: #333333;
-    line-height: 19.5px;
-    margin-right: 10%; }
-  .windowDoctor__icon {
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    top: -15px;
-    right: -15px; }
-
-.overlay {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-  opacity: 0.55; }
-
 .appointment {
   display: flex;
   flex-direction: row;
@@ -2324,118 +2221,206 @@ span {
 
   .accordion-margin {
     margin: 7Vh 0; } }
-@media screen and (max-width: 414px) {
-  .doctorsText {
-    margin: 75px 0; }
-    .doctorsText__headline {
-      font-family: Montserrat;
-      font-size: 32px;
-      font-weight: 800;
-      color: #333333;
-      line-height: 48px;
-      text-align: center; }
-    .doctorsText__content {
-      font-family: Open Sans;
-      font-size: 16px;
-      font-weight: none;
-      color: #707070;
-      line-height: 24px;
-      margin: 40px 40px;
-      text-align: center; }
+body {
+  margin: 0;
+  padding: 0; }
 
-  .doctorsList {
-    margin: auto;
+.wrap {
+  margin: 0 auto;
+  min-width: 320px; }
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.personsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-right: -5%; */
+  margin-left: -5%; }
+
+.popupHidden {
+  visibility: hidden;
+  display: none; }
+
+.cardPerson {
+  width: 200px;
+  min-height: 306px;
+  text-transform: uppercas;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Montserrat;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(99, 99, 99, 0);
+  border-radius: 4px;
+  transition: box-shadow 0.5s ease-in;
+  padding: 3px;
+  list-style: none; }
+  .cardPerson__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out; }
+
+.cardPerson:hover .cardPerson__photo {
+  filter: grayscale none;
+  -webkit-filter: none; }
+
+.cardPerson:hover {
+  cursor: pointer;
+  /* box-shadow: 12px 8px 5px 3px rgba(0, 0, 0, 0.1),
+   * 0 0 5px 2px rgba(103, 103, 103, 0.1); */ }
+
+.person {
+  width: 130%;
+  height: auto;
+  margin-top: 17px;
+  margin-bottom: 5px;
+  margin-left: -30px; }
+  .person__name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #737373;
+    line-height: 27px;
     text-align: center; }
-    .doctorsList__row {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      margin-top: 0; }
-    .doctorsList__row-down {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      margin-top: 0;
-      margin-bottom: 80px; }
-    .doctorsList__column {
-      width: 50Vw;
-      height: 50Vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: none;
-      align-items: none; }
-    .doctorsList__image-Bybur {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/bubir-bw.jpg"); }
-    .doctorsList__image-Bybur:hover {
-      background-image: url("../../app/img/doctors/bubir.jpg"); }
-    .doctorsList__image-Otroshko {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Otroshko-bw.jpg"); }
-    .doctorsList__image-Otroshko:hover {
-      background-image: url("../../app/img/doctors/Otroshko.jpg"); }
-    .doctorsList__image-Boiko {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/boiko-bw.jpg"); }
-    .doctorsList__image-Boiko:hover {
-      background-image: url("../../app/img/doctors/boiko.jpg"); }
-    .doctorsList__image-Skripka {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/skripka-bw.jpg"); }
-    .doctorsList__image-Skripka:hover {
-      background-image: url("../../app/img/doctors/skripka.jpg"); }
-    .doctorsList__image-Pantuh {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/pantuh-bw.jpg"); }
-    .doctorsList__image-Pantuh:hover {
-      background-image: url("../../app/img/doctors/Pantuh.jpg"); }
-    .doctorsList__image-Gerkaluk {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Herkaluk-bw.jpg"); }
-    .doctorsList__image-Gerkaluk:hover {
-      background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
-    .doctorsList__image-Akin {
-      border-radius: 50%;
-      height: 200px;
-      width: 200px;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Akin-bw.jpg"); }
-    .doctorsList__image-Akin:hover {
-      background-image: url("../../app/img/doctors/Akin.jpg"); }
-    .doctorsList__name {
-      font-family: Montserrat;
-      font-size: 20px;
-      font-weight: 600;
-      color: #333333;
-      line-height: 26px;
-      padding-bottom: 10px;
-      padding-top: 30px; }
-    .doctorsList__position {
-      font-family: Open Sans;
-      font-size: 16px;
-      font-weight: none;
-      color: #333333;
-      line-height: 18px; } }
+  .person__position {
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: none;
+    color: #333333;
+    line-height: 19.5px;
+    text-align: center; }
+  .person__surename {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #737373;
+    line-height: 27px;
+    text-align: center; }
+  .person__position {
+    font-size: 12px;
+    text-transform: none; }
+
+/*----- popup start----- */
+.popupWrap {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  position: fixed;
+  top: 0px; }
+
+.popup {
+  display: flex;
+  margin: auto;
+  /* margin: 5% auto 0px auto; */
+  width: 120vh;
+  height: 75vh;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 5px 5px 30px 5px rgba(56, 56, 56, 0.3);
+  position: relative;
+  position: relative; }
+  .popup__photo {
+    height: 100%;
+    border-radius: 3px 0 0 3px; }
+
+.closeButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ec407a;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  line-height: 40px;
+  font-size: 29px;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: background-color 0.15s, border 0.5s, color 0.5s; }
+
+.closeButton:hover {
+  background-color: #df2764;
+  cursor: pointer; }
+
+.closeButton:active {
+  background-color: #df2764;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: border 0.15s, color 0.15s;
+  color: rgba(255, 255, 255, 0.664); }
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 3%;
+  padding-left: 3%;
+  /* margin-top: 8px; */ }
+  .desc__fullname {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-bottom: 8%; }
+  .desc__position {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: none;
+    color: #707070;
+    line-height: 24px; }
+  .desc__position::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ec407a;
+    width: 150px;
+    margin-top: 4%;
+    margin-bottom: 8%; }
+  .desc__experience {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: none;
+    color: #707070;
+    line-height: 24px;
+    /* margin-top: 50px; */ }
+  .desc__head {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: none;
+    color: #707070;
+    line-height: 24px;
+    margin-top: 8%;
+    padding-bottom: 5px;
+    margin-bottom: 5px; }
+  .desc__spec {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: none;
+    color: #707070;
+    line-height: 24px;
+    margin-top: 5px; }
+
+/*----- popup end----- */
 @media screen and (max-width: 414px) {
   .galleryHeadline {
     font-family: Montserrat;
@@ -2655,113 +2640,6 @@ span {
     line-height: 45px;
     text-align: center;
     margin-top: 8%; } }
-@media screen and (max-width: 414px) {
-  .overlay-doc {
-    position: absolute;
-    z-index: 100;
-    top: 85Vh;
-    left: 0;
-    height: 15Vh;
-    width: 100%;
-    background-color: #fff;
-    opacity: 0.4;
-    z-index: 110; }
-
-  .windowDoctor-back {
-    display: none; }
-
-  .windowDoctor {
-    display: flex;
-    flex-direction: column;
-    justify-content: none;
-    align-items: none;
-    width: 100Vw;
-    height: 85Vh;
-    background-color: white;
-    z-index: 105;
-    position: absolute;
-    left: 0;
-    bottom: 0; }
-    .windowDoctor__photo-Bybur {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/bubir.jpg"); }
-    .windowDoctor__photo-Akin {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Akin.jpg"); }
-    .windowDoctor__photo-Pantuh {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Pantuh.jpg"); }
-    .windowDoctor__photo-Skripka {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/skripka.jpg"); }
-    .windowDoctor__photo-Gerkaluk {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Herkaluk.jpg"); }
-    .windowDoctor__photo-Boiko {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/boiko.jpg"); }
-    .windowDoctor__photo-Otroshko {
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-image: url("../../app/img/doctors/Otroshko.jpg"); }
-    .windowDoctor__info {
-      text-align: center;
-      margin: 0;
-      width: 100%;
-      height: 0%; }
-    .windowDoctor__name {
-      position: absolute;
-      left: 2%;
-      bottom: 6%;
-      font-family: Montserrat;
-      font-size: 25px;
-      font-weight: 600;
-      color: black;
-      line-height: 27px; }
-    .windowDoctor__position {
-      font-family: Open Sans;
-      font-size: 22px;
-      font-weight: none;
-      color: #333333;
-      line-height: 19.5px;
-      border-bottom: none;
-      margin: 3% 0; }
-    .windowDoctor__time {
-      font-family: Open Sans;
-      font-size: 15px;
-      font-weight: none;
-      color: #333333;
-      line-height: 19.5px;
-      margin: 10% 0 10% 0; }
-    .windowDoctor__headline {
-      font-family: Open Sans;
-      font-size: 15px;
-      font-weight: 800;
-      color: #333333;
-      line-height: 19.5px;
-      margin: 0% 0 3% 0; }
-    .windowDoctor__aticle {
-      font-family: Open Sans;
-      font-size: 15px;
-      font-weight: none;
-      color: #333333;
-      line-height: 19.5px;
-      margin-right: 0; }
-    .windowDoctor__icon {
-      display: none; } }
 .overlay {
   position: fixed;
   z-index: 100;

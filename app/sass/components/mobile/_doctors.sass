@@ -1,87 +1,238 @@
-@media screen and (max-width:414px)
-    .doctorsText
-        margin: 75px 0
-        &__headline
-            @include font (Montserrat, 32px, 800, #333333, 48px)
-            text-align: center
-        &__content
-            @include font (Open Sans, 16px, none, #707070, 24px)
-            margin: 40px 40px
-            text-align: center
-    .doctorsList
-        margin: auto
+body 
+    margin: 0
+    padding: 0
+.wrap 
+    margin: 0 auto
+    min-width: 320px
+.container 
+    max-width: 1130px
+    margin: 0 auto
+    padding-right: 15px
+    padding-left: 15px
+.personsList 
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    /* margin-right: -5%; */
+    margin-left: -5%
+.popupHidden 
+    visibility: hidden
+    display: none
+.cardPerson 
+    width: 200px
+    min-height: 306px
+    text-transform: uppercas
+    font-size: 16px
+    line-height: 30px
+    font-family: Montserrat
+    margin-left: 5%
+    margin-right: 5%
+    margin-top: 15px
+    margin-bottom: 15px
+    border: 1px solid rgba(99, 99, 99, 0)
+    border-radius: 4px
+    transition: box-shadow 0.5s ease-in
+    padding: 3px
+    list-style: none
+    &__photo 
+        width: 200px
+        height: 200px
+        border-radius: 50%
+        object-fit: cover
+        object-position: center top
+        filter: grayscale(100%)
+        -webkit-filter: grayscale(100%)
+        transition: filter 0.5s ease-in-out
+.cardPerson:hover .cardPerson__photo 
+    filter: grayscale none
+    -webkit-filter: none
+.cardPerson:hover 
+    cursor: pointer
+    /* box-shadow: 12px 8px 5px 3px rgba(0, 0, 0, 0.1),
+        0 0 5px 2px rgba(103, 103, 103, 0.1); */
+.person 
+    width: 130%
+    height: auto
+    margin-top: 17px
+    margin-bottom: 5px
+    margin-left: -30px
+    &__name
+        @include font (Montserrat, 18px, 600, #737373, 27px)
         text-align: center
-        &__row
-            @include flex (flex, column, space-around, center) 
-            margin-top: 0
-        &__row-down
-            @include flex (flex, row, space-around, center) 
-            margin-top: 0
-            margin-bottom: 80px
-        &__column
-            width: 50Vw
-            height: 50Vh
-            @include flex (flex, column, none, none) 
-        &__image-Bybur
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/bubir-bw.jpg")
-        &__image-Bybur:hover
-            background-image: url("../../app/img/doctors/bubir.jpg")
-        &__image-Otroshko
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/Otroshko-bw.jpg")
-        &__image-Otroshko:hover
-            background-image: url("../../app/img/doctors/Otroshko.jpg")
-        &__image-Boiko
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/boiko-bw.jpg")
-        &__image-Boiko:hover
-            background-image: url("../../app/img/doctors/boiko.jpg")
-        &__image-Skripka
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/skripka-bw.jpg")
-        &__image-Skripka:hover
-            background-image: url("../../app/img/doctors/skripka.jpg")
-        &__image-Pantuh
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/pantuh-bw.jpg")
-        &__image-Pantuh:hover
-            background-image: url("../../app/img/doctors/Pantuh.jpg")
-        &__image-Gerkaluk
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/Herkaluk-bw.jpg")
-        &__image-Gerkaluk:hover
-            background-image: url("../../app/img/doctors/Herkaluk.jpg")
-        &__image-Akin
-            border-radius: 50%  
-            height: 200px
-            width: 200px
-            background-size: cover
-            background-image: url("../../app/img/doctors/Akin-bw.jpg")
-        &__image-Akin:hover
-            background-image: url("../../app/img/doctors/Akin.jpg")
-        &__name
-            @include font (Montserrat, 20px, 600, #333333, 26px)
-            padding-bottom: 10px 
-            padding-top: 30px
-        &__position
-            @include font (Open Sans, 16px, none, #333333, 18px)
-      
+    &__position
+        @include font (Open Sans, 13px, none, #333333, 19.5px)
+        text-align: center
+    &__surename 
+        @include font (Montserrat, 18px, 600, #737373, 27px)
+        text-align: center
+    &__position 
+        font-size: 12px
+        text-transform: none
+/*----- popup start-----*/
+.popupWrap 
+    display: flex
+    width: 100%
+    min-height: 100%
+    background-color: rgba(0, 0, 0, 0.7)
+    overflow: hidden
+    position: fixed
+    top: 0px
+.popup 
+    display: flex
+    margin: auto
+    /* margin: 5% auto 0px auto; */
+    width: 120vh
+    height: 75vh
+    background-color: #fff
+    border-radius: 3px
+    box-shadow: 5px 5px 30px 5px rgba(56, 56, 56, 0.3)
+    position: relative
+    position: relative
+    &__photo 
+        height: 100%
+        border-radius: 3px 0 0 3px
+.closeButton 
+    height: 40px
+    width: 40px
+    border-radius: 50%
+    background-color: #ec407a
+    position: absolute
+    top: -20px
+    right: -20px
+    line-height: 40px
+    font-size: 29px
+    text-align: center
+    color: white
+    box-sizing: border-box
+    border: 1px solid rgba(255, 255, 255, 0)
+    transition: background-color 0.15s, border 0.5s, color 0.5s
+.closeButton:hover 
+    background-color: #df2764
+    cursor: pointer
+.closeButton:active 
+    background-color: #df2764
+    cursor: pointer
+    border: 1px solid white
+    transition: border 0.15s, color 0.15s
+    color: rgba(255, 255, 255, 0.664)
+.desc
+    display: flex
+    flex-direction: column
+    justify-content: start
+    overflow: hidden
+    width: 100%
+    margin: 0 auto
+    padding-right: 3%
+    padding-left: 3%
+    &__fullname 
+        @include font (Montserrat, 20px, 600, #333333, 48px)
+        text-transform: capitalize
+        margin-top: 10%
+        margin-bottom: 8%
+    &__position 
+        @include font (Open Sans, 14px, none, #707070, 24px)
+    &__position::after 
+        content: ""
+        display: block
+        border-bottom: 1px solid #ec407a
+        width: 150px
+        margin-top: 4%
+        margin-bottom: 8%
+    &__experience
+        @include font (Open Sans, 14px, none, #707070, 24px) 
+        /* margin-top: 50px; */
+    &__head 
+        @include font (Open Sans, 16px, none, #707070, 24px)
+        margin-top: 8%
+        padding-bottom: 5px
+        margin-bottom: 5px
+    &__spec 
+        @include font (Open Sans, 16px, none, #707070, 24px)
+        margin-top: 5px
+    /* margin-top: 8px; */
+
+/*----- popup end-----*/
+
+// .doctorsText
+//     margin-top: 75px
+//     &__headline
+//         @include font (Montserrat, 32px, 800, #333333, 48px)
+//         text-align: center
+//     &__content
+//         @include font (Open Sans, 16px, none, #707070, 24px)
+//         margin: 60px 100px
+//         text-align: center
+// .doctorsList
+//     margin: auto
+//     &__row
+//         @include flex (flex, row, space-around, center) 
+//         margin-top: 80px
+//     &__row-down
+//         @include flex (flex, row, space-around, center) 
+//         margin-top: 80px
+//         margin-bottom: 80px
+//     &__column
+//         @include flex (flex, column, none, none) 
+//     &__image-Bybur
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/bubir-bw.jpg")
+//     &__image-Bybur:hover
+//         background-image: url("../../app/img/doctors/bubir.jpg")
+//     &__image-Otroshko
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/Otroshko-bw.jpg")
+//     &__image-Otroshko:hover
+//         background-image: url("../../app/img/doctors/Otroshko.jpg")
+//     &__image-Boiko
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/boiko-bw.jpg")
+//     &__image-Boiko:hover
+//         background-image: url("../../app/img/doctors/boiko.jpg")
+//     &__image-Skripka
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/skripka-bw.jpg")
+//     &__image-Skripka:hover
+//         background-image: url("../../app/img/doctors/skripka.jpg")
+//     &__image-Pantuh
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/pantuh-bw.jpg")
+//     &__image-Pantuh:hover
+//         background-image: url("../../app/img/doctors/Pantuh.jpg")
+//     &__image-Gerkaluk
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/Herkaluk-bw.jpg")
+//     &__image-Gerkaluk:hover
+//         background-image: url("../../app/img/doctors/Herkaluk.jpg")
+//     &__image-Akin
+//         border-radius: 50%  
+//         height: 200px
+//         width: 200px
+//         background-size: cover
+//         background-image: url("../../app/img/doctors/Akin-bw.jpg")
+//     &__image-Akin:hover
+//         background-image: url("../../app/img/doctors/Akin.jpg")
+//     &__name
+//         @include font (Montserrat, 16px, 600, #333333, 24px)
+//         padding-bottom: 10px 
+//         padding-top: 30px
+//     &__position
+//         @include font (Open Sans, 12px, none, #333333, 18px)
+        
