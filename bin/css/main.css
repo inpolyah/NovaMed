@@ -183,7 +183,7 @@
   line-height: 18px;
   border-radius: 25px;
   background-color: #ec407a;
-  padding: 2Vh 8Vw;
+  padding: 2.5Vh 3Vw;
   margin: 35px 0px;
   border: 1px solid #ec407a; }
 
@@ -347,11 +347,11 @@
   .line__image_1 {
     width: 50%;
     background-size: cover;
-    background-image: url("../../app/img/0001.JPG"); }
+    background-image: url("../../app/img/0002.JPG"); }
   .line__image_2 {
     width: 50%;
     background-size: cover;
-    background-image: url("../../app/img/0002.JPG"); }
+    background-image: url("../../app/img/0001.JPG"); }
   .line__image_3 {
     width: 50%;
     background-size: cover;
