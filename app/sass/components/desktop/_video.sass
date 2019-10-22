@@ -23,17 +23,34 @@
     &__text
         @include font (Open Sans, 18px, none, white, 27px)
         line-height: 1.5
-    &__button
-        line-height: 1.11
-        @include font (Montserrat, 12px, 600, white, 18px)
-        border-radius: 25px
-        background-color: #ec407a
-        padding: 2Vh 3Vw
-        margin: 35px 0px
-        border: 1px solid #ec407a
-.content__button:hover
-    transform: scale(1.1)
-    cursor: pointer 
-    transition: 0.5s      
+.button-online
+    width: 16Vw
+    height: 4.5Vh
+    margin: auto
+.button-video
+    width: 22Vw
+    height: 5Vh
+    margin: 4Vh auto
+.button
+    outline: none 
+    border-radius: 25px
+    background-color: #ec407a
+    color: white
+    line-height: 18px
+    border: none
+    transition: transform 0.5s, box-shadow 0.5s
+    @include font (Montserrat, 12px, 600, white, 18px)
+.button:hover 
+    background-color: #ee5588
+    transform: scale(1.05)
+    cursor: pointer
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.3)
+    transition: box-shadow 0.1s, transform 0.15s
+.button:hover .button-sW 
+    transform: scale(1.05)
+    transition: transform 0.15s
+.button:active 
+    box-shadow: inset 0 0 5px 1px rgba(255, 255, 255, 0.5), 0 0 5px 3px rgba(0, 0, 0, 0.1)
+    background-color: #ec407a
 
           

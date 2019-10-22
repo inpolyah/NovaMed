@@ -58,7 +58,7 @@
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="services.html" href="#">ПОСЛУГИ</a></li>
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="doctors.html" href="#">СПЕЦІАЛІСТИ</a></li>
             <li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html" href="#">ГАЛЕРЕЯ</a></li>
-            <button id="showPopup" class="navigation__button navigation__button-mob button__name" style="color: white; text-decoration: none">ОНЛАЙН ЗАПИС</button>
+            <button id="showPopup" class="button button-online"><div class="button-s">ОНЛАЙН ЗАПИС</div></button>
             <div hidden id="popup1" class="b-popup">
                 <div  class="modal model-box ">
                     <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
@@ -76,9 +76,7 @@
                             </select>
                         </div>
                             <p>
-                                <input class="model-box__input" type="tel" name="tel" placeholder="+38(0__)___ ___ _" required />
-                                <span class="form_hint">
-                                    
+                                <input class="model-box__input" name="tel" type="tel" id="zipCode" onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);" value="+38(___)___-____" >
                             </p>
                             <p>
                                 <input class="model-box__input" type="calendar" name="data" placeholder="Оберіть дату прийому" Required ><br>
@@ -123,7 +121,7 @@
                 <div>пластичної хірургії. </div>
             </div>
             
-            <button id="showPopup2" class="content__button" style="color: white; text-decoration: none">ЗАПИСАТИСЯ НА ПРИЙОМ</button>
+            <button id="showPopup2" class="button button-video"><div class="button-s">ЗАПИСАТИСЯ НА ПРИЙОМ</div></button>
             <div hidden id="popup2" class="b-popup">
                 <div  class="modal model-box ">
                     <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
@@ -141,7 +139,7 @@
                             </select>
                         </div>
                             <p>
-                                <input class="model-box__input" type="tel" name="tel" placeholder="+38(0__)___ ___ _" required />
+                                <input class="model-box__input" id="tel" type="tel" name="tel" placeholder="+38(0__)___ ___ _" required />
                                 <span class="form_hint">
                                     
                             </p>
@@ -170,7 +168,7 @@
                 <div><img class="window__icon" src="./app/img/heart.png"></div>
                 <div class="window__headline"><strong> ПРО НАС </strong></div>
                 <div class="window__text"> Ніколи не чули про клініку НоваМед ? Познайомимось? </div>
-                <div class="window__button"><a style="color: white; text-decoration: none" href="about_us.html">ОЗНАЙОМИТИСЯ</a></div>
+                <button class="button-window"><a class="button-sW" style="color: white; text-decoration: none" href="about_us.html"> ОЗНАЙОМИТИСЯ </a></button>
             </div>
         </div>
         <div class="window">
@@ -178,7 +176,7 @@
                 <div><img class="window__icon" src="./app/img/report.png"></div>
                 <div class="window__headline"><strong> ПРАЙС НА ПОСЛУГИ </strong></div>
                 <div class="window__text"> Бажаєте дізнатися ціни на посуги клініки? Ознайомтесь з прайсом. </div>
-                <div class="window__button"><a style="color: white; text-decoration: none" href="services.html">ОЗНАЙОМИТИСЯ </a></div>
+                <button class="button-window"><a class="button-sW" style="color: white; text-decoration: none" href="services.html"> ОЗНАЙОМИТИСЯ </a></button>
             </div>
         </div>
         <div class="window">
@@ -186,7 +184,7 @@
                 <div><img class="window__icon" src="./app/img/doctor.png"></div>
                 <div class="window__headline"><strong> ЗНАЙТИ ЛІКАРЯ </strong></div>
                 <div class="window__text">Познайомтесь з нашою командою спеціалістів. Оберіть лікаря.</div>
-                <div class="window__button"><a style="color: white; text-decoration: none" href="doctors.html">ОЗНАЙОМИТИСЯ</a></div>
+                <button class="button-window"><a class="button-sW" style="color: white; text-decoration: none" href="doctors.html"> ОЗНАЙОМИТИСЯ </a></button>
             </div>  
         </div>
     </div>

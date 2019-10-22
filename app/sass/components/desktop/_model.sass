@@ -46,6 +46,7 @@ span
     width: 60Vw
 .modal p 
     font-size: 1.5em
+    text-align: center
 .model-box
     @include flex (flex, column, space-around, center) 
     &__head
@@ -73,6 +74,7 @@ span
         border: 1px solid white
         background: white
     &__input-doc-border
+        margin: auto
         list-style: none
         height: 6Vh
         width: 34Vw
@@ -82,14 +84,42 @@ span
     &__text
         @include font (Montserrat, 11px, none, #707070, 21px) 
         text-align: center
+    // &__submit
+    //     outline: none 
+    //     background-color: #ec407a
+    //     list-style: none
+    //     margin-left: 20px
+    //     height: 5Vh
+    //     width: 15Vw
+    //     border-radius: 3Vh
+    //     border: 1px solid #ec407a
+    //     margin: 3Vh 15Vh
+    //     color: white
+    //     text-align: center
     &__submit
+        display: flex
+        justify-content: center
+        text-decoration: none
+        width: 16Vw
+        height: 4Vh
+        margin: 7Vh auto
+        outline: none 
+        border-radius: 25px
         background-color: #ec407a
-        list-style: none
-        margin-left: 20px
-        height: 5Vh
-        width: 15Vw
-        border-radius: 3Vh
-        border: 1px solid #ec407a
-        margin: 3Vh 15Vh
         color: white
-        text-align: center
+        line-height: 18px
+        border: none
+        transition: transform 0.5s, box-shadow 0.5s
+        @include font (Montserrat, 10px, 600, white, 18px)
+    &__submit:hover 
+        background-color: #ee5588
+        transform: scale(1.05)
+        cursor: pointer
+        box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.3)
+        transition: box-shadow 0.1s, transform 0.15s
+    &__submit:hover .button-s 
+        transform: scale(1.05)
+        transition: transform 0.15s
+    &__submit:active 
+        box-shadow: inset 0 0 5px 1px rgba(255, 255, 255, 0.5), 0 0 5px 3px rgba(0, 0, 0, 0.1)
+        background-color: #ec407a
