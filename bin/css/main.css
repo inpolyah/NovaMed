@@ -905,8 +905,7 @@ body {
     font-size: 14px;
     font-weight: none;
     color: #707070;
-    line-height: 24px;
-    padding-right: 220px; }
+    line-height: 24px; }
   .desc__position::after {
     content: "";
     display: block;
@@ -2327,10 +2326,10 @@ span {
     display: flex;
     width: 100%;
     min-height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
     overflow: hidden;
-    position: fixed;
-    top: 0px; }
+    position: absolute;
+    top: 5Vh; }
 
   .popup {
     display: flex;
@@ -2340,11 +2339,12 @@ span {
     height: 75vh;
     background-color: #fff;
     border-radius: 3px;
-    box-shadow: 5px 5px 30px 5px rgba(56, 56, 56, 0.3);
+    box-shadow: none;
     position: relative;
     position: relative; }
     .popup__photo {
-      height: 100%;
+      width: 100Vw;
+      height: 83Vh;
       border-radius: 3px 0 0 3px; }
 
   .closeButton {
@@ -2383,6 +2383,9 @@ span {
     margin: 0 auto;
     padding-right: 3%;
     padding-left: 3%;
+    position: relative;
+    top: 70Vh;
+    right: 93Vw;
     /* margin-top: 8px; */ }
     .desc__fullname {
       font-family: Montserrat;
@@ -2429,9 +2432,8 @@ span {
       font-weight: none;
       color: #707070;
       line-height: 24px;
-      margin-top: 5px; }
-
-  /*----- popup end----- */ }
+      margin-top: 5px; } }
+/*----- popup end----- */
 @media screen and (max-width: 414px) {
   .galleryHeadline {
     font-family: Montserrat;
