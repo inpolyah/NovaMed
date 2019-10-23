@@ -79,7 +79,7 @@
                                 <input class="model-box__input" name="tel" type="tel" id="zipCode" onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);" value="+38(___)___-____" >
                             </p>
                             <p>
-                                <input class="model-box__input" type="calendar" name="data" placeholder="Оберіть дату прийому" Required ><br>
+                                <input class="model-box__input tcal" autocomplete="off" type="calendar" value="" name="data" placeholder="Оберіть дату прийому" Required ><br>
                             </p>
                             <p>
                                 <input class="model-box__input" type="text" name="name" size="40" required placeholder="Введіть ПІБ"><br>
@@ -89,7 +89,7 @@
                                 підтвердження запису та уточнення всіх деталей.  
                             </div>
                             <div>
-                                <input id="showPopup3" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
+                                <input id="showPopup2" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
                             </div>
                         </form>
                     </div>   
@@ -165,7 +165,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="ser-footer">
             <div class="all" id="headingTwo">
                 <h5 style="padding: 3%" class="mb-0">
                     <button style="text-decoration:none; text-align: left" class="btn btn-link location-cost" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">

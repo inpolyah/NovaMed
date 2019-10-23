@@ -539,6 +539,9 @@
   width: 100%;
   height: 100%; }
 
+.ser-footer {
+  margin-bottom: 30.5%; }
+
 .services {
   margin: 5%; }
   .services__line {
@@ -1784,7 +1787,17 @@ span {
     line-height: 15px;
     padding: 2Vh 8Vw;
     margin: 10px 0px;
-    border: 1px solid #ec407a; } }
+    border: 1px solid #ec407a; }
+
+  .button-online {
+    width: 40Vw;
+    height: 4.5Vh;
+    margin: 3Vh 5Vw 0Vh 5Vw; }
+
+  .button-video {
+    width: 50Vw;
+    height: 5Vh;
+    margin: 2Vh auto; } }
 @media screen and (max-width: 414px) {
   .window_all {
     display: flex;
@@ -1809,7 +1822,11 @@ span {
   .window:hover {
     z-index: 10;
     transform: none;
-    transition: none; } }
+    transition: none; }
+
+  .button-window {
+    display: inline-block;
+    width: 30Vw; } }
 @media screen and (max-width: 414px) {
   .article {
     margin-top: 20Vh; }
@@ -1856,7 +1873,7 @@ span {
       font-weight: none;
       color: #737373;
       line-height: 24px;
-      margin: 70px 20px; }
+      margin: 3Vh; }
 
   .article_aboutus__headline::after {
     position: absolute;
@@ -2112,6 +2129,8 @@ span {
       font-weight: 600;
       color: #707070;
       line-height: 21px; }
+    .pregnancy__title-mob {
+      display: none; }
     .pregnancy__title-child-h {
       width: 34%;
       padding-bottom: 7px;
@@ -2141,15 +2160,17 @@ span {
       font-weight: 900;
       color: #ec407a;
       line-height: 21px;
-      padding-top: 15px; }
+      padding-top: 0px; }
 
   .table_of_contents {
     font-family: Open Sans;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     color: #737373;
     line-height: 37.5px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 5Vh;
+    margin-bottom: 5Vh; }
 
   .consultation {
     margin: 5%; }
@@ -2406,6 +2427,7 @@ span {
   .popupWrap {
     display: flex;
     width: 100%;
+    height: 140Vh;
     min-height: 100%;
     background-color: rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -2417,25 +2439,27 @@ span {
     margin: auto;
     /* margin: 5% auto 0px auto; */
     width: 120vh;
-    height: 75vh;
+    height: 170vh;
+    top: 13Vh;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: none;
     position: relative;
     position: relative; }
     .popup__photo {
-      width: 100Vw;
-      height: 83Vh;
+      margin: 0Vh 6Vw;
+      width: 88Vw;
+      height: 77Vh;
       border-radius: 3px 0 0 3px; }
 
   .closeButton {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: #ec407a;
+    background-color: rgba(255, 255, 255, 0);
     position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 0Vh;
+    right: 102Vw;
     line-height: 40px;
     font-size: 29px;
     text-align: center;
@@ -2445,13 +2469,13 @@ span {
     transition: background-color 0.15s, border 0.5s, color 0.5s; }
 
   .closeButton:hover {
-    background-color: #df2764;
+    background-color: rgba(255, 255, 255, 0);
     cursor: pointer; }
 
   .closeButton:active {
-    background-color: #df2764;
+    background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
-    border: 1px solid white;
+    border: none;
     transition: border 0.15s, color 0.15s;
     color: rgba(255, 255, 255, 0.664); }
 
@@ -2460,13 +2484,14 @@ span {
     flex-direction: column;
     justify-content: start;
     overflow: hidden;
-    width: 100%;
     margin: 0 auto;
     padding-right: 3%;
     padding-left: 3%;
     position: relative;
     top: 70Vh;
-    right: 93Vw;
+    right: 98Vw;
+    width: 85Vw;
+    text-align: center;
     /* margin-top: 8px; */ }
     .desc__fullname {
       font-family: Montserrat;
@@ -2475,22 +2500,33 @@ span {
       color: #333333;
       line-height: 48px;
       text-transform: capitalize;
-      margin-top: 10%;
-      margin-bottom: 8%; }
+      margin-top: 0%;
+      margin-bottom: 0%;
+      width: 88Vw;
+      position: relative;
+      left: -2Vw;
+      height: 10Vh; }
     .desc__position {
       font-family: Open Sans;
       font-size: 14px;
       font-weight: none;
       color: #707070;
       line-height: 24px;
-      padding-right: 220px; }
+      padding-right: 0; }
     .desc__position::after {
       content: "";
       display: block;
       border-bottom: 1.5px solid #ec407a;
       width: 120px;
       margin-top: 4%;
-      margin-bottom: 8%; }
+      margin-bottom: 8%;
+      margin-left: 33%; }
+    .desc__fullname::after {
+      content: "";
+      display: block;
+      border-bottom: 10Vh solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      top: -8.6Vh; }
     .desc__experience {
       font-family: Open Sans;
       font-size: 14px;
@@ -2523,7 +2559,7 @@ span {
     color: #333333;
     line-height: 48px;
     text-align: center;
-    margin: 60px 100px; }
+    margin: 3Vh; }
 
   .gallery {
     margin: 0Vh 6Vw; }
