@@ -30,16 +30,10 @@ class Popup {
     });
   }
 }
-const a = document.getElementById('showPopup1');
-a.addEventListener('click', () => {
-	console.log(this);
-	
-});
-console.log(a);
 
 const myPopup = new Popup("popup1", "showPopup", ".closePopup");
 const myPopup2 = new Popup("popup2", "showPopup2", ".closePopup");
-// const myPopup3 = new Popup("popup3", "showPopup3", ".closePopup");
+const myPopup3 = new Popup("popup3", "showPopup3", ".closePopup");
 
 //-----форма для телефона-------------
 function mask(inputName, mask, evt) {
