@@ -30,6 +30,7 @@ class Popup {
     });
   }
 }
+const a = document.getElementById('showPopup1');
 
 const myPopup = new Popup("popup1", "showPopup", ".closePopup");
 const myPopup2 = new Popup("popup2", "showPopup2", ".closePopup");
