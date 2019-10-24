@@ -19,9 +19,10 @@ if(isset($_POST['submit'])){
 
 }
 
+
 ?>
 <!--Переадресация на главную страницу сайта, через 3 секунды-->
 <script language="JavaScript" type="text/javascript">
-function changeurl(){eval(self.location="http://novamed.net.ua/appointment_successful-index.html");}
+function changeurl(){eval(self.location="appointment_successful-index.html");}
 window.setTimeout("changeurl();",3000);
 </script>

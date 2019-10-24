@@ -1,134 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+!
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./bin/css/main.css">
-    <link rel="stylesheet" type="text/css" href="./bin/css/tcal.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>NovaMed</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	
+	<link rel="icon" type="image/png" href="./app/img/32x32.png" sizes="32x32" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./bin/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./bin/css/tcal.css" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic"
+		rel="stylesheet">
+	<title>NovaMed</title>
 </head>
+
 <body class="page">
-    <div class="head">
-        <div><a style="text-decoration: none" href="index.html"><img class="logo" src="./app/img/logo.png"></a></div>
-        <div class="communication">
-            <div class="communication__item1">
-                <div class="size__icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                    width="24" height="24"
-                    viewBox="0 0 172 172"
-                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ec407a"><path d="M143.49817,110.99733c-4.515,-0.1075 -10.19817,-0.37267 -13.78867,-1.00333c-3.88433,-0.688 -8.557,-2.021 -11.8465,-3.04583c-2.58,-0.80267 -5.38933,-0.09317 -7.30283,1.81317l-15.8885,15.79533c-10.97933,-5.7835 -19.77283,-12.52017 -27.219,-20.00933c-7.48917,-7.44617 -14.22583,-16.23967 -20.00933,-27.219l15.79533,-15.89567c1.90633,-1.9135 2.61583,-4.72283 1.81317,-7.30283c-1.01767,-3.28233 -2.35783,-7.955 -3.03867,-11.83933c-0.63783,-3.5905 -0.89583,-9.27367 -1.0105,-13.78867c-0.09317,-3.90583 -3.27517,-7.00183 -7.181,-7.00183h-25.155c-3.139,0 -7.16667,2.35067 -7.16667,7.16667c0,32.5295 13.18667,63.597 35.58967,86.24367c22.64667,22.403 53.71417,35.58967 86.24367,35.58967c4.816,0 7.16667,-4.02767 7.16667,-7.16667v-25.155c0,-3.90583 -3.096,-7.08783 -7.00183,-7.181z"></path></g></g></svg></div>
-                <div class="size">
-                    <div class="mobl-num1">+(380) 63 123 48 90</div>
-                    <div class="mobl-num2">+(380) 68 123 48 90</div>
-                </div>
-            </div>
-            <div class="communication__item2">
-                <div class="size__icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                    width="24" height="24"
-                    viewBox="0 0 172 172"
-                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ec407a"><path d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM109.59983,119.7335l-30.7665,-30.7665v-45.967h14.33333v40.033l26.56683,26.56683z"></path></g></g></svg></div>
-                <div class="size">  
-                    <div class="mobl-num1">Пн - Пт: 8:00 - 16:00</div>
-                    <div class="mobl-num2">Субота - Неділя: вихідні</div>
-                </div>
-            </div>
-            <div class="communication__item3">
-                <div class="size__icon-Che" ><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                    width="24" height="24"
-                    viewBox="0 0 172 172"
-                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ec407a"><path d="M86,14.33333c-27.70633,0 -50.16667,22.46033 -50.16667,50.16667c0,35.83333 50.16667,93.16667 50.16667,93.16667c0,0 50.16667,-57.33333 50.16667,-93.16667c0,-27.70633 -22.46033,-50.16667 -50.16667,-50.16667zM86,82.41667c-9.89717,0 -17.91667,-8.0195 -17.91667,-17.91667c0,-9.89717 8.0195,-17.91667 17.91667,-17.91667c9.89717,0 17.91667,8.0195 17.91667,17.91667c0,9.89717 -8.0195,17.91667 -17.91667,17.91667z"></path></g></g></svg></div>
-                <div class="size">
-                    <div>м. Чернігів</div>
-                    <div>вул. 1-го Травня, 172</div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="head">
+		<div><a style="text-decoration: none" href="index.html"><img class="logo" src="./app/img/logo.png"></a></div>
+		<div class="communication">
+			<div class="communication__item1">
+				<div class="size__icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+						viewBox="0 0 172 172" style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g fill="#ec407a">
+								<path
+									d="M143.49817,110.99733c-4.515,-0.1075 -10.19817,-0.37267 -13.78867,-1.00333c-3.88433,-0.688 -8.557,-2.021 -11.8465,-3.04583c-2.58,-0.80267 -5.38933,-0.09317 -7.30283,1.81317l-15.8885,15.79533c-10.97933,-5.7835 -19.77283,-12.52017 -27.219,-20.00933c-7.48917,-7.44617 -14.22583,-16.23967 -20.00933,-27.219l15.79533,-15.89567c1.90633,-1.9135 2.61583,-4.72283 1.81317,-7.30283c-1.01767,-3.28233 -2.35783,-7.955 -3.03867,-11.83933c-0.63783,-3.5905 -0.89583,-9.27367 -1.0105,-13.78867c-0.09317,-3.90583 -3.27517,-7.00183 -7.181,-7.00183h-25.155c-3.139,0 -7.16667,2.35067 -7.16667,7.16667c0,32.5295 13.18667,63.597 35.58967,86.24367c22.64667,22.403 53.71417,35.58967 86.24367,35.58967c4.816,0 7.16667,-4.02767 7.16667,-7.16667v-25.155c0,-3.90583 -3.096,-7.08783 -7.00183,-7.181z">
+								</path>
+							</g>
+						</g>
+					</svg></div>
+				<div class="size">
+					<div class="mobl-num1">+(380) 63 123 48 90</div>
+					<div class="mobl-num2">+(380) 68 123 48 90</div>
+				</div>
+			</div>
+			<div class="communication__item2">
+				<div class="size__icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+						viewBox="0 0 172 172" style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g fill="#ec407a">
+								<path
+									d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM109.59983,119.7335l-30.7665,-30.7665v-45.967h14.33333v40.033l26.56683,26.56683z">
+								</path>
+							</g>
+						</g>
+					</svg></div>
+				<div class="size">
+					<div class="mobl-num1">Пн - Пт: 8:00 - 16:00</div>
+					<div class="mobl-num2">Субота - Неділя: вихідні</div>
+				</div>
+			</div>
+			<div class="communication__item3">
+				<div class="size__icon-Che"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+						height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+						<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+							stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+							font-family="none" font-weight="none" font-size="none" text-anchor="none"
+							style="mix-blend-mode: normal">
+							<path d="M0,172v-172h172v172z" fill="none"></path>
+							<g fill="#ec407a">
+								<path
+									d="M86,14.33333c-27.70633,0 -50.16667,22.46033 -50.16667,50.16667c0,35.83333 50.16667,93.16667 50.16667,93.16667c0,0 50.16667,-57.33333 50.16667,-93.16667c0,-27.70633 -22.46033,-50.16667 -50.16667,-50.16667zM86,82.41667c-9.89717,0 -17.91667,-8.0195 -17.91667,-17.91667c0,-9.89717 8.0195,-17.91667 17.91667,-17.91667c9.89717,0 17.91667,8.0195 17.91667,17.91667c0,9.89717 -8.0195,17.91667 -17.91667,17.91667z">
+								</path>
+							</g>
+						</g>
+					</svg></div>
+				<div class="size">
+					<div>м. Чернігів</div>
+					<div>вул. 1-го Травня, 172</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" style="top: 9Vh" for="menu__toggle">
-          <span></span>
-        </label>
-    
-        <ul class="menu__box navigation__menu">
-            <li class="navigation__item"><a class="navigation__item-a menu__item" style="font-weight: 700;" href="index.html" href="#">ГОЛОВНА</a></li>
-            <li class="navigation__item"><a class="navigation__item-a menu__item" href="about_us.html" href="#">ПРО КЛІНІКУ</a></li>
-            <li class="navigation__item"><a class="navigation__item-a menu__item" href="services.html" href="#">ПОСЛУГИ</a></li>
-            <li class="navigation__item"><a class="navigation__item-a menu__item" href="doctors.html" href="#">СПЕЦІАЛІСТИ</a></li>
-            <li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html" href="#">ГАЛЕРЕЯ</a></li>
-            <button id="showPopup" class="button button-online"><div class="button-s">ОНЛАЙН ЗАПИС</div></button>
-            <div hidden id="popup1" class="b-popup">
-                <div  class="modal model-box ">
-                    <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
-                    <div>
-                        <div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
-                        <form action="send.php" method="post">
-                        
-                        <div class="model-box__input-doc-border">
-                            <select class="model-box__input-doc model-box__input-name name="doctor" pattern="Оберіть лікаря" placeholder= "Оберіть лікаря" required />
-                                <option class="model-box__input-name" value="Option1">Оберіть лікаря</option>
-                                <option class="model-box__input-name" value="Option1">Бубирь Марина Володимир</option>
-                                <option class="model-box__input-name" value="Option2">Бойко Микола Олексійович</option>
-                                <option class="model-box__input-name" value="Option3">Опция 3</option>
-                                <option class="model-box__input-name" value="Option4">Опция 4</option>
-                            </select>
-                        </div>
-                            <p>
-                                <input class="model-box__input" name="tel" type="tel" id="zipCode" onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);" value="+38(___)___-____" >
-                            </p>
-                            <p>
-                                <input class="model-box__input tcal" type="calendar" value="" name="data" placeholder="Оберіть дату прийому" Required ><br>
-                            </p>
-                            <p>
-                                <input class="model-box__input" type="text" name="name" size="40" required placeholder="Введіть ПІБ"><br>
-                            </p>
-                            <div class="model-box__text">
-                                Наш адміністратор зателефонує Вам для <br>
-                                підтвердження запису та уточнення всіх деталей.  
-                            </div>
-                            <div>
-                                <input id="showPopup1" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
-                            </div>
-                        </form>
-                    </div>   
-                </div>
-            </div>    
-            <div class="footer-mobile">
-                <div class="footer-hamburger">
-                    <a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv"><div class="footer__icon-f footer-hamburger__ic"></div></a>
-                    <a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic"><div class="footer__icon-i footer-hamburger__ic"></div></a>
-                    <a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw"><div class="footer__icon-y"></div></a>
-                    <div class="footer__icon-c"></div>
-                </div>
-            </div>
-        </ul>  
-    </div>
+	<div class="hamburger-menu">
+		<input id="menu__toggle" type="checkbox" />
+		<label class="menu__btn" style="top: 9Vh" for="menu__toggle">
+			<span></span>
+		</label>
+
+		<ul class="menu__box navigation__menu">
+			<li class="navigation__item"><a class="navigation__item-a menu__item" style="font-weight: 700;"
+					href="index.html" href="#">ГОЛОВНА</a></li>
+			<li class="navigation__item"><a class="navigation__item-a menu__item" href="about_us.html" href="#">ПРО
+					КЛІНІКУ</a></li>
+			<li class="navigation__item"><a class="navigation__item-a menu__item" href="services.html"
+					href="#">ПОСЛУГИ</a></li>
+			<li class="navigation__item"><a class="navigation__item-a menu__item" href="doctors.html"
+					href="#">СПЕЦІАЛІСТИ</a></li>
+			<li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html"
+					href="#">ГАЛЕРЕЯ</a></li>
+			<button id="showPopup" class="button button-online">
+				<div class="button-s">ОНЛАЙН ЗАПИС</div>
+			</button>
+			<div hidden id="popup1" class="b-popup">
+				<div class="modal model-box ">
+					<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
+					<div>
+						<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
+						<form action="send.php" method="post">
+
+							<div class="model-box__input-doc-border">
+								<select class="model-box__input-doc model-box__input-name name=" doctor"
+									pattern="Оберіть лікаря" placeholder="Оберіть лікаря" required />
+								<option class="model-box__input-name" value="Option1">Оберіть лікаря</option>
+								<option class="model-box__input-name" value="Option1">Бубирь Марина Володимир</option>
+								<option class="model-box__input-name" value="Option2">Бойко Микола Олексійович</option>
+								<option class="model-box__input-name" value="Option3">Опция 3</option>
+								<option class="model-box__input-name" value="Option4">Опция 4</option>
+								</select>
+							</div>
+							<p>
+								<input class="model-box__input" name="tel" type="tel" id="zipCode"
+									onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
+									value="+38(___)___-____">
+							</p>
+							<p>
+								<input class="model-box__input tcal" type="calendar" value="" name="data"
+									placeholder="Оберіть дату прийому" Required><br>
+							</p>
+							<p>
+								<input class="model-box__input" type="text" name="name" size="40" required
+									placeholder="Введіть ПІБ"><br>
+							</p>
+							<div class="model-box__text">
+								Наш адміністратор зателефонує Вам для <br>
+								підтвердження запису та уточнення всіх деталей.
+							</div>
+							<div>
+								<input id="showPopup1" class="model-box__submit" type="submit" name="submit"
+									value="ЗАПИСАТИСЯ">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer-mobile">
+				<div class="footer-hamburger">
+					<a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv">
+						<div class="footer__icon-f footer-hamburger__ic"></div>
+					</a>
+					<a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic">
+						<div class="footer__icon-i footer-hamburger__ic"></div>
+					</a>
+					<a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw">
+						<div class="footer__icon-y"></div>
+					</a>
+					<div class="footer__icon-c"></div>
+				</div>
+			</div>
+		</ul>
+	</div>
 
 
-    <div class="video">
-        <video class="video__rolic" autoplay muted loop id="myVideo" video autoplay loop muted playsinline webkit-playinginline>
-            <source src="./app/video/main_video.mp4">
-        </video>
-        <div class="video__content">
-            <div class="content__headline">
-                <div>МИ ПРАЦЮЄМО</div>
-                <div><strong>ЗАРАДИ ВАШОГО ЗДОРОВ’Я</strong></div>
-            </div>
-            <div class="content__text">
-                <div>НоваМед - клініка в сфері гінекології, акушерства</div>
-                <div>пластичної хірургії. </div>
-            </div>
-            
-            <button id="showPopup2" class="button button-video"><div class="button-s">ЗАПИСАТИСЯ НА ПРИЙОМ</div></button>
-            <div hidden id="popup2" class="b-popup">
-                <div  class="modal model-box ">
-                    <div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
-                    <div>
-                        <div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
-                        <form action="send.php" method="post">
+	<div class="video">
+		<video class="video__rolic" autoplay muted loop id="myVideo" video autoplay loop muted playsinline
+			webkit-playinginline>
+			<source src="./app/video/main_video.mp4">
+		</video>
+		<div class="video__content">
+			<div class="content__headline">
+				<div>МИ ПРАЦЮЄМО</div>
+				<div><strong>ЗАРАДИ ВАШОГО ЗДОРОВ’Я</strong></div>
+			</div>
+			<div class="content__text">
+				<div>НоваМед - клініка в сфері гінекології, акушерства</div>
+				<div>пластичної хірургії. </div>
+			</div>
+
+			<button id="showPopup2" class="button button-video">
+				<div class="button-s">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
+			</button>
+			<div hidden id="popup2" class="b-popup">
+				<div class="modal model-box ">
+					<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
+					<div>
+						<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
+						<!-- <form action="send.php" method="post">
                         
                         <div class="model-box__input-doc-border">
                             <select class="model-box__input-doc model-box__input-name name="doctor" pattern="Оберіть лікаря" placeholder= "Оберіть лікаря" required />
@@ -152,171 +215,203 @@
                                 Наш адміністратор зателефонує Вам для <br>
                                 підтвердження запису та уточнення всіх деталей.  
                             </div>
+							<button id="showPopup4" >111</button>
                             <div>
-                                <input id="showPopup2" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
+                                <input id="showPopup3" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
                             </div>
-                        </form>
-                    </div>   
-                </div>
-            </div> 
-        </div>
-    </div>
-    <div class="window_all">
-        <div class="window">
-            <div style="position: absolute left: 1px">
-                <div><img class="window__icon" src="./app/img/heart.png"></div>
-                <div class="window__headline"><strong> ПРО НАС </strong></div>
-                <div class="window__text"> Ніколи не чули про клініку НоваМед ? Познайомимось? </div>
-                <button class="button-window"><a class="button-sW" style="color: white; text-decoration: none" href="about_us.html"> ОЗНАЙОМИТИСЯ </a></button>
-            </div>
-        </div>
-        <div class="window">
-            <div style="position: absolute left: 1px">
-                <div><img class="window__icon" src="./app/img/report.png"></div>
-                <div class="window__headline"><strong> ПРАЙС НА ПОСЛУГИ </strong></div>
-                <div class="window__text"> Бажаєте дізнатися ціни на посуги клініки? Ознайомтесь з прайсом. </div>
-                <button class="button-window"><a class="button-sW" style="color: white; text-decoration: none" href="services.html"> ОЗНАЙОМИТИСЯ </a></button>
-            </div>
-        </div>
-        <div class="window">
-            <div style="position: absolute left: 1px">  
-                <div><img class="window__icon" src="./app/img/doctor.png"></div>
-                <div class="window__headline"><strong> ЗНАЙТИ ЛІКАРЯ </strong></div>
-                <div class="window__text">Познайомтесь з нашою командою спеціалістів. Оберіть лікаря.</div>
-                <button class="button-window"><a class="button-sW" style="color: white; text-decoration: none" href="doctors.html"> ОЗНАЙОМИТИСЯ </a></button>
-            </div>  
-        </div>
-    </div>
-    <article class="article">
-        <div class="article__headline"><strong> КЛІНІКА НоваМед </strong></div>
-        <div class="article__text">
-            Це медична клініка в сфері гінекології, акушерства та пластичної хірургії. 
-            Наші фахівці тримають руку на пульсі новацій заради успішного вирішення 
-            проблем жіночого здоров'я та материнства. 
-            Молоді й сучасні професіонали своєї справи, створють медичні послуги, 
-            якими пишаються .Роблять це якісно, професійно і з задоволенням! 
-            Роблять все, щоб клієнти почували себе комфортно і безпечно.
-        </div>
-        <div class="article__footline"><strong> НАШІ ПЕРЕВАГИ </strong></div>
-    </article>
-    <section class="section">
+                        </form> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="window_all">
+		<div class="window">
+			<div style="position: absolute left: 1px">
+				<div><img class="window__icon" src="./app/img/heart.png"></div>
+				<div class="window__headline"><strong> ПРО НАС </strong></div>
+				<div class="window__text"> Ніколи не чули про клініку НоваМед ? Познайомимось? </div>
+				<button class="button-window">
+					<a class="button-sW" style="color: white; text-decoration: none" href="about_us.html"> ОЗНАЙОМИТИСЯ
+					</a>
+				</button>
+			</div>
+		</div>
+		<div class="window">
+			<div style="position: absolute left: 1px">
+				<div><img class="window__icon" src="./app/img/report.png"></div>
+				<div class="window__headline"><strong> ПРАЙС НА ПОСЛУГИ </strong></div>
+				<div class="window__text"> Бажаєте дізнатися ціни на посуги клініки? Ознайомтесь з прайсом. </div>
+				<button class="button-window"><a class="button-sW" style="color: white; text-decoration: none"
+						href="services.html"> ОЗНАЙОМИТИСЯ </a></button>
+			</div>
+		</div>
+		<div class="window">
+			<div style="position: absolute left: 1px">
+				<div><img class="window__icon" src="./app/img/doctor.png"></div>
+				<div class="window__headline"><strong> ЗНАЙТИ ЛІКАРЯ </strong></div>
+				<div class="window__text">Познайомтесь з нашою командою спеціалістів. Оберіть лікаря.</div>
+				<button class="button-window"><a class="button-sW" style="color: white; text-decoration: none"
+						href="doctors.html"> ОЗНАЙОМИТИСЯ </a></button>
+			</div>
+		</div>
+	</div>
+	<article class="article">
+		<div class="article__headline"><strong> КЛІНІКА НоваМед </strong></div>
+		<div class="article__text">
+			Це медична клініка в сфері гінекології, акушерства та пластичної хірургії.
+			Наші фахівці тримають руку на пульсі новацій заради успішного вирішення
+			проблем жіночого здоров'я та материнства.
+			Молоді й сучасні професіонали своєї справи, створють медичні послуги,
+			якими пишаються .Роблять це якісно, професійно і з задоволенням!
+			Роблять все, щоб клієнти почували себе комфортно і безпечно.
+		</div>
+		<div class="article__footline"><strong> НАШІ ПЕРЕВАГИ </strong></div>
+	</article>
+	<section class="section">
 
-        <div class="line">
-            <div class="line__image_1"></div>
-            <div class="line__block">
-                <div style="margin: 5%">
-                    <div class="line__headline"><strong>Жіноча консультація</strong></div>
-                    <div class="line__content">
-                        Наш успіх  насамперед  залежить від вузької 
-                        спеціалізаціїї та професіоналізму лікарів.Кожна жінка в стінах клініки отримує сучасне, зручне та дбайливе медичне обслуговування
-                    </div>
-                    <div>
-                        <div class="line__check">
-                            <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                            <div class="line__row">Диспансерний облік жінок</div>
-                        </div>
-                        <div class="line__check">
-                            <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                            <div class="line__row">Спостереження Вашої вагітності</div>
-                        </div>
-                        <div class="line__check">
-                            <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                            <div class="line__row">Вирішення питань з приводу естетичної гінекології</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="line">
+			<div class="line__image_1"></div>
+			<div class="line__block">
+				<div style="margin: 5%">
+					<div class="line__headline"><strong>Жіноча консультація</strong></div>
+					<div class="line__content">
+						Наш успіх насамперед залежить від вузької
+						спеціалізаціїї та професіоналізму лікарів.Кожна жінка в стінах клініки отримує сучасне, зручне
+						та дбайливе медичне обслуговування
+					</div>
+					<div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Диспансерний облік жінок</div>
+						</div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Спостереження Вашої вагітності</div>
+						</div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Вирішення питань з приводу естетичної гінекології</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <div class="line">
-            <div class="line__block line__block-mob">
-                <div style="margin: 5%">
-                    <div class="line__headline"><strong>Стаціонар</strong></div>
-                    <div class="line__content">
-                            Власний стаціонар в м. Чернігів забезпечений 
-                            сучасним обладнанням та комфортними умовами 
-                            перебування та лікування.
-                    </div>
-                <div>
-                    <div class="line__check">
-                        <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                        <div class="line__row">Комфортабельні палати  </div>
-                    </div>
-                    <div class="line__check">
-                        <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                        <div class="line__row">TV, Wi-Fi</div>
-                    </div>
-                    <div class="line__check">
-                        <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                        <div class="line__row">Трьохразове харчуваня </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="line__image_2"></div>
-        </div>
+		<div class="line">
+			<div class="line__block line__block-mob">
+				<div style="margin: 5%">
+					<div class="line__headline"><strong>Стаціонар</strong></div>
+					<div class="line__content">
+						Власний стаціонар в м. Чернігів забезпечений
+						сучасним обладнанням та комфортними умовами
+						перебування та лікування.
+					</div>
+					<div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Комфортабельні палати </div>
+						</div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">TV, Wi-Fi</div>
+						</div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Трьохразове харчуваня </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="line__image_2"></div>
+		</div>
 
-        <div class="line">
-            <div class="line__image_3"></div>
-            <div class="line__block line__block-mob-b">
-                <div style="margin: 5%">
-                    <div class="line__headline"><strong>Сучасна діагностика </strong></div>
-                    <div class="line__content">
-Клініка оснащена сучасним обладнанням для діагностики та лікування в області гінекології, дерматології та пластичної хірургії
+		<div class="line">
+			<div class="line__image_3"></div>
+			<div class="line__block line__block-mob-b">
+				<div style="margin: 5%">
+					<div class="line__headline"><strong>Сучасна діагностика </strong></div>
+					<div class="line__content">
+						Клініка оснащена сучасним обладнанням для діагностики та лікування в області гінекології,
+						дерматології та пластичної хірургії
 
-                    </div>
-                <div>
-                    <div class="line__check">
-                        <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                        <div class="line__row">Дистанційно-неінвазивні портативні прилади</div>
-                    </div>
-                    <div class="line__check">
-                        <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                        <div class="line__row">Біосварка для оперативної гінекології</div>
-                    </div>
-                    <div class="line__check">
-                        <div><img class="line__icon" src="./app/img/check-mark.svg"></div>
-                        <div class="line__row">Приватна незалежна лаболаторія</div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
+					</div>
+					<div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Дистанційно-неінвазивні портативні прилади</div>
+						</div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Біосварка для оперативної гінекології</div>
+						</div>
+						<div class="line__check">
+							<div><img class="line__icon" src="./app/img/check-mark.svg"></div>
+							<div class="line__row">Приватна незалежна лаболаторія</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    </section>
+	</section>
 
-    <footer class="footer">
+	<footer class="footer">
 
-        <div class="footer__hight">
-            <div ><img class="footer__logo" src="./app/img/logo_white.png"></div>
-            <div class="footer__phone">
-                <div class="footer__headline">Телефон</div>
-                <div class="footer__number">
-                    <div style="text-decoration: none">+(380)63 12 34 890</div>
-                    <div style="text-decoration: none">+(380)63 12 34 890</div>
-                </div>
-            </div>
-            <div class="footer__address">
-                <div class="footer__headline">Адреса</div>
-                <div>
-                    <div>м. Чернігів, 14034</div>
-                    <div>вул. 1-го Травня, 172</div>
-                </div>
-            </div>
-            <div >
-                <div class="footer__headline">Соціальні мережі </div>
-                <div class="footer__social">
-                    <a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv"><div class="footer__icon-f"></div></a>
-                    <a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic"><div class="footer__icon-i"></div></a>
-                    <a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw"><div class="footer__icon-y"></div></a>
-                    <div class="footer__icon-c"></div>
-                </div>
-            </div>
-        </div>
+		<div class="footer__hight">
+			<div><img class="footer__logo" src="./app/img/logo_white.png"></div>
+			<div class="footer__phone">
+				<div class="footer__headline">Телефон</div>
+				<div class="footer__number">
+					<div style="text-decoration: none">+(380)63 12 34 890</div>
+					<div style="text-decoration: none">+(380)63 12 34 890</div>
+				</div>
+			</div>
+			<div class="footer__address">
+				<div class="footer__headline">Адреса</div>
+				<div>
+					<div>м. Чернігів, 14034</div>
+					<div>вул. 1-го Травня, 172</div>
+				</div>
+			</div>
+			<div>
+				<div class="footer__headline">Соціальні мережі </div>
+				<div class="footer__social">
+					<a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv">
+						<div class="footer__icon-f"></div>
+					</a>
+					<a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic">
+						<div class="footer__icon-i"></div>
+					</a>
+					<a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw">
+						<div class="footer__icon-y"></div>
+					</a>
+					<div class="footer__icon-c"></div>
+				</div>
+			</div>
+		</div>
 
-        <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
-    </footer>
-    <script src="./js/main.js"></script>
-    <script type="text/javascript" src="./js/tcal.js"></script> 
+		<div class=" popupWrap popupHidden">
+			<!-- popupHidden -->
+			<div class="appointment">
+				<div class="appointment__block-successful">
+					<div class="appointment__headline">Ваша заявка відпрвлена на обробку</div>
+					<div class="appointment__text-successful">
+						Очікуйте, після обробки наш адміністратор зв’яжеться з Вами
+						в робочий для клініки час.
+					</div>
+					<div><img class="appointment__image" src="./app/img/pending.svg"></div>
+					<div class="appointment__footerline">Бажаємо міцного здоров’я!</div>
+				</div>
+				<div><img class="appointment__icon" src="./app/img/cancel_pink.svg"></div>
+			</div>
+		</div>
+
+
+		<div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
+	</footer>
+	<script src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/tcal.js"></script>
 </body>
+
 </html>
