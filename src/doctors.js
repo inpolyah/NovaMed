@@ -1,5 +1,22 @@
 const linkToJson = "./persons.json"
 
+//--
+const sub = document.getElementById('showPopup2');
+console.log(sub);
+
+const form = document.querySelector("form");
+form.action = 'https://google.com/search';
+form.method = 'GET';
+
+sub.addEventListener('click',(event)=>{
+	event.preventDefault();
+	// form.submit()
+	console.log('app');
+	
+})
+
+//--
+
 class PopupDoc {
   constructor(popupWrapID, popupActive, popupCloseElClNm) {
     this.show = popupActive;
