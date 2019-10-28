@@ -119,52 +119,9 @@
 				</div>
 			</div>
 		</ul>
-		<button id="showPopup" class="button button-online ">
+		<button class="button button-online showPopup">
 			<div class="button-s">ОНЛАЙН ЗАПИС</div>
 		</button>
-			<div hidden id="popup1" class="b-popup">
-				<div class="modal model-box ">
-					<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
-					<div class="m-w">
-						<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
-						<form action="send.php" method="post">
-
-							<div class="model-box__input-doc-border">
-								<select class="model-box__input-doc model-box__input-name name=" doctor"
-									pattern="Оберіть лікаря" placeholder="Оберіть лікаря" required />
-								<option class="model-box__input-name" value="Option1">Оберіть лікаря</option>
-								<option class="model-box__input-name" value="Option1">Бубирь Марина Володимир</option>
-								<option class="model-box__input-name" value="Option2">Бойко Микола Олексійович</option>
-								<option class="model-box__input-name" value="Option3">Опция 3</option>
-								<option class="model-box__input-name" value="Option4">Опция 4</option>
-								</select>
-							</div>
-							<p>
-								<input class="model-box__input" name="tel" type="tel" id="zipCode"
-									onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
-									value="+38(___)___-____">
-							</p>
-							<p>
-								<input class="model-box__input tcal" type="calendar" value="" name="data"
-									placeholder="Оберіть дату прийому" Required><br>
-							</p>
-							<p>
-								<input class="model-box__input" type="text" name="name" size="40" required
-									placeholder="Введіть ПІБ"><br>
-							</p>
-							<div class="model-box__text">
-								Наш адміністратор зателефонує Вам для <br>
-								підтвердження запису та уточнення всіх деталей.
-							</div>
-							<div>
-								<input id="showPopup1" class="model-box__submit" type="submit" name="submit"
-									value="ЗАПИСАТИСЯ">
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-			
 	</div>
 
 
@@ -183,51 +140,14 @@
 				<div>пластичної хірургії. </div>
 			</div>
 
-			<button id="showPopup2" class="button button-video">
+			<button class="button button-video showPopup">
 				<div class="button-s">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
 			</button>
-			<div hidden id="popup2" class="b-popup">
-				<div class="modal model-box ">
-					<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
-					<div>
-						<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
-						<!-- <form action="send.php" method="post">
-                        
-                        <div class="model-box__input-doc-border">
-                            <select class="model-box__input-doc model-box__input-name name="doctor" pattern="Оберіть лікаря" placeholder= "Оберіть лікаря" required />
-                                <option class="model-box__input-name" value="Option1">Оберіть лікаря</option>
-                                <option class="model-box__input-name" value="Option1">Бубирь Марина Володимир</option>
-                                <option class="model-box__input-name" value="Option2">Бойко Микола Олексійович</option>
-                                <option class="model-box__input-name" value="Option3">Опция 3</option>
-                                <option class="model-box__input-name" value="Option4">Опция 4</option>
-                            </select>
-                        </div>
-                            <p>
-                                <input class="model-box__input" name="tel" type="tel" id="zipCode" onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);" value="+38(___)___-____" >
-                            </p>
-                            <p>
-                                <input class="model-box__input tcal" autocomplete="off" type="calendar" value="" name="data" placeholder="Оберіть дату прийому" Required ><br>
-                            </p>
-                            <p>
-                                <input class="model-box__input" type="text" name="name" size="40" required placeholder="Введіть ПІБ"><br>
-                            </p>
-                            <div class="model-box__text">
-                                Наш адміністратор зателефонує Вам для <br>
-                                підтвердження запису та уточнення всіх деталей.  
-                            </div>
-							<button id="showPopup4" >111</button>
-                            <div>
-                                <input id="showPopup3" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
-                            </div>
-                        </form> -->
-					</div>
-				</div>
-			</div>
-		</div>
+-->		</div>
 	</div>
 	<div class="window_all">
 		<div class="window">
-			<div style="position: absolute left: 1px">
+			<div style="position: absolute; left: 1px">
 				<div><img class="window__icon" src="./app/img/heart.png"></div>
 				<div class="window__headline"><strong> ПРО НАС </strong></div>
 				<div class="window__text"> Ніколи не чули про клініку НоваМед ? Познайомимось? </div>
@@ -238,7 +158,7 @@
 			</div>
 		</div>
 		<div class="window">
-			<div style="position: absolute left: 1px">
+			<div style="position: absolute; left: 1px">
 				<div><img class="window__icon" src="./app/img/report.png"></div>
 				<div class="window__headline"><strong> ПРАЙС НА ПОСЛУГИ </strong></div>
 				<div class="window__text"> Бажаєте дізнатися ціни на посуги клініки? Ознайомтесь з прайсом. </div>
@@ -247,7 +167,7 @@
 			</div>
 		</div>
 		<div class="window">
-			<div style="position: absolute left: 1px">
+			<div style="position: absolute; left: 1px">
 				<div><img class="window__icon" src="./app/img/doctor.png"></div>
 				<div class="window__headline"><strong> ЗНАЙТИ ЛІКАРЯ </strong></div>
 				<div class="window__text">Познайомтесь з нашою командою спеціалістів. Оберіть лікаря.</div>
@@ -392,24 +312,69 @@
 		</div>
 
 		<div class=" popupWrap popupHidden">
-			<!-- popupHidden -->
-			<div class="appointment">
-				<div class="appointment__block-successful">
-					<div class="appointment__headline">Ваша заявка відпрвлена на обробку</div>
-					<div class="appointment__text-successful">
-						Очікуйте, після обробки наш адміністратор зв’яжеться з Вами
-						в робочий для клініки час.
-					</div>
-					<div><img class="appointment__image" src="./app/img/pending.svg"></div>
-					<div class="appointment__footerline">Бажаємо міцного здоров’я!</div>
-				</div>
-				<div><img class="appointment__icon" src="./app/img/cancel_pink.svg"></div>
-			</div>
 		</div>
 
 
 		<div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
 	</footer>
+	<!-- popupHidden -->
+	<div class="appointment popupHidden">
+		<div class="appointment__block-successful">
+			<div class="appointment__headline">Ваша заявка відпрвлена на обробку</div>
+			<div class="appointment__text-successful">
+				Очікуйте, після обробки наш адміністратор зв’яжеться з Вами
+				в робочий для клініки час.
+			</div>
+			<div><img class="appointment__image" src="./app/img/pending.svg"></div>
+			<div class="appointment__footerline">Бажаємо міцного здоров’я!</div>
+		</div>
+		<div><img class="appointment__icon" src="./app/img/cancel_pink.svg"></div>
+	</div>
+	
+	<!-- forms popup -->
+	<div id="formsPopup" class="b-popup  popupHidden">
+		<div class="modal model-box ">
+			<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
+			<div class="m-w">
+				<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
+				<form action="send.php" method="post">
+
+					<div class="model-box__input-doc-border">
+						<select class="model-box__input-doc model-box__input-name name=" doctor"
+							pattern="Оберіть лікаря" placeholder="Оберіть лікаря" required />
+						<option class="model-box__input-name" value="Option1">Оберіть лікаря</option>
+						<option class="model-box__input-name" value="Option1">Бубирь Марина Володимир</option>
+						<option class="model-box__input-name" value="Option2">Бойко Микола Олексійович</option>
+						<option class="model-box__input-name" value="Option3">Опция 3</option>
+						<option class="model-box__input-name" value="Option4">Опция 4</option>
+						</select>
+					</div>
+					<p>
+						<input class="model-box__input" name="tel" type="tel" id="zipCode"
+							onkeyup="javascript:mask('zipCode', '+38(000)000-00-00', event);"
+							value="+38(___)___-____">
+					</p>
+					<p>
+						<input class="model-box__input tcal" type="calendar" value="" name="data"
+							placeholder="Оберіть дату прийому" Required><br>
+					</p>
+					<p>
+						<input class="model-box__input" type="text" name="name" size="40" required
+							placeholder="Введіть ПІБ"><br>
+					</p>
+					<div class="model-box__text">
+						Наш адміністратор зателефонує Вам для <br>
+						підтвердження запису та уточнення всіх деталей.
+					</div>
+					<div>
+						<input id="showPopup1" class="model-box__submit" type="submit" name="submit"
+							value="ЗАПИСАТИСЯ">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/popup.js"></script>
 	<script src="./js/main.js"></script>
 	<script type="text/javascript" src="./js/tcal.js"></script>
 </body>
