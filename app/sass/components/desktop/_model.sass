@@ -24,13 +24,13 @@
     border-radius: 5px
     box-shadow: 0px 0px 10px #000
 button 
-    height: 20%
-    border-radius: 25px
-    background-color: #ec407a
-    display: flex
-    flex-direction: row
-    justify-content: center
-    align-items: center
+    // height: 20%
+    // border-radius: 25px
+    // background-color: #ec407a
+    // display: flex
+    // flex-direction: row
+    // justify-content: center
+    // align-items: center
 span 
     position: absolute
     top: .2em
@@ -44,8 +44,11 @@ span
     border-radius: 3px
     height: 80Vh
     width: 60Vw
+.m-w
+    width: 75%
+    height: 100%
 .modal p 
-    font-size: 1.5em
+    font-size: 2em
     text-align: center
 .model-box
     @include flex (flex, column, space-around, center) 
@@ -59,26 +62,27 @@ span
         list-style: none
         padding-left: 20px
         border: 1px solid #707070
-        border-radius: 3Vh
-        height: 6Vh
-        width: 32Vw
+        border-radius: 45px
+        height: 40px
+        width: 75%
         color: #707070
     &__input-name
         color: #707070
     &__input-doc
+        outline: none
         list-style: none
         margin-left: 12px
-        height: 6Vh
-        width: 30Vw
+        height: 40px
+        width: 90%
         border-radius: 3Vh
         border: 1px solid white
         background: white
     &__input-doc-border
         margin: auto
         list-style: none
-        height: 6Vh
-        width: 34Vw
-        border-radius: 3Vh
+        height: 41px
+        width: 78%
+        border-radius: 45px
         border: 1px solid #707070
         background: white
     &__text
@@ -100,9 +104,9 @@ span
         display: flex
         justify-content: center
         text-decoration: none
-        width: 16Vw
-        height: 4Vh
-        margin: 7Vh auto
+        width: 250px
+        height: 43px
+        margin: 30px auto
         outline: none 
         border-radius: 25px
         background-color: #ec407a
@@ -112,7 +116,7 @@ span
         transition: transform 0.5s, box-shadow 0.5s
         @include font (Montserrat, 10px, 600, white, 18px)
     &__submit:hover 
-        background-color: #ee5588
+        //background-color: #ee5588
         transform: scale(1.05)
         cursor: pointer
         box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.3)

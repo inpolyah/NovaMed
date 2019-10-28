@@ -6,7 +6,8 @@
   align-items: center;
   border-bottom: 1px solid #c4c4c4;
   padding: 20px 30px;
-  margin: 0px 120px; }
+  width: 80Vw;
+  margin: 0 auto; }
 
 .communication {
   display: flex;
@@ -123,7 +124,8 @@
   padding-inline-start: 0px; }
 
 .hamburger-menu {
-  margin: 3% 0;
+  width: 80Vw;
+  margin: 3% auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -176,13 +178,13 @@
   line-height: 1.5; }
 
 .button-online {
-  width: 16Vw;
-  height: 4.5Vh;
-  margin: auto; }
+  width: 300px;
+  height: 50px;
+  margin-left: auto; }
 
 .button-video {
-  width: 22Vw;
-  height: 5Vh;
+  width: 300px;
+  height: 50px;
   margin: 4Vh auto; }
 
 .button {
@@ -200,7 +202,6 @@
   line-height: 18px; }
 
 .button:hover {
-  background-color: #ee5588;
   transform: scale(1.05);
   cursor: pointer;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.3);
@@ -277,8 +278,8 @@
 
 .button-window {
   text-decoration: none;
-  width: 16Vw;
-  height: 3.5Vh;
+  width: 170px;
+  height: 30px;
   margin: auto;
   display: none;
   outline: none;
@@ -295,7 +296,6 @@
   line-height: 18px; }
 
 .button-window:hover {
-  background-color: #ee5588;
   transform: scale(1.05);
   cursor: pointer;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.3);
@@ -373,7 +373,8 @@
     color: #737373;
     line-height: 24px;
     line-height: 1.8;
-    margin: 70px 160px;
+    margin: 70px auto;
+    width: 80Vw;
     text-align: center; }
 
 .article_aboutus__headline::after {
@@ -688,7 +689,7 @@
   border-top: 10px solid #ec407a; }
 
 .price {
-  width: 74Vw;
+  width: 80Vw;
   margin: 3% auto; }
   .price__headline {
     padding: 2% 10% 2% 5%;
@@ -745,6 +746,18 @@
     color: #707070;
     line-height: 60px;
     line-height: 0.46; }
+  .price__sign-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: none;
+    color: #707070;
+    line-height: 60px;
+    line-height: 0.46; }
 
 .price__line:nth-child(2n-1) {
   background: #fad6e1; }
@@ -774,7 +787,8 @@
   width: 100%; }
 
 .all {
-  margin: 4% 12%;
+  width: 80Vw;
+  margin: 4% auto;
   border-top: 10px solid white;
   box-shadow: 1.5px 2.6px 20.2px 3.8px rgba(109, 109, 109, 0.1);
   background-color: #ffffff; }
@@ -809,7 +823,7 @@ body {
   min-width: 320px; }
 
 .container {
-  max-width: 1130px;
+  max-width: 80Vw;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px; }
@@ -1178,13 +1192,14 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: none;
-    margin-bottom: -325px; }
+    margin-bottom: -460px; }
   .gallery__row-down {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: none;
-    margin-bottom: -25Vh; }
+    margin-bottom: -20Vh;
+    margin-top: 125px; }
   .gallery__column {
     display: flex;
     flex-direction: column;
@@ -1454,15 +1469,6 @@ body {
   border-radius: 5px;
   box-shadow: 0px 0px 10px #000; }
 
-button {
-  height: 20%;
-  border-radius: 25px;
-  background-color: #ec407a;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
 span {
   position: absolute;
   top: 0.2em;
@@ -1478,8 +1484,12 @@ span {
   height: 80Vh;
   width: 60Vw; }
 
+.m-w {
+  width: 75%;
+  height: 100%; }
+
 .modal p {
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center; }
 
 .model-box {
@@ -1501,26 +1511,27 @@ span {
     list-style: none;
     padding-left: 20px;
     border: 1px solid #707070;
-    border-radius: 3Vh;
-    height: 6Vh;
-    width: 32Vw;
+    border-radius: 45px;
+    height: 40px;
+    width: 75%;
     color: #707070; }
   .model-box__input-name {
     color: #707070; }
   .model-box__input-doc {
+    outline: none;
     list-style: none;
     margin-left: 12px;
-    height: 6Vh;
-    width: 30Vw;
+    height: 40px;
+    width: 90%;
     border-radius: 3Vh;
     border: 1px solid white;
     background: white; }
   .model-box__input-doc-border {
     margin: auto;
     list-style: none;
-    height: 6Vh;
-    width: 34Vw;
-    border-radius: 3Vh;
+    height: 41px;
+    width: 78%;
+    border-radius: 45px;
     border: 1px solid #707070;
     background: white; }
   .model-box__text {
@@ -1534,9 +1545,9 @@ span {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    width: 16Vw;
-    height: 4Vh;
-    margin: 7Vh auto;
+    width: 250px;
+    height: 43px;
+    margin: 30px auto;
     outline: none;
     border-radius: 25px;
     background-color: #ec407a;
@@ -1550,7 +1561,6 @@ span {
     color: white;
     line-height: 18px; }
   .model-box__submit:hover {
-    background-color: #ee5588;
     transform: scale(1.05);
     cursor: pointer;
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.3);
