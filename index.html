@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-!
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -105,13 +104,14 @@
 					href="#">СПЕЦІАЛІСТИ</a></li>
 			<li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html"
 					href="#">ГАЛЕРЕЯ</a></li>
-			<button id="showPopup" class="button button-online">
-				<div class="button-s">ОНЛАЙН ЗАПИС</div>
-			</button>
+		</ul>
+		<button id="showPopup" class="button button-online">
+			<div class="button-s">ОНЛАЙН ЗАПИС</div>
+		</button>
 			<div hidden id="popup1" class="b-popup">
 				<div class="modal model-box ">
 					<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
-					<div>
+					<div class="m-w">
 						<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
 						<form action="send.php" method="post">
 
@@ -191,7 +191,7 @@
 					<div><img class="appointment__icon closePopup" src="./app/img/cancel_pink.svg"></div>
 					<div>
 						<div class="model-box__head">ЗАПИСАТИСЯ НА ПРИЙОМ</div>
-						<!-- <form action="send.php" method="post">
+						<form action="send.php" method="post">
                         
                         <div class="model-box__input-doc-border">
                             <select class="model-box__input-doc model-box__input-name name="doctor" pattern="Оберіть лікаря" placeholder= "Оберіть лікаря" required />
@@ -215,11 +215,10 @@
                                 Наш адміністратор зателефонує Вам для <br>
                                 підтвердження запису та уточнення всіх деталей.  
                             </div>
-							<button id="showPopup4" >111</button>
                             <div>
                                 <input id="showPopup3" class="model-box__submit" type="submit" name="submit" value="ЗАПИСАТИСЯ">
                             </div>
-                        </form> -->
+                        </form>
 					</div>
 				</div>
 			</div>
@@ -227,7 +226,7 @@
 	</div>
 	<div class="window_all">
 		<div class="window">
-			<div style="position: absolute left: 1px">
+			<div style="position: absolute; left: 1px">
 				<div><img class="window__icon" src="./app/img/heart.png"></div>
 				<div class="window__headline"><strong> ПРО НАС </strong></div>
 				<div class="window__text"> Ніколи не чули про клініку НоваМед ? Познайомимось? </div>
@@ -238,7 +237,7 @@
 			</div>
 		</div>
 		<div class="window">
-			<div style="position: absolute left: 1px">
+			<div style="position: absolute ; left:1px">
 				<div><img class="window__icon" src="./app/img/report.png"></div>
 				<div class="window__headline"><strong> ПРАЙС НА ПОСЛУГИ </strong></div>
 				<div class="window__text"> Бажаєте дізнатися ціни на посуги клініки? Ознайомтесь з прайсом. </div>
@@ -247,7 +246,7 @@
 			</div>
 		</div>
 		<div class="window">
-			<div style="position: absolute left: 1px">
+			<div style="position: absolute; left: 1px">
 				<div><img class="window__icon" src="./app/img/doctor.png"></div>
 				<div class="window__headline"><strong> ЗНАЙТИ ЛІКАРЯ </strong></div>
 				<div class="window__text">Познайомтесь з нашою командою спеціалістів. Оберіть лікаря.</div>
