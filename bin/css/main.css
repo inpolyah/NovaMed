@@ -1576,16 +1576,16 @@ span {
   .head {
     margin: none;
     border-bottom: none;
-    padding: 20px 0px;
+    padding: 20px 25Vw;
     position: relative;
-    top: 5Vh; }
+    top: 5Vh;
+    width: 100Vw; }
 
   .communication {
     position: absolute;
     background-color: #d5d5d5;
     top: -5Vh;
-    left: -30Vw;
-    width: 100Vw;
+    left: 0;
     height: 5Vh; }
     .communication__item1 {
       display: flex;
@@ -2751,7 +2751,7 @@ span {
       align-items: none;
       margin-bottom: 50Vh;
       position: relative;
-      top: 45Vh; }
+      top: 30Vh; }
     .gallery__column {
       margin-bottom: -116%;
       display: flex;

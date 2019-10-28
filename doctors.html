@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" type="image/png" href="./app/img/32x32.png" sizes="32x32" />
-	<link rel="stylesheet" href="./bin/css/main.css">
-	<link
-		href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
-		rel="stylesheet">
-	<link
-		href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic"
-		rel="stylesheet">
-	<!--<link rel="stylesheet" href="./src/styles.css"/>-->
-	<title>person</title>
+    <link rel="stylesheet" href="./bin/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i,800i&display=swap&subset=cyrillic" rel="stylesheet">
+    <!--<link rel="stylesheet" href="./src/styles.css"/>-->
+    <title>person</title>
 </head>
-
 <body>
     <div class="wrap">
       <!--МОЕ-->
@@ -67,6 +61,13 @@
               <li class="navigation__item"><a class="navigation__item-a menu__item" href="services.html" href="#">ПОСЛУГИ</a></li>
               <li class="navigation__item"><a class="navigation__item-a menu__item" style="font-weight: 700;" href="doctors.html" href="#">СПЕЦІАЛІСТИ</a></li>
               <li class="navigation__item"><a class="navigation__item-a menu__item" href="gallery.html" href="#">ГАЛЕРЕЯ</a></li>
+              <div class="footer-mobile">
+                <div class="footer-hamburger">
+                    <a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv"><div class="footer__icon-f footer-hamburger__ic"></div></a>
+                    <a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic"><div class="footer__icon-i footer-hamburger__ic"></div></a>
+                    <a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw"><div class="footer__icon-y"></div></a>
+                    <div class="footer__icon-c"></div>
+                </div>
           </ul>
           <button id="showPopup" class="button button-online"><div class="button-s">ОНЛАЙН ЗАПИС</div></button>
               <div hidden id="popup1" class="b-popup">
@@ -105,85 +106,87 @@
                       </div>   
                   </div>
               </div>   
-              <div class="footer-mobile">
-                <div class="footer-hamburger">
-                    <a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv"><div class="footer__icon-f footer-hamburger__ic"></div></a>
-                    <a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic"><div class="footer__icon-i footer-hamburger__ic"></div></a>
-                    <a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw"><div class="footer__icon-y"></div></a>
-                    <div class="footer__icon-c"></div>
-                </div>
+              
               </div>
       </div>
 
-		<!---->
-		<div class="container">
-			<ul class="personsList"></ul>
-		</div>
-	</div>
-	<!-- card Person template hidden -->
-	<li hidden id="CardsDoc" class="cardPerson">
-		<img data-foto class="cardPerson__photo" src="#" alt="doctor" />
-		<div class="person cardPerson__person">
-			<div class="person__surename"></div>
-			<div class="person__name"></div>
-			<div class="person__position"></div>
-		</div>
-	</li>
+      <div class="galleryHeadline">ЛІКАРІ КЛІНІКИ</div>
+    <div class="article_aboutus__text">
+        Наші спеціалісти приділяють максимум турботи і уваги своїм пацієнтам на всіх єтапах взаємодії.
+        Прицільна  увага нашим пацієнтам на первинних етапах - запорука успішного результату   
+    </div>
 
-	<!-- popup person -->
-	<div id="popupWrap" class="popupWrap popupHidden">
-		<div id="popupDoc" class="popup">
-			<img class="popup__photo" src="./img/doctors/Otroshko.jpg" alt="Doctor" />
-			<div class="popup__desc desc">
-				<h2 class="desc__fullname"></h2>
-				<div class="desc__position"></div>
-				<div class="desc__experience"></div>
-				<h3 class="desc__head">Спеціалізація</h3>
-				<p class="desc__spec"></p>
-			</div>
-			<div class="closeButton">🞫</div>
-		</div>
-	</div>
-	<footer class="footer">
+      <!---->
+      <div class="container">
+        <ul class="personsList"></ul>
+      </div>
+    </div>
+    <!-- card Person template hidden -->
+    <li hidden id="CardsDoc" class="cardPerson">
+      <img
+        data-foto
+        class="cardPerson__photo"
+        src="#"
+        alt="doctor"
+      />
+      <div class="person cardPerson__person">
+        <div class="person__surename"></div>
+        <div class="person__name"></div>
+        <div class="person__position"></div>
+      </div>
+    </li>
 
-		<div class="footer__hight">
-			<div><img class="footer__logo" src="./app/img/logo_white.png"></div>
-			<div class="footer__phone">
-				<div class="footer__headline">Телефон</div>
-				<div class="footer__number">
-					<div>+(380)63 12 34 890</div>
-					<div>+(380)63 12 34 890</div>
-				</div>
-			</div>
-			<div class="footer__address">
-				<div class="footer__headline">Адреса</div>
-				<div>
-					<div>м. Чернігів, 14034</div>
-					<div>вул. 1-го Травня, 172</div>
-				</div>
-			</div>
-			<div>
-				<div class="footer__headline">Соціальні мережі </div>
-				<div class="footer__social">
-					<a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv">
-						<div class="footer__icon-f"></div>
-					</a>
-					<a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic">
-						<div class="footer__icon-i"></div>
-					</a>
-					<a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw">
-						<div class="footer__icon-y"></div>
-					</a>
-					<div class="footer__icon-c"></div>
-				</div>
-			</div>
-		</div>
+    <!-- popup person -->
+    <div id="popupWrap" class="popupWrap popupHidden">
+      <div id="popupDoc" class="popup">
+        <img
+          class="popup__photo"
+          src="./img/doctors/Otroshko.jpg"
+          alt="Doctor"
+        />
+        <div class="popup__desc desc">
+          <h2 class="desc__fullname"></h2>
+          <div class="desc__position"></div>
+          <div class="desc__experience"></div>
+          <h3 class="desc__head">Спеціалізація</h3>
+          <p class="desc__spec"></p>
+        </div>
+        <div class="closeButton">🞫</div>
+      </div>
+    </div>
+    <footer class="footer">
 
-		<div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
-	</footer>
-	<!-- <script type="text/javascript" src="./src/popup.js"></script> -->
-	<script type="text/javascript" src="./src/doctors.js"></script>
-	<script type="text/javascript" src="./js/main.js"></script>
-</body>
+        <div class="footer__hight">
+            <div ><img class="footer__logo" src="./app/img/logo_white.png"></div>
+            <div class="footer__phone">
+                <div class="footer__headline">Телефон</div>
+                <div class="footer__number">
+                    <div>+(380)63 12 34 890</div>
+                    <div>+(380)63 12 34 890</div>
+                </div>
+            </div>
+            <div class="footer__address">
+                <div class="footer__headline">Адреса</div>
+                <div>
+                    <div>м. Чернігів, 14034</div>
+                    <div>вул. 1-го Травня, 172</div>
+                </div>
+            </div>
+            <div >
+                <div class="footer__headline">Соціальні мережі </div>
+                <div class="footer__social">
+                    <a style="text-decoration: none" href="https://www.facebook.com/NovaMedChernigiv"><div class="footer__icon-f"></div></a>
+                    <a style="text-decoration: none" href="https://www.instagram.com/novamed.clinic"><div class="footer__icon-i"></div></a>
+                    <a style="text-decoration: none" href="https://www.youtube.com/channel/UCOzonRxa3e8V-DmqPn1nBPw"><div class="footer__icon-y"></div></a>
+                    <div class="footer__icon-c"></div>
+                </div>
+            </div>
+        </div>
 
+        <div class="footer__bottom">© novamed 2019. Всі права захищені.</div>
+    </footer>
+    <!-- <script type="text/javascript" src="./src/popup.js"></script> -->
+    <script type="text/javascript" src="./src/doctors.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
 </html>
